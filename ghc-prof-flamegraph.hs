@@ -1,10 +1,12 @@
+{-# LANGUAGE ScopedTypeVariables #-}
 import           Data.List (intercalate)
 import           Data.Char (isSpace)
 
 parseLine :: String -> (String, String, String)
 parseLine s = case words s of
-  [costCentre, module_, _no, entries, _indTime, _indAlloc, _inhTime, _inhALloc] ->
-    (costCentre, module_, entries)
+  [costCentre, module_, _no, _entries, indTime, _indAlloc, _inhTime, _inhALloc] ->
+    let simulatedEntries :: Int = round $ 10 * (read indTime :: Double)
+    in (costCentre, module_, show simulatedEntries)
   _ ->
     error $ "parseLine: malformed .prof file line:\n" ++ s
 
