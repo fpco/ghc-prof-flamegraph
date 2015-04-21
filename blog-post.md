@@ -1,7 +1,5 @@
 # Flame graphs for GHC time profiles
 
-## Introduction
-
 GHC comes with nice
 [profiling facilities](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/profiling.html)
 that are very useful to find out where CPU time is being spent in your
