@@ -178,1488 +178,436 @@
 <text text-anchor="middle" x="600.00" y="24" font-size="17" font-family="Verdana" fill="rgb(0,0,0)"  >Flame Graph</text>
 <text text-anchor="" x="10.00" y="369" font-size="12" font-family="Verdana" fill="rgb(0,0,0)" id="details" > </text>
 <text text-anchor="" x="10.00" y="24" font-size="12" font-family="Verdana" fill="rgb(0,0,0)" id="unzoom" onclick="unzoom()" style="opacity:0.0;cursor:pointer" >Reset Zoom</text>
-<g class="func_g" onmouseover="s('Input.Type.myParseDecl (164 samples, 16.60%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Type.myParseDecl (164 samples, 16.60%)</title><rect x="865.1" y="241" width="195.9" height="15.0" fill="rgb(218,194,39)" rx="2" ry="2" />
-<text text-anchor="" x="868.14" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Input.Type.myParseDecl</text>
-</g>
-<g class="func_g" onmouseover="s('General.Util.joinPair (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Util.joinPair (4 samples, 0.40%)</title><rect x="1163.7" y="145" width="4.8" height="15.0" fill="rgb(245,224,20)" rx="2" ry="2" />
-<text text-anchor="" x="1166.72" y="155.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Set.setStackage (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Set.setStackage (2 samples, 0.20%)</title><rect x="785.1" y="321" width="2.4" height="15.0" fill="rgb(205,188,40)" rx="2" ry="2" />
-<text text-anchor="" x="788.12" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Type.itemURL (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Type.itemURL (4 samples, 0.40%)</title><rect x="143.8" y="273" width="4.7" height="15.0" fill="rgb(213,82,15)" rx="2" ry="2" />
-<text text-anchor="" x="146.77" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Data.ByteString.Base64.Internal.decodeLenientWithTable.\.\.fill (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Data.ByteString.Base64.Internal.decodeLenientWithTable.\.\.fill (2 samples, 0.20%)</title><rect x="785.1" y="145" width="2.4" height="15.0" fill="rgb(212,113,2)" rx="2" ry="2" />
-<text text-anchor="" x="788.12" y="155.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Type.readItem (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Type.readItem (3 samples, 0.30%)</title><rect x="265.6" y="305" width="3.6" height="15.0" fill="rgb(227,88,51)" rx="2" ry="2" />
-<text text-anchor="" x="268.59" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Store.storeWriteType (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Store.storeWriteType (4 samples, 0.40%)</title><rect x="139.0" y="321" width="4.8" height="15.0" fill="rgb(212,224,36)" rx="2" ry="2" />
-<text text-anchor="" x="141.99" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Hoogle.fixLine (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.fixLine (3 samples, 0.30%)</title><rect x="265.6" y="209" width="3.6" height="15.0" fill="rgb(205,126,47)" rx="2" ry="2" />
-<text text-anchor="" x="268.59" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Output.Types.askRarity.\ (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Types.askRarity.\ (2 samples, 0.20%)</title><rect x="1174.5" y="177" width="2.4" height="15.0" fill="rgb(241,89,36)" rx="2" ry="2" />
-<text text-anchor="" x="1177.47" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Type.typeRep# (66 samples, 6.68%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Type.typeRep# (66 samples, 6.68%)</title><rect x="185.6" y="225" width="78.8" height="15.0" fill="rgb(221,157,53)" rx="2" ry="2" />
-<text text-anchor="" x="188.57" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Input.Typ..</text>
-</g>
-<g class="func_g" onmouseover="s('General.Util.fromName (46 samples, 4.66%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Util.fromName (46 samples, 4.66%)</title><rect x="787.5" y="241" width="54.9" height="15.0" fill="rgb(225,210,14)" rx="2" ry="2" />
-<text text-anchor="" x="790.51" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Gener..</text>
-</g>
-<g class="func_g" onmouseover="s('General.Util.joinPair (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Util.joinPair (2 samples, 0.20%)</title><rect x="779.1" y="97" width="2.4" height="15.0" fill="rgb(214,60,0)" rx="2" ry="2" />
-<text text-anchor="" x="782.15" y="107.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Util.pretty (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Util.pretty (2 samples, 0.20%)</title><rect x="148.5" y="321" width="2.4" height="15.0" fill="rgb(254,161,40)" rx="2" ry="2" />
-<text text-anchor="" x="151.54" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Hoogle.parseHoogle.f (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.parseHoogle.f (1 samples, 0.10%)</title><rect x="264.4" y="273" width="1.2" height="15.0" fill="rgb(239,20,48)" rx="2" ry="2" />
-<text text-anchor="" x="267.39" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Output.Items.writeItems (49 samples, 4.96%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Items.writeItems (49 samples, 4.96%)</title><rect x="429.2" y="289" width="58.5" height="15.0" fill="rgb(211,140,36)" rx="2" ry="2" />
-<text text-anchor="" x="432.21" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Output..</text>
-</g>
-<g class="func_g" onmouseover="s('Input.Type.show (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Type.show (4 samples, 0.40%)</title><rect x="139.0" y="145" width="4.8" height="15.0" fill="rgb(209,7,14)" rx="2" ry="2" />
-<text text-anchor="" x="141.99" y="155.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Store.storeWriteV (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Store.storeWriteV (3 samples, 0.30%)</title><rect x="1176.9" y="273" width="3.5" height="15.0" fill="rgb(207,145,40)" rx="2" ry="2" />
-<text text-anchor="" x="1179.86" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Type.showItem (164 samples, 16.60%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Type.showItem (164 samples, 16.60%)</title><rect x="865.1" y="305" width="195.9" height="15.0" fill="rgb(212,100,41)" rx="2" ry="2" />
-<text text-anchor="" x="868.14" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Input.Type.showItem</text>
-</g>
-<g class="func_g" onmouseover="s('Input.Reorder.packageOrder.f (246 samples, 24.90%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Reorder.packageOrder.f (246 samples, 24.90%)</title><rect x="487.7" y="289" width="293.8" height="15.0" fill="rgb(216,188,19)" rx="2" ry="2" />
-<text text-anchor="" x="490.73" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Input.Reorder.packageOrder.f</text>
-</g>
-<g class="func_g" onmouseover="s('Input.Hoogle.heirarchy.esc.f (7 samples, 0.71%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.heirarchy.esc.f (7 samples, 0.71%)</title><rect x="177.2" y="305" width="8.4" height="15.0" fill="rgb(247,54,49)" rx="2" ry="2" />
-<text text-anchor="" x="180.21" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Output.Items.writeItems.\.\.bs (243 samples, 24.60%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Items.writeItems.\.\.bs (243 samples, 24.60%)</title><rect x="491.3" y="129" width="290.2" height="15.0" fill="rgb(208,65,33)" rx="2" ry="2" />
-<text text-anchor="" x="494.32" y="139.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Output.Items.writeItems.\.\.bs</text>
-</g>
-<g class="func_g" onmouseover="s('General.Util.fromName (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Util.fromName (4 samples, 0.40%)</title><rect x="143.8" y="321" width="4.7" height="15.0" fill="rgb(207,61,31)" rx="2" ry="2" />
-<text text-anchor="" x="146.77" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Store.storeWriteFile.\ (10 samples, 1.01%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Store.storeWriteFile.\ (10 samples, 1.01%)</title><rect x="111.5" y="321" width="12.0" height="15.0" fill="rgb(225,134,27)" rx="2" ry="2" />
-<text text-anchor="" x="114.52" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Util.declNames (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Util.declNames (4 samples, 0.40%)</title><rect x="143.8" y="305" width="4.7" height="15.0" fill="rgb(246,57,34)" rx="2" ry="2" />
-<text text-anchor="" x="146.77" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Type.splitUsing.\ (16 samples, 1.62%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Type.splitUsing.\ (16 samples, 1.62%)</title><rect x="842.4" y="289" width="19.2" height="15.0" fill="rgb(224,204,8)" rx="2" ry="2" />
-<text text-anchor="" x="845.45" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Util.pretty (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Util.pretty (1 samples, 0.10%)</title><rect x="100.8" y="225" width="1.2" height="15.0" fill="rgb(216,157,6)" rx="2" ry="2" />
-<text text-anchor="" x="103.77" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Store.storeWriteParts (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Store.storeWriteParts (4 samples, 0.40%)</title><rect x="1163.7" y="305" width="4.8" height="15.0" fill="rgb(218,195,37)" rx="2" ry="2" />
-<text text-anchor="" x="1166.72" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Output.Types.typeNames.qnm (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Types.typeNames.qnm (2 samples, 0.20%)</title><rect x="1172.1" y="273" width="2.4" height="15.0" fill="rgb(244,112,14)" rx="2" ry="2" />
-<text text-anchor="" x="1175.09" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Action.Generate.generate.want (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Action.Generate.generate.want (2 samples, 0.20%)</title><rect x="150.9" y="289" width="2.4" height="15.0" fill="rgb(237,162,36)" rx="2" ry="2" />
-<text text-anchor="" x="153.93" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Cabal.parseCabal (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Cabal.parseCabal (2 samples, 0.20%)</title><rect x="150.9" y="273" width="2.4" height="15.0" fill="rgb(242,202,34)" rx="2" ry="2" />
-<text text-anchor="" x="153.93" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Output.Types.packAlias (8 samples, 0.81%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Types.packAlias (8 samples, 0.81%)</title><rect x="1180.4" y="305" width="9.6" height="15.0" fill="rgb(250,196,20)" rx="2" ry="2" />
-<text text-anchor="" x="1183.45" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Output.Types.typeNames.qnm (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Types.typeNames.qnm (2 samples, 0.20%)</title><rect x="1174.5" y="225" width="2.4" height="15.0" fill="rgb(253,178,18)" rx="2" ry="2" />
-<text text-anchor="" x="1177.47" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Output.Types.preNames (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Types.preNames (2 samples, 0.20%)</title><rect x="1174.5" y="321" width="2.4" height="15.0" fill="rgb(222,44,51)" rx="2" ry="2" />
-<text text-anchor="" x="1177.47" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Set.setStackage (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Set.setStackage (3 samples, 0.30%)</title><rect x="781.5" y="305" width="3.6" height="15.0" fill="rgb(250,221,27)" rx="2" ry="2" />
-<text text-anchor="" x="784.54" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Store.put (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Store.put (1 samples, 0.10%)</title><rect x="100.8" y="305" width="1.2" height="15.0" fill="rgb(245,184,0)" rx="2" ry="2" />
-<text text-anchor="" x="103.77" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Data.ByteString.Base64.Internal.decodeLenientWithTable.\.\.fill.\ (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Data.ByteString.Base64.Internal.decodeLenientWithTable.\.\.fill.\ (1 samples, 0.10%)</title><rect x="66.1" y="321" width="1.2" height="15.0" fill="rgb(237,161,38)" rx="2" ry="2" />
-<text text-anchor="" x="69.13" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Output.Types.typeNames.ctx (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Types.typeNames.ctx (2 samples, 0.20%)</title><rect x="1172.1" y="289" width="2.4" height="15.0" fill="rgb(208,213,45)" rx="2" ry="2" />
-<text text-anchor="" x="1175.09" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Store.encodeBS (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Store.encodeBS (3 samples, 0.30%)</title><rect x="140.2" y="113" width="3.6" height="15.0" fill="rgb(225,22,47)" rx="2" ry="2" />
-<text text-anchor="" x="143.18" y="123.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Output.Types.typeNames.ctx (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Types.typeNames.ctx (2 samples, 0.20%)</title><rect x="148.5" y="273" width="2.4" height="15.0" fill="rgb(217,71,31)" rx="2" ry="2" />
-<text text-anchor="" x="151.54" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Download.downloadFile (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Download.downloadFile (3 samples, 0.30%)</title><rect x="781.5" y="241" width="3.6" height="15.0" fill="rgb(213,194,40)" rx="2" ry="2" />
-<text text-anchor="" x="784.54" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Store.storeWriteFile.\.bs (8 samples, 0.81%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Store.storeWriteFile.\.bs (8 samples, 0.81%)</title><rect x="102.0" y="289" width="9.5" height="15.0" fill="rgb(234,113,29)" rx="2" ry="2" />
-<text text-anchor="" x="104.96" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Output.Types.writeAlias (8 samples, 0.81%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Types.writeAlias (8 samples, 0.81%)</title><rect x="1180.4" y="321" width="9.6" height="15.0" fill="rgb(230,203,9)" rx="2" ry="2" />
-<text text-anchor="" x="1183.45" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Output.Types.typeNames.typ (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Types.typeNames.typ (2 samples, 0.20%)</title><rect x="148.5" y="289" width="2.4" height="15.0" fill="rgb(248,77,38)" rx="2" ry="2" />
-<text text-anchor="" x="151.54" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Action.Generate.generate.\ (10 samples, 1.01%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Action.Generate.generate.\ (10 samples, 1.01%)</title><rect x="111.5" y="225" width="12.0" height="15.0" fill="rgb(230,32,37)" rx="2" ry="2" />
-<text text-anchor="" x="114.52" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Output.Types.writeTypes.ys (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Types.writeTypes.ys (1 samples, 0.10%)</title><rect x="100.8" y="257" width="1.2" height="15.0" fill="rgb(205,122,6)" rx="2" ry="2" />
-<text text-anchor="" x="103.77" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Store.storeWritePtr.size (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Store.storeWritePtr.size (3 samples, 0.30%)</title><rect x="1176.9" y="225" width="3.5" height="15.0" fill="rgb(232,72,12)" rx="2" ry="2" />
-<text text-anchor="" x="1179.86" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Data.ByteString.Base64.Internal.decodeLenientWithTable.\.\.fill.\.\.\.\ (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Data.ByteString.Base64.Internal.decodeLenientWithTable.\.\.fill.\.\.\.\ (1 samples, 0.10%)</title><rect x="66.1" y="273" width="1.2" height="15.0" fill="rgb(244,35,46)" rx="2" ry="2" />
-<text text-anchor="" x="69.13" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Hoogle.parseLine.(...) (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.parseLine.(...) (3 samples, 0.30%)</title><rect x="265.6" y="225" width="3.6" height="15.0" fill="rgb(208,42,53)" rx="2" ry="2" />
-<text text-anchor="" x="268.59" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Type.readItem (164 samples, 16.60%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Type.readItem (164 samples, 16.60%)</title><rect x="865.1" y="209" width="195.9" height="15.0" fill="rgb(243,55,30)" rx="2" ry="2" />
-<text text-anchor="" x="868.14" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Input.Type.readItem</text>
-</g>
-<g class="func_g" onmouseover="s('Input.Hoogle.parseLine (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.parseLine (3 samples, 0.30%)</title><rect x="425.6" y="209" width="3.6" height="15.0" fill="rgb(234,91,50)" rx="2" ry="2" />
-<text text-anchor="" x="428.63" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Type.rnf (36 samples, 3.64%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Type.rnf (36 samples, 3.64%)</title><rect x="799.5" y="177" width="42.9" height="15.0" fill="rgb(249,191,42)" rx="2" ry="2" />
-<text text-anchor="" x="802.45" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Inpu..</text>
-</g>
-<g class="func_g" onmouseover="s('Input.Type.readItem (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Type.readItem (2 samples, 0.20%)</title><rect x="423.2" y="209" width="2.4" height="15.0" fill="rgb(234,143,16)" rx="2" ry="2" />
-<text text-anchor="" x="426.24" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Util.fromTyVarBind (8 samples, 0.81%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Util.fromTyVarBind (8 samples, 0.81%)</title><rect x="1180.4" y="241" width="9.6" height="15.0" fill="rgb(212,205,30)" rx="2" ry="2" />
-<text text-anchor="" x="1183.45" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Output.Items.writeItems.\.\.bs (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Items.writeItems.\.\.bs (4 samples, 0.40%)</title><rect x="1163.7" y="177" width="4.8" height="15.0" fill="rgb(231,110,49)" rx="2" ry="2" />
-<text text-anchor="" x="1166.72" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Type.gfoldl (66 samples, 6.68%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Type.gfoldl (66 samples, 6.68%)</title><rect x="185.6" y="257" width="78.8" height="15.0" fill="rgb(249,153,48)" rx="2" ry="2" />
-<text text-anchor="" x="188.57" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Input.Typ..</text>
-</g>
-<g class="func_g" onmouseover="s('General.Util.joinPair (10 samples, 1.01%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Util.joinPair (10 samples, 1.01%)</title><rect x="127.0" y="225" width="12.0" height="15.0" fill="rgb(252,92,43)" rx="2" ry="2" />
-<text text-anchor="" x="130.04" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Hoogle.parseLine.a (6 samples, 0.61%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.parseLine.a (6 samples, 0.61%)</title><rect x="1061.0" y="273" width="7.2" height="15.0" fill="rgb(218,15,14)" rx="2" ry="2" />
-<text text-anchor="" x="1064.01" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Type.readItem (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Type.readItem (2 samples, 0.20%)</title><rect x="426.8" y="193" width="2.4" height="15.0" fill="rgb(233,5,21)" rx="2" ry="2" />
-<text text-anchor="" x="429.82" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Hoogle.stringShare (66 samples, 6.68%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.stringShare (66 samples, 6.68%)</title><rect x="185.6" y="241" width="78.8" height="15.0" fill="rgb(229,1,32)" rx="2" ry="2" />
-<text text-anchor="" x="188.57" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Input.Hoo..</text>
-</g>
-<g class="func_g" onmouseover="s('all (988 samples, 100%)')" onmouseout="c()" onclick="zoom(this)">
-<title>all (988 samples, 100%)</title><rect x="10.0" y="337" width="1180.0" height="15.0" fill="rgb(210,169,48)" rx="2" ry="2" />
-<text text-anchor="" x="13.00" y="347.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Store.notParts (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Store.notParts (4 samples, 0.40%)</title><rect x="1163.7" y="257" width="4.8" height="15.0" fill="rgb(229,219,11)" rx="2" ry="2" />
-<text text-anchor="" x="1166.72" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Hoogle.reformat.f (47 samples, 4.76%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.reformat.f (47 samples, 4.76%)</title><rect x="10.0" y="225" width="56.1" height="15.0" fill="rgb(248,90,50)" rx="2" ry="2" />
-<text text-anchor="" x="13.00" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Input..</text>
-</g>
-<g class="func_g" onmouseover="s('Input.Type.rnf (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Type.rnf (4 samples, 0.40%)</title><rect x="143.8" y="225" width="4.7" height="15.0" fill="rgb(220,16,19)" rx="2" ry="2" />
-<text text-anchor="" x="146.77" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Hoogle.parseHoogle (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.parseHoogle (1 samples, 0.10%)</title><rect x="264.4" y="289" width="1.2" height="15.0" fill="rgb(248,12,50)" rx="2" ry="2" />
-<text text-anchor="" x="267.39" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Type.typeRep# (129 samples, 13.06%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Type.typeRep# (129 samples, 13.06%)</title><rect x="269.2" y="273" width="154.0" height="15.0" fill="rgb(224,216,30)" rx="2" ry="2" />
-<text text-anchor="" x="272.17" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Input.Type.typeRep#</text>
-</g>
-<g class="func_g" onmouseover="s('General.Store.storeWritePtr (9 samples, 0.91%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Store.storeWritePtr (9 samples, 0.91%)</title><rect x="128.2" y="97" width="10.8" height="15.0" fill="rgb(241,225,48)" rx="2" ry="2" />
-<text text-anchor="" x="131.24" y="107.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Data.ByteString.Base64.Internal.decodeLenientWithTable.dlen (20 samples, 2.02%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Data.ByteString.Base64.Internal.decodeLenientWithTable.dlen (20 samples, 2.02%)</title><rect x="67.3" y="305" width="23.9" height="15.0" fill="rgb(226,189,10)" rx="2" ry="2" />
-<text text-anchor="" x="70.33" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >D..</text>
-</g>
-<g class="func_g" onmouseover="s('Output.Types.writeTypes (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Types.writeTypes (1 samples, 0.10%)</title><rect x="100.8" y="273" width="1.2" height="15.0" fill="rgb(218,2,6)" rx="2" ry="2" />
-<text text-anchor="" x="103.77" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Data.ByteString.Base64.Internal.reChunkIn.go (20 samples, 2.02%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Data.ByteString.Base64.Internal.reChunkIn.go (20 samples, 2.02%)</title><rect x="67.3" y="241" width="23.9" height="15.0" fill="rgb(236,106,11)" rx="2" ry="2" />
-<text text-anchor="" x="70.33" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >D..</text>
-</g>
-<g class="func_g" onmouseover="s('General.Util.fromName (8 samples, 0.81%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Util.fromName (8 samples, 0.81%)</title><rect x="1180.4" y="225" width="9.6" height="15.0" fill="rgb(220,74,26)" rx="2" ry="2" />
-<text text-anchor="" x="1183.45" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Action.Generate.generate.f (80 samples, 8.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Action.Generate.generate.f (80 samples, 8.10%)</title><rect x="1068.2" y="257" width="95.5" height="15.0" fill="rgb(252,23,2)" rx="2" ry="2" />
-<text text-anchor="" x="1071.18" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Action.Gene..</text>
-</g>
-<g class="func_g" onmouseover="s('Output.Types.writeTypes (16 samples, 1.62%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Types.writeTypes (16 samples, 1.62%)</title><rect x="842.4" y="193" width="19.2" height="15.0" fill="rgb(211,175,29)" rx="2" ry="2" />
-<text text-anchor="" x="845.45" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Data.ByteString.Base64.Internal.decodeLenientWithTable.\.\.finish (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Data.ByteString.Base64.Internal.decodeLenientWithTable.\.\.finish (1 samples, 0.10%)</title><rect x="66.1" y="257" width="1.2" height="15.0" fill="rgb(215,75,19)" rx="2" ry="2" />
-<text text-anchor="" x="69.13" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Hoogle.heirarchy.esc (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.heirarchy.esc (4 samples, 0.40%)</title><rect x="1063.4" y="209" width="4.8" height="15.0" fill="rgb(217,141,42)" rx="2" ry="2" />
-<text text-anchor="" x="1066.40" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Hoogle.stringShare (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.stringShare (3 samples, 0.30%)</title><rect x="425.6" y="321" width="3.6" height="15.0" fill="rgb(205,66,3)" rx="2" ry="2" />
-<text text-anchor="" x="428.63" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Output.Items.writeItems.\ (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Items.writeItems.\ (4 samples, 0.40%)</title><rect x="1163.7" y="209" width="4.8" height="15.0" fill="rgb(252,154,37)" rx="2" ry="2" />
-<text text-anchor="" x="1166.72" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Store.storeWriteType.name (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Store.storeWriteType.name (4 samples, 0.40%)</title><rect x="1163.7" y="241" width="4.8" height="15.0" fill="rgb(215,118,7)" rx="2" ry="2" />
-<text text-anchor="" x="1166.72" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Type.showItem (49 samples, 4.96%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Type.showItem (49 samples, 4.96%)</title><rect x="429.2" y="97" width="58.5" height="15.0" fill="rgb(218,84,25)" rx="2" ry="2" />
-<text text-anchor="" x="432.21" y="107.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Input...</text>
-</g>
-<g class="func_g" onmouseover="s('General.Store.storeWriteType.name (10 samples, 1.01%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Store.storeWriteType.name (10 samples, 1.01%)</title><rect x="127.0" y="321" width="12.0" height="15.0" fill="rgb(222,4,53)" rx="2" ry="2" />
-<text text-anchor="" x="130.04" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Hoogle.reformat.f (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.reformat.f (2 samples, 0.20%)</title><rect x="423.2" y="305" width="2.4" height="15.0" fill="rgb(227,183,44)" rx="2" ry="2" />
-<text text-anchor="" x="426.24" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Store.storeWriteParts (7 samples, 0.71%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Store.storeWriteParts (7 samples, 0.71%)</title><rect x="92.4" y="273" width="8.4" height="15.0" fill="rgb(232,226,20)" rx="2" ry="2" />
-<text text-anchor="" x="95.41" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Util.pretty (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Util.pretty (4 samples, 0.40%)</title><rect x="1163.7" y="113" width="4.8" height="15.0" fill="rgb(219,19,17)" rx="2" ry="2" />
-<text text-anchor="" x="1166.72" y="123.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Hoogle.parseLine.(...) (6 samples, 0.61%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.parseLine.(...) (6 samples, 0.61%)</title><rect x="1061.0" y="257" width="7.2" height="15.0" fill="rgb(211,182,14)" rx="2" ry="2" />
-<text text-anchor="" x="1064.01" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Util.pretty (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Util.pretty (3 samples, 0.30%)</title><rect x="425.6" y="273" width="3.6" height="15.0" fill="rgb(222,122,49)" rx="2" ry="2" />
-<text text-anchor="" x="428.63" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Hoogle.reformat (66 samples, 6.68%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.reformat (66 samples, 6.68%)</title><rect x="185.6" y="289" width="78.8" height="15.0" fill="rgb(228,7,53)" rx="2" ry="2" />
-<text text-anchor="" x="188.57" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Input.Hoo..</text>
-</g>
-<g class="func_g" onmouseover="s('Input.Hoogle.heirarchy.with.f.s2 (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.heirarchy.with.f.s2 (2 samples, 0.20%)</title><rect x="146.2" y="177" width="2.3" height="15.0" fill="rgb(237,164,13)" rx="2" ry="2" />
-<text text-anchor="" x="149.15" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Output.Types.packAlias (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Types.packAlias (1 samples, 0.10%)</title><rect x="100.8" y="193" width="1.2" height="15.0" fill="rgb(222,125,27)" rx="2" ry="2" />
-<text text-anchor="" x="103.77" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Store.storeWriteFile.\.bs (10 samples, 1.01%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Store.storeWriteFile.\.bs (10 samples, 1.01%)</title><rect x="111.5" y="273" width="12.0" height="15.0" fill="rgb(241,111,20)" rx="2" ry="2" />
-<text text-anchor="" x="114.52" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Hoogle.hackage (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.hackage (1 samples, 0.10%)</title><rect x="176.0" y="225" width="1.2" height="15.0" fill="rgb(234,126,27)" rx="2" ry="2" />
-<text text-anchor="" x="179.01" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Type.splitUsing.\ (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Type.splitUsing.\ (3 samples, 0.30%)</title><rect x="861.6" y="305" width="3.5" height="15.0" fill="rgb(207,225,24)" rx="2" ry="2" />
-<text text-anchor="" x="864.56" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Type.splitUsing.\.(...) (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Type.splitUsing.\.(...) (3 samples, 0.30%)</title><rect x="861.6" y="257" width="3.5" height="15.0" fill="rgb(235,164,30)" rx="2" ry="2" />
-<text text-anchor="" x="864.56" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Output.Items.writeItems.\.\ (49 samples, 4.96%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Items.writeItems.\.\ (49 samples, 4.96%)</title><rect x="429.2" y="161" width="58.5" height="15.0" fill="rgb(228,43,11)" rx="2" ry="2" />
-<text text-anchor="" x="432.21" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Output..</text>
-</g>
-<g class="func_g" onmouseover="s('General.Util.fromName (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Util.fromName (2 samples, 0.20%)</title><rect x="1172.1" y="257" width="2.4" height="15.0" fill="rgb(242,40,54)" rx="2" ry="2" />
-<text text-anchor="" x="1175.09" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Output.Types.writeTypes.ys (7 samples, 0.71%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Types.writeTypes.ys (7 samples, 0.71%)</title><rect x="115.1" y="193" width="8.4" height="15.0" fill="rgb(236,56,51)" rx="2" ry="2" />
-<text text-anchor="" x="118.10" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Store.notParts (49 samples, 4.96%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Store.notParts (49 samples, 4.96%)</title><rect x="429.2" y="257" width="58.5" height="15.0" fill="rgb(222,58,40)" rx="2" ry="2" />
-<text text-anchor="" x="432.21" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Genera..</text>
+<g class="func_g" onmouseover="s('Data.ByteString.Base64.decodeLenient (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Data.ByteString.Base64.decodeLenient (2 samples, 0.20%)</title><rect x="1162.5" y="209" width="2.4" height="15.0" fill="rgb(211,34,12)" rx="2" ry="2" />
+<text text-anchor="" x="1165.53" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Input.Type.readItem (131 samples, 13.26%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Input.Type.readItem (131 samples, 13.26%)</title><rect x="442.3" y="209" width="156.5" height="15.0" fill="rgb(221,65,25)" rx="2" ry="2" />
+<text text-anchor="" x="445.35" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Input.Type.readItem</text>
 </g>
 <g class="func_g" onmouseover="s('Data.ByteString.Base64.Lazy.decodeLenient.goodChar (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Data.ByteString.Base64.Lazy.decodeLenient.goodChar (1 samples, 0.10%)</title><rect x="66.1" y="209" width="1.2" height="15.0" fill="rgb(251,96,3)" rx="2" ry="2" />
-<text text-anchor="" x="69.13" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+<title>Data.ByteString.Base64.Lazy.decodeLenient.goodChar (1 samples, 0.10%)</title><rect x="1161.3" y="209" width="1.2" height="15.0" fill="rgb(228,174,51)" rx="2" ry="2" />
+<text text-anchor="" x="1164.34" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
 </g>
-<g class="func_g" onmouseover="s('Action.Generate.generate.\ (47 samples, 4.76%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Action.Generate.generate.\ (47 samples, 4.76%)</title><rect x="10.0" y="305" width="56.1" height="15.0" fill="rgb(254,196,12)" rx="2" ry="2" />
-<text text-anchor="" x="13.00" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Actio..</text>
+<g class="func_g" onmouseover="s('Input.Hoogle.parseHoogle (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Input.Hoogle.parseHoogle (1 samples, 0.10%)</title><rect x="10.0" y="289" width="1.2" height="15.0" fill="rgb(216,11,23)" rx="2" ry="2" />
+<text text-anchor="" x="13.00" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
 </g>
-<g class="func_g" onmouseover="s('Input.Hoogle.parseLine (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.parseLine (4 samples, 0.40%)</title><rect x="264.4" y="321" width="4.8" height="15.0" fill="rgb(227,34,0)" rx="2" ry="2" />
-<text text-anchor="" x="267.39" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+<g class="func_g" onmouseover="s('Input.Download.downloadInputs.\ (27 samples, 2.73%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Input.Download.downloadInputs.\ (27 samples, 2.73%)</title><rect x="1157.8" y="257" width="32.2" height="15.0" fill="rgb(222,212,18)" rx="2" ry="2" />
+<text text-anchor="" x="1160.75" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >In..</text>
 </g>
-<g class="func_g" onmouseover="s('Input.Type.splitUsing.\.b (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Type.splitUsing.\.b (3 samples, 0.30%)</title><rect x="861.6" y="241" width="3.5" height="15.0" fill="rgb(223,16,27)" rx="2" ry="2" />
-<text text-anchor="" x="864.56" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Store.intToBS (10 samples, 1.01%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Store.intToBS (10 samples, 1.01%)</title><rect x="111.5" y="305" width="12.0" height="15.0" fill="rgb(249,89,39)" rx="2" ry="2" />
-<text text-anchor="" x="114.52" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Data.ByteString.Base64.Internal.reChunkIn.fixup (20 samples, 2.02%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Data.ByteString.Base64.Internal.reChunkIn.fixup (20 samples, 2.02%)</title><rect x="67.3" y="257" width="23.9" height="15.0" fill="rgb(208,201,49)" rx="2" ry="2" />
-<text text-anchor="" x="70.33" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >D..</text>
-</g>
-<g class="func_g" onmouseover="s('Output.Types.writeRarity.r (8 samples, 0.81%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Types.writeRarity.r (8 samples, 0.81%)</title><rect x="1180.4" y="177" width="9.6" height="15.0" fill="rgb(218,222,28)" rx="2" ry="2" />
-<text text-anchor="" x="1183.45" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Hoogle.heirarchy.with (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.heirarchy.with (4 samples, 0.40%)</title><rect x="143.8" y="209" width="4.7" height="15.0" fill="rgb(254,181,23)" rx="2" ry="2" />
-<text text-anchor="" x="146.77" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Type.readItem (164 samples, 16.60%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Type.readItem (164 samples, 16.60%)</title><rect x="865.1" y="273" width="195.9" height="15.0" fill="rgb(212,81,28)" rx="2" ry="2" />
-<text text-anchor="" x="868.14" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Input.Type.readItem</text>
-</g>
-<g class="func_g" onmouseover="s('Data.Serialize.Get.getWord16be (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Data.Serialize.Get.getWord16be (1 samples, 0.10%)</title><rect x="91.2" y="209" width="1.2" height="15.0" fill="rgb(249,123,42)" rx="2" ry="2" />
-<text text-anchor="" x="94.21" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Hoogle.heirarchy.other (7 samples, 0.71%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.heirarchy.other (7 samples, 0.71%)</title><rect x="177.2" y="209" width="8.4" height="15.0" fill="rgb(246,7,12)" rx="2" ry="2" />
-<text text-anchor="" x="180.21" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Data.ByteString.Base64.Lazy.decodeLenient (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Data.ByteString.Base64.Lazy.decodeLenient (2 samples, 0.20%)</title><rect x="785.1" y="241" width="2.4" height="15.0" fill="rgb(251,190,2)" rx="2" ry="2" />
-<text text-anchor="" x="788.12" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Data.ByteString.Base64.Internal.decodeLenientWithTable.\.\.fill.\ (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Data.ByteString.Base64.Internal.decodeLenientWithTable.\.\.fill.\ (1 samples, 0.10%)</title><rect x="786.3" y="81" width="1.2" height="15.0" fill="rgb(233,142,30)" rx="2" ry="2" />
-<text text-anchor="" x="789.32" y="91.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Cabal.parseCabal (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Cabal.parseCabal (3 samples, 0.30%)</title><rect x="123.5" y="257" width="3.5" height="15.0" fill="rgb(251,133,33)" rx="2" ry="2" />
-<text text-anchor="" x="126.46" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Hoogle.heirarchy.other (46 samples, 4.66%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.heirarchy.other (46 samples, 4.66%)</title><rect x="787.5" y="305" width="54.9" height="15.0" fill="rgb(207,12,22)" rx="2" ry="2" />
-<text text-anchor="" x="790.51" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Input..</text>
-</g>
-<g class="func_g" onmouseover="s('Output.Items.writeItems.\ (246 samples, 24.90%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Items.writeItems.\ (246 samples, 24.90%)</title><rect x="487.7" y="161" width="293.8" height="15.0" fill="rgb(237,5,31)" rx="2" ry="2" />
-<text text-anchor="" x="490.73" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Output.Items.writeItems.\</text>
-</g>
-<g class="func_g" onmouseover="s('Input.Hoogle.fixLine (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.fixLine (1 samples, 0.10%)</title><rect x="264.4" y="305" width="1.2" height="15.0" fill="rgb(207,151,45)" rx="2" ry="2" />
-<text text-anchor="" x="267.39" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Type.myParseDecl (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Type.myParseDecl (3 samples, 0.30%)</title><rect x="265.6" y="273" width="3.6" height="15.0" fill="rgb(242,214,26)" rx="2" ry="2" />
-<text text-anchor="" x="268.59" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Type.showItem (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Type.showItem (4 samples, 0.40%)</title><rect x="139.0" y="177" width="4.8" height="15.0" fill="rgb(217,121,32)" rx="2" ry="2" />
-<text text-anchor="" x="141.99" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Cabal.extractCabal.g (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Cabal.extractCabal.g (2 samples, 0.20%)</title><rect x="150.9" y="209" width="2.4" height="15.0" fill="rgb(249,153,21)" rx="2" ry="2" />
-<text text-anchor="" x="153.93" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Store.notParts (246 samples, 24.90%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Store.notParts (246 samples, 24.90%)</title><rect x="487.7" y="241" width="293.8" height="15.0" fill="rgb(253,98,49)" rx="2" ry="2" />
-<text text-anchor="" x="490.73" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >General.Store.notParts</text>
-</g>
-<g class="func_g" onmouseover="s('Input.Hoogle.stringShare (29 samples, 2.94%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.stringShare (29 samples, 2.94%)</title><rect x="31.5" y="193" width="34.6" height="15.0" fill="rgb(243,202,22)" rx="2" ry="2" />
-<text text-anchor="" x="34.50" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >In..</text>
-</g>
-<g class="func_g" onmouseover="s('General.Util.joinPair (49 samples, 4.96%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Util.joinPair (49 samples, 4.96%)</title><rect x="429.2" y="113" width="58.5" height="15.0" fill="rgb(229,143,27)" rx="2" ry="2" />
-<text text-anchor="" x="432.21" y="123.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Genera..</text>
-</g>
-<g class="func_g" onmouseover="s('General.Store.notParts (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Store.notParts (4 samples, 0.40%)</title><rect x="1163.7" y="289" width="4.8" height="15.0" fill="rgb(246,55,50)" rx="2" ry="2" />
-<text text-anchor="" x="1166.72" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Type.showItem (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Type.showItem (2 samples, 0.20%)</title><rect x="423.2" y="241" width="2.4" height="15.0" fill="rgb(210,209,13)" rx="2" ry="2" />
-<text text-anchor="" x="426.24" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+<g class="func_g" onmouseover="s('MAIN.MAIN (988 samples, 100.00%)')" onmouseout="c()" onclick="zoom(this)">
+<title>MAIN.MAIN (988 samples, 100.00%)</title><rect x="10.0" y="321" width="1180.0" height="15.0" fill="rgb(224,57,10)" rx="2" ry="2" />
+<text text-anchor="" x="13.00" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >MAIN.MAIN</text>
 </g>
 <g class="func_g" onmouseover="s('Data.ByteString.Base64.Internal.decodeLenientWithTable.\ (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Data.ByteString.Base64.Internal.decodeLenientWithTable.\ (2 samples, 0.20%)</title><rect x="785.1" y="193" width="2.4" height="15.0" fill="rgb(215,75,41)" rx="2" ry="2" />
-<text text-anchor="" x="788.12" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+<title>Data.ByteString.Base64.Internal.decodeLenientWithTable.\ (2 samples, 0.20%)</title><rect x="1162.5" y="177" width="2.4" height="15.0" fill="rgb(243,125,10)" rx="2" ry="2" />
+<text text-anchor="" x="1165.53" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
 </g>
-<g class="func_g" onmouseover="s('Input.Hoogle.parseLine.a (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.parseLine.a (3 samples, 0.30%)</title><rect x="265.6" y="241" width="3.6" height="15.0" fill="rgb(248,153,15)" rx="2" ry="2" />
-<text text-anchor="" x="268.59" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+<g class="func_g" onmouseover="s('Action.Generate.generate.f (558 samples, 56.48%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Action.Generate.generate.f (558 samples, 56.48%)</title><rect x="11.2" y="257" width="666.4" height="15.0" fill="rgb(207,53,49)" rx="2" ry="2" />
+<text text-anchor="" x="14.19" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Action.Generate.generate.f</text>
 </g>
-<g class="func_g" onmouseover="s('Output.Types.writeTypes (8 samples, 0.81%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Types.writeTypes (8 samples, 0.81%)</title><rect x="102.0" y="225" width="9.5" height="15.0" fill="rgb(218,142,52)" rx="2" ry="2" />
-<text text-anchor="" x="104.96" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+<g class="func_g" onmouseover="s('Output.Items.writeItems (313 samples, 31.68%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Output.Items.writeItems (313 samples, 31.68%)</title><rect x="707.5" y="209" width="373.8" height="15.0" fill="rgb(221,126,8)" rx="2" ry="2" />
+<text text-anchor="" x="710.49" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Output.Items.writeItems</text>
 </g>
-<g class="func_g" onmouseover="s('Input.Cabal.parseCabal.f (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Cabal.parseCabal.f (2 samples, 0.20%)</title><rect x="150.9" y="257" width="2.4" height="15.0" fill="rgb(253,204,36)" rx="2" ry="2" />
-<text text-anchor="" x="153.93" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+<g class="func_g" onmouseover="s('Output.Names.writeNames.b (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Output.Names.writeNames.b (3 samples, 0.30%)</title><rect x="1084.9" y="193" width="3.6" height="15.0" fill="rgb(254,183,35)" rx="2" ry="2" />
+<text text-anchor="" x="1087.90" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
 </g>
-<g class="func_g" onmouseover="s('Output.Items.typeRep# (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Items.typeRep# (4 samples, 0.40%)</title><rect x="139.0" y="273" width="4.8" height="15.0" fill="rgb(228,222,44)" rx="2" ry="2" />
-<text text-anchor="" x="141.99" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+<g class="func_g" onmouseover="s('Output.Types.writeTypes (27 samples, 2.73%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Output.Types.writeTypes (27 samples, 2.73%)</title><rect x="1088.5" y="209" width="32.2" height="15.0" fill="rgb(227,216,13)" rx="2" ry="2" />
+<text text-anchor="" x="1091.48" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Ou..</text>
 </g>
-<g class="func_g" onmouseover="s('Input.Reorder.packageOrder.mp (246 samples, 24.90%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Reorder.packageOrder.mp (246 samples, 24.90%)</title><rect x="487.7" y="305" width="293.8" height="15.0" fill="rgb(230,191,24)" rx="2" ry="2" />
-<text text-anchor="" x="490.73" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Input.Reorder.packageOrder.mp</text>
+<g class="func_g" onmouseover="s('Data.ByteString.Base64.Internal.decodeLenientWithTable.\.\.fill.\.\.\ (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Data.ByteString.Base64.Internal.decodeLenientWithTable.\.\.fill.\.\.\ (1 samples, 0.10%)</title><rect x="1163.7" y="49" width="1.2" height="15.0" fill="rgb(234,179,3)" rx="2" ry="2" />
+<text text-anchor="" x="1166.72" y="59.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
 </g>
-<g class="func_g" onmouseover="s('Input.Type.show (10 samples, 1.01%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Type.show (10 samples, 1.01%)</title><rect x="127.0" y="177" width="12.0" height="15.0" fill="rgb(227,19,25)" rx="2" ry="2" />
-<text text-anchor="" x="130.04" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+<g class="func_g" onmouseover="s('Input.Hoogle.stringShare (29 samples, 2.94%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Input.Hoogle.stringShare (29 samples, 2.94%)</title><rect x="407.7" y="193" width="34.6" height="15.0" fill="rgb(244,30,40)" rx="2" ry="2" />
+<text text-anchor="" x="410.71" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >In..</text>
 </g>
-<g class="func_g" onmouseover="s('Output.Types.askRarity.\ (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Types.askRarity.\ (2 samples, 0.20%)</title><rect x="148.5" y="161" width="2.4" height="15.0" fill="rgb(211,8,23)" rx="2" ry="2" />
-<text text-anchor="" x="151.54" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+<g class="func_g" onmouseover="s('Input.Hoogle.fixLine (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Input.Hoogle.fixLine (3 samples, 0.30%)</title><rect x="172.4" y="209" width="3.6" height="15.0" fill="rgb(248,200,11)" rx="2" ry="2" />
+<text text-anchor="" x="175.43" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
 </g>
-<g class="func_g" onmouseover="s('Input.Type.splitUsing.\.a (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Type.splitUsing.\.a (3 samples, 0.30%)</title><rect x="861.6" y="289" width="3.5" height="15.0" fill="rgb(215,85,39)" rx="2" ry="2" />
-<text text-anchor="" x="864.56" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+<g class="func_g" onmouseover="s('Input.Hoogle.heirarchy.other (7 samples, 0.71%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Input.Hoogle.heirarchy.other (7 samples, 0.71%)</title><rect x="136.6" y="209" width="8.4" height="15.0" fill="rgb(224,174,2)" rx="2" ry="2" />
+<text text-anchor="" x="139.60" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
 </g>
-<g class="func_g" onmouseover="s('Data.Serialize.Get.remaining (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Data.Serialize.Get.remaining (1 samples, 0.10%)</title><rect x="91.2" y="321" width="1.2" height="15.0" fill="rgb(208,52,16)" rx="2" ry="2" />
-<text text-anchor="" x="94.21" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Hoogle.heirarchy.url (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.heirarchy.url (1 samples, 0.10%)</title><rect x="184.4" y="193" width="1.2" height="15.0" fill="rgb(243,58,2)" rx="2" ry="2" />
-<text text-anchor="" x="187.37" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Type.showItem (10 samples, 1.01%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Type.showItem (10 samples, 1.01%)</title><rect x="127.0" y="209" width="12.0" height="15.0" fill="rgb(233,146,45)" rx="2" ry="2" />
-<text text-anchor="" x="130.04" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Util.pretty (129 samples, 13.06%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Util.pretty (129 samples, 13.06%)</title><rect x="269.2" y="241" width="154.0" height="15.0" fill="rgb(218,0,6)" rx="2" ry="2" />
-<text text-anchor="" x="272.17" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >General.Util.pretty</text>
-</g>
-<g class="func_g" onmouseover="s('Output.Types.typeRep# (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Types.typeRep# (3 samples, 0.30%)</title><rect x="1176.9" y="321" width="3.5" height="15.0" fill="rgb(239,96,19)" rx="2" ry="2" />
-<text text-anchor="" x="1179.86" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Output.Types.typeNames (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Types.typeNames (2 samples, 0.20%)</title><rect x="1174.5" y="241" width="2.4" height="15.0" fill="rgb(227,179,21)" rx="2" ry="2" />
-<text text-anchor="" x="1177.47" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Reorder.packageOrder (246 samples, 24.90%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Reorder.packageOrder (246 samples, 24.90%)</title><rect x="487.7" y="321" width="293.8" height="15.0" fill="rgb(216,141,0)" rx="2" ry="2" />
-<text text-anchor="" x="490.73" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Input.Reorder.packageOrder</text>
-</g>
-<g class="func_g" onmouseover="s('Input.Type.gfoldl (129 samples, 13.06%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Type.gfoldl (129 samples, 13.06%)</title><rect x="269.2" y="305" width="154.0" height="15.0" fill="rgb(253,18,48)" rx="2" ry="2" />
-<text text-anchor="" x="272.17" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Input.Type.gfoldl</text>
-</g>
-<g class="func_g" onmouseover="s('General.Store.atomSize (7 samples, 0.71%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Store.atomSize (7 samples, 0.71%)</title><rect x="92.4" y="305" width="8.4" height="15.0" fill="rgb(224,210,47)" rx="2" ry="2" />
-<text text-anchor="" x="95.41" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Util.fromName (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Util.fromName (4 samples, 0.40%)</title><rect x="143.8" y="289" width="4.7" height="15.0" fill="rgb(211,116,46)" rx="2" ry="2" />
-<text text-anchor="" x="146.77" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Type.myParseDecl (164 samples, 16.60%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Type.myParseDecl (164 samples, 16.60%)</title><rect x="865.1" y="177" width="195.9" height="15.0" fill="rgb(246,141,36)" rx="2" ry="2" />
-<text text-anchor="" x="868.14" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Input.Type.myParseDecl</text>
-</g>
-<g class="func_g" onmouseover="s('General.Store.encodeBS (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Store.encodeBS (1 samples, 0.10%)</title><rect x="100.8" y="321" width="1.2" height="15.0" fill="rgb(237,29,22)" rx="2" ry="2" />
-<text text-anchor="" x="103.77" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Store.storeWriteBS (10 samples, 1.01%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Store.storeWriteBS (10 samples, 1.01%)</title><rect x="127.0" y="129" width="12.0" height="15.0" fill="rgb(251,97,0)" rx="2" ry="2" />
-<text text-anchor="" x="130.04" y="139.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Set.setStackage.f (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Set.setStackage.f (3 samples, 0.30%)</title><rect x="781.5" y="289" width="3.6" height="15.0" fill="rgb(211,215,9)" rx="2" ry="2" />
-<text text-anchor="" x="784.54" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Store.encodeBS (10 samples, 1.01%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Store.encodeBS (10 samples, 1.01%)</title><rect x="111.5" y="289" width="12.0" height="15.0" fill="rgb(252,108,13)" rx="2" ry="2" />
-<text text-anchor="" x="114.52" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Util.pretty (7 samples, 0.71%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Util.pretty (7 samples, 0.71%)</title><rect x="103.2" y="177" width="8.3" height="15.0" fill="rgb(211,224,39)" rx="2" ry="2" />
-<text text-anchor="" x="106.16" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Type.unGADT (129 samples, 13.06%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Type.unGADT (129 samples, 13.06%)</title><rect x="269.2" y="209" width="154.0" height="15.0" fill="rgb(219,176,38)" rx="2" ry="2" />
-<text text-anchor="" x="272.17" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Input.Type.unGADT</text>
-</g>
-<g class="func_g" onmouseover="s('Action.Generate.generate (80 samples, 8.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Action.Generate.generate (80 samples, 8.10%)</title><rect x="1068.2" y="289" width="95.5" height="15.0" fill="rgb(211,120,3)" rx="2" ry="2" />
-<text text-anchor="" x="1071.18" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Action.Gene..</text>
-</g>
-<g class="func_g" onmouseover="s('Output.Types.writeTypes (10 samples, 1.01%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Types.writeTypes (10 samples, 1.01%)</title><rect x="111.5" y="209" width="12.0" height="15.0" fill="rgb(237,91,44)" rx="2" ry="2" />
-<text text-anchor="" x="114.52" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Hoogle.parseHoogle (66 samples, 6.68%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.parseHoogle (66 samples, 6.68%)</title><rect x="185.6" y="321" width="78.8" height="15.0" fill="rgb(235,93,46)" rx="2" ry="2" />
-<text text-anchor="" x="188.57" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Input.Hoo..</text>
-</g>
-<g class="func_g" onmouseover="s('Input.Type.typeRep# (164 samples, 16.60%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Type.typeRep# (164 samples, 16.60%)</title><rect x="865.1" y="321" width="195.9" height="15.0" fill="rgb(251,127,6)" rx="2" ry="2" />
-<text text-anchor="" x="868.14" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Input.Type.typeRep#</text>
-</g>
-<g class="func_g" onmouseover="s('General.Util.list' (46 samples, 4.66%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Util.list' (46 samples, 4.66%)</title><rect x="787.5" y="209" width="54.9" height="15.0" fill="rgb(249,177,47)" rx="2" ry="2" />
-<text text-anchor="" x="790.51" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Gener..</text>
+<g class="func_g" onmouseover="s('Input.Cabal.parseCabal.f (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Input.Cabal.parseCabal.f (3 samples, 0.30%)</title><rect x="1154.2" y="241" width="3.6" height="15.0" fill="rgb(232,5,44)" rx="2" ry="2" />
+<text text-anchor="" x="1157.17" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
 </g>
 <g class="func_g" onmouseover="s('General.Store.intToBS (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Store.intToBS (4 samples, 0.40%)</title><rect x="139.0" y="129" width="4.8" height="15.0" fill="rgb(224,169,31)" rx="2" ry="2" />
-<text text-anchor="" x="141.99" y="139.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Type.rnf (45 samples, 4.55%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Type.rnf (45 samples, 4.55%)</title><rect x="788.7" y="193" width="53.7" height="15.0" fill="rgb(218,2,12)" rx="2" ry="2" />
-<text text-anchor="" x="791.70" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Input..</text>
-</g>
-<g class="func_g" onmouseover="s('Data.Serialize.Get.moreLength (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Data.Serialize.Get.moreLength (1 samples, 0.10%)</title><rect x="91.2" y="289" width="1.2" height="15.0" fill="rgb(251,26,14)" rx="2" ry="2" />
-<text text-anchor="" x="94.21" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Type.typeRep# (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Type.typeRep# (2 samples, 0.20%)</title><rect x="423.2" y="257" width="2.4" height="15.0" fill="rgb(236,65,1)" rx="2" ry="2" />
-<text text-anchor="" x="426.24" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Download.downloadFile.\ (20 samples, 2.02%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Download.downloadFile.\ (20 samples, 2.02%)</title><rect x="67.3" y="225" width="23.9" height="15.0" fill="rgb(247,41,31)" rx="2" ry="2" />
-<text text-anchor="" x="70.33" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >I..</text>
-</g>
-<g class="func_g" onmouseover="s('Data.Serialize.Get.))=.\.ks' (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Data.Serialize.Get.))=.\.ks' (1 samples, 0.10%)</title><rect x="91.2" y="145" width="1.2" height="15.0" fill="rgb(246,19,33)" rx="2" ry="2" />
-<text text-anchor="" x="94.21" y="155.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Store.notParts (246 samples, 24.90%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Store.notParts (246 samples, 24.90%)</title><rect x="487.7" y="209" width="293.8" height="15.0" fill="rgb(227,130,3)" rx="2" ry="2" />
-<text text-anchor="" x="490.73" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >General.Store.notParts</text>
-</g>
-<g class="func_g" onmouseover="s('General.Util.tarballReadFiles.f (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Util.tarballReadFiles.f (1 samples, 0.10%)</title><rect x="99.6" y="241" width="1.2" height="15.0" fill="rgb(210,101,2)" rx="2" ry="2" />
-<text text-anchor="" x="102.57" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Hoogle.heirarchy.url (46 samples, 4.66%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.heirarchy.url (46 samples, 4.66%)</title><rect x="787.5" y="289" width="54.9" height="15.0" fill="rgb(222,149,20)" rx="2" ry="2" />
-<text text-anchor="" x="790.51" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Input..</text>
-</g>
-<g class="func_g" onmouseover="s('General.Util.pretty (164 samples, 16.60%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Util.pretty (164 samples, 16.60%)</title><rect x="865.1" y="289" width="195.9" height="15.0" fill="rgb(237,101,17)" rx="2" ry="2" />
-<text text-anchor="" x="868.14" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >General.Util.pretty</text>
-</g>
-<g class="func_g" onmouseover="s('Output.Items.outputItem (14 samples, 1.42%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Items.outputItem (14 samples, 1.42%)</title><rect x="764.8" y="113" width="16.7" height="15.0" fill="rgb(228,145,0)" rx="2" ry="2" />
-<text text-anchor="" x="767.82" y="123.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Type.rnf (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Type.rnf (4 samples, 0.40%)</title><rect x="143.8" y="241" width="4.7" height="15.0" fill="rgb(223,193,23)" rx="2" ry="2" />
-<text text-anchor="" x="146.77" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Output.Types.writeAlias.a (8 samples, 0.81%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Types.writeAlias.a (8 samples, 0.81%)</title><rect x="1180.4" y="273" width="9.6" height="15.0" fill="rgb(253,32,18)" rx="2" ry="2" />
-<text text-anchor="" x="1183.45" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Util.timed (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Util.timed (3 samples, 0.30%)</title><rect x="861.6" y="225" width="3.5" height="15.0" fill="rgb(236,139,29)" rx="2" ry="2" />
-<text text-anchor="" x="864.56" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Store.storeWriteParts (49 samples, 4.96%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Store.storeWriteParts (49 samples, 4.96%)</title><rect x="429.2" y="273" width="58.5" height="15.0" fill="rgb(253,177,39)" rx="2" ry="2" />
-<text text-anchor="" x="432.21" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Genera..</text>
-</g>
-<g class="func_g" onmouseover="s('Data.ByteString.Base64.Internal.decodeLenientWithTable.\.\.sEnd (20 samples, 2.02%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Data.ByteString.Base64.Internal.decodeLenientWithTable.\.\.sEnd (20 samples, 2.02%)</title><rect x="67.3" y="321" width="23.9" height="15.0" fill="rgb(242,125,32)" rx="2" ry="2" />
-<text text-anchor="" x="70.33" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >D..</text>
-</g>
-<g class="func_g" onmouseover="s('General.Util.tarballReadFiles.f (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Util.tarballReadFiles.f (3 samples, 0.30%)</title><rect x="172.4" y="225" width="3.6" height="15.0" fill="rgb(223,11,48)" rx="2" ry="2" />
-<text text-anchor="" x="175.43" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Util.pretty (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Util.pretty (4 samples, 0.40%)</title><rect x="139.0" y="161" width="4.8" height="15.0" fill="rgb(213,89,1)" rx="2" ry="2" />
-<text text-anchor="" x="141.99" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Type.splitUsing (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Type.splitUsing (3 samples, 0.30%)</title><rect x="861.6" y="321" width="3.5" height="15.0" fill="rgb(251,198,32)" rx="2" ry="2" />
-<text text-anchor="" x="864.56" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Data.ByteString.Base64.Internal.decodeLenientWithTable.\.\.fill.\.\.\.\ (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Data.ByteString.Base64.Internal.decodeLenientWithTable.\.\.fill.\.\.\.\ (1 samples, 0.10%)</title><rect x="786.3" y="33" width="1.2" height="15.0" fill="rgb(253,124,13)" rx="2" ry="2" />
-<text text-anchor="" x="789.32" y="43.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Output.Types.typeNames.qnm (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Types.typeNames.qnm (2 samples, 0.20%)</title><rect x="148.5" y="209" width="2.4" height="15.0" fill="rgb(221,154,16)" rx="2" ry="2" />
-<text text-anchor="" x="151.54" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Store.storeWriteType (49 samples, 4.96%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Store.storeWriteType (49 samples, 4.96%)</title><rect x="429.2" y="241" width="58.5" height="15.0" fill="rgb(240,64,50)" rx="2" ry="2" />
-<text text-anchor="" x="432.21" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Genera..</text>
-</g>
-<g class="func_g" onmouseover="s('Input.Hoogle.parseHoogle.f (28 samples, 2.83%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.parseHoogle.f (28 samples, 2.83%)</title><rect x="1130.3" y="225" width="33.4" height="15.0" fill="rgb(211,219,40)" rx="2" ry="2" />
-<text text-anchor="" x="1133.28" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >In..</text>
-</g>
-<g class="func_g" onmouseover="s('Action.Generate.generate.\ (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Action.Generate.generate.\ (1 samples, 0.10%)</title><rect x="100.8" y="289" width="1.2" height="15.0" fill="rgb(254,173,42)" rx="2" ry="2" />
-<text text-anchor="" x="103.77" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Type.unGADT (164 samples, 16.60%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Type.unGADT (164 samples, 16.60%)</title><rect x="865.1" y="257" width="195.9" height="15.0" fill="rgb(234,103,39)" rx="2" ry="2" />
-<text text-anchor="" x="868.14" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Input.Type.unGADT</text>
-</g>
-<g class="func_g" onmouseover="s('Input.Cabal.extractCabal (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Cabal.extractCabal (2 samples, 0.20%)</title><rect x="150.9" y="225" width="2.4" height="15.0" fill="rgb(242,165,2)" rx="2" ry="2" />
-<text text-anchor="" x="153.93" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Cabal.parseCabal.f.res (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Cabal.parseCabal.f.res (2 samples, 0.20%)</title><rect x="150.9" y="241" width="2.4" height="15.0" fill="rgb(238,23,8)" rx="2" ry="2" />
-<text text-anchor="" x="153.93" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Output.Items.outputItem (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Items.outputItem (4 samples, 0.40%)</title><rect x="1163.7" y="161" width="4.8" height="15.0" fill="rgb(208,93,9)" rx="2" ry="2" />
-<text text-anchor="" x="1166.72" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Output.Types.typeNames.typ (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Types.typeNames.typ (2 samples, 0.20%)</title><rect x="862.8" y="161" width="2.3" height="15.0" fill="rgb(210,66,25)" rx="2" ry="2" />
-<text text-anchor="" x="865.75" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Hoogle.reformat (47 samples, 4.76%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.reformat (47 samples, 4.76%)</title><rect x="10.0" y="241" width="56.1" height="15.0" fill="rgb(242,2,5)" rx="2" ry="2" />
-<text text-anchor="" x="13.00" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Input..</text>
-</g>
-<g class="func_g" onmouseover="s('General.Store.encodeBS (10 samples, 1.01%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Store.encodeBS (10 samples, 1.01%)</title><rect x="111.5" y="257" width="12.0" height="15.0" fill="rgb(243,14,23)" rx="2" ry="2" />
-<text text-anchor="" x="114.52" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Data.ByteString.Base64.Internal.decodeLenientWithTable.\.\.fill.\.\.\ (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Data.ByteString.Base64.Internal.decodeLenientWithTable.\.\.fill.\.\.\ (1 samples, 0.10%)</title><rect x="786.3" y="49" width="1.2" height="15.0" fill="rgb(252,180,22)" rx="2" ry="2" />
-<text text-anchor="" x="789.32" y="59.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Util.pretty (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Util.pretty (3 samples, 0.30%)</title><rect x="861.6" y="193" width="3.5" height="15.0" fill="rgb(220,191,41)" rx="2" ry="2" />
-<text text-anchor="" x="864.56" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Output.Names.writeNames.(...) (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Names.writeNames.(...) (3 samples, 0.30%)</title><rect x="1168.5" y="193" width="3.6" height="15.0" fill="rgb(245,224,38)" rx="2" ry="2" />
-<text text-anchor="" x="1171.50" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Util.list' (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Util.list' (4 samples, 0.40%)</title><rect x="143.8" y="257" width="4.7" height="15.0" fill="rgb(236,94,7)" rx="2" ry="2" />
-<text text-anchor="" x="146.77" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Store.storeWriteType.name (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Store.storeWriteType.name (4 samples, 0.40%)</title><rect x="139.0" y="289" width="4.8" height="15.0" fill="rgb(205,104,13)" rx="2" ry="2" />
-<text text-anchor="" x="141.99" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Data.ByteString.Base64.Internal.decodeLenientWithTable.\.\.\ (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Data.ByteString.Base64.Internal.decodeLenientWithTable.\.\.\ (2 samples, 0.20%)</title><rect x="785.1" y="161" width="2.4" height="15.0" fill="rgb(241,140,23)" rx="2" ry="2" />
-<text text-anchor="" x="788.12" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Output.Types.typeNames.ctx (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Types.typeNames.ctx (2 samples, 0.20%)</title><rect x="1174.5" y="289" width="2.4" height="15.0" fill="rgb(241,100,33)" rx="2" ry="2" />
-<text text-anchor="" x="1177.47" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Hoogle.heirarchy.esc (7 samples, 0.71%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.heirarchy.esc (7 samples, 0.71%)</title><rect x="177.2" y="321" width="8.4" height="15.0" fill="rgb(233,20,12)" rx="2" ry="2" />
-<text text-anchor="" x="180.21" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Download.downloadInputs (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Download.downloadInputs (3 samples, 0.30%)</title><rect x="781.5" y="273" width="3.6" height="15.0" fill="rgb(215,154,12)" rx="2" ry="2" />
-<text text-anchor="" x="784.54" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Data.ByteString.Base64.Internal.decodeLenientWithTable.\.\.finish (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Data.ByteString.Base64.Internal.decodeLenientWithTable.\.\.finish (2 samples, 0.20%)</title><rect x="785.1" y="129" width="2.4" height="15.0" fill="rgb(247,216,1)" rx="2" ry="2" />
-<text text-anchor="" x="788.12" y="139.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Data.ByteString.Base64.decodeLenient (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Data.ByteString.Base64.decodeLenient (2 samples, 0.20%)</title><rect x="785.1" y="225" width="2.4" height="15.0" fill="rgb(214,84,50)" rx="2" ry="2" />
-<text text-anchor="" x="788.12" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Util.pretty (8 samples, 0.81%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Util.pretty (8 samples, 0.81%)</title><rect x="1180.4" y="289" width="9.6" height="15.0" fill="rgb(254,73,50)" rx="2" ry="2" />
-<text text-anchor="" x="1183.45" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Hoogle.heirarchy (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.heirarchy (1 samples, 0.10%)</title><rect x="176.0" y="305" width="1.2" height="15.0" fill="rgb(250,99,24)" rx="2" ry="2" />
-<text text-anchor="" x="179.01" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Output.Items.outputItem (10 samples, 1.01%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Items.outputItem (10 samples, 1.01%)</title><rect x="127.0" y="241" width="12.0" height="15.0" fill="rgb(237,141,12)" rx="2" ry="2" />
-<text text-anchor="" x="130.04" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Store.storeWriteParts (246 samples, 24.90%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Store.storeWriteParts (246 samples, 24.90%)</title><rect x="487.7" y="257" width="293.8" height="15.0" fill="rgb(242,159,34)" rx="2" ry="2" />
-<text text-anchor="" x="490.73" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >General.Store.storeWriteParts</text>
-</g>
-<g class="func_g" onmouseover="s('Input.Type.typeRep# (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Type.typeRep# (3 samples, 0.30%)</title><rect x="425.6" y="305" width="3.6" height="15.0" fill="rgb(215,11,29)" rx="2" ry="2" />
-<text text-anchor="" x="428.63" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Output.Types.typeNames.typ (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Types.typeNames.typ (2 samples, 0.20%)</title><rect x="1174.5" y="161" width="2.4" height="15.0" fill="rgb(253,162,29)" rx="2" ry="2" />
-<text text-anchor="" x="1177.47" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Hoogle.reformat (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.reformat (2 samples, 0.20%)</title><rect x="423.2" y="321" width="2.4" height="15.0" fill="rgb(205,197,28)" rx="2" ry="2" />
-<text text-anchor="" x="426.24" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Output.Names.writeNames (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Names.writeNames (3 samples, 0.30%)</title><rect x="1168.5" y="321" width="3.6" height="15.0" fill="rgb(235,83,53)" rx="2" ry="2" />
-<text text-anchor="" x="1171.50" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Data.ByteString.Base64.Internal.decodeLenientWithTable.\.\.sEnd (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Data.ByteString.Base64.Internal.decodeLenientWithTable.\.\.sEnd (1 samples, 0.10%)</title><rect x="66.1" y="241" width="1.2" height="15.0" fill="rgb(211,180,6)" rx="2" ry="2" />
-<text text-anchor="" x="69.13" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Util.declNames (46 samples, 4.66%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Util.declNames (46 samples, 4.66%)</title><rect x="787.5" y="257" width="54.9" height="15.0" fill="rgb(223,0,39)" rx="2" ry="2" />
-<text text-anchor="" x="790.51" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Gener..</text>
-</g>
-<g class="func_g" onmouseover="s('General.Store.atomCount (7 samples, 0.71%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Store.atomCount (7 samples, 0.71%)</title><rect x="92.4" y="321" width="8.4" height="15.0" fill="rgb(207,187,53)" rx="2" ry="2" />
-<text text-anchor="" x="95.41" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Output.Items.writeItems.\ (49 samples, 4.96%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Items.writeItems.\ (49 samples, 4.96%)</title><rect x="429.2" y="177" width="58.5" height="15.0" fill="rgb(239,110,12)" rx="2" ry="2" />
-<text text-anchor="" x="432.21" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Output..</text>
-</g>
-<g class="func_g" onmouseover="s('General.Store.storeWriteBS.\ (9 samples, 0.91%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Store.storeWriteBS.\ (9 samples, 0.91%)</title><rect x="128.2" y="113" width="10.8" height="15.0" fill="rgb(241,49,41)" rx="2" ry="2" />
-<text text-anchor="" x="131.24" y="123.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Store.put (8 samples, 0.81%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Store.put (8 samples, 0.81%)</title><rect x="102.0" y="257" width="9.5" height="15.0" fill="rgb(218,196,42)" rx="2" ry="2" />
-<text text-anchor="" x="104.96" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Hoogle.hackage (7 samples, 0.71%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.hackage (7 samples, 0.71%)</title><rect x="177.2" y="257" width="8.4" height="15.0" fill="rgb(218,197,49)" rx="2" ry="2" />
-<text text-anchor="" x="180.21" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Data.ByteString.Base64.Internal.decodeLenientWithTable.dlen (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Data.ByteString.Base64.Internal.decodeLenientWithTable.dlen (1 samples, 0.10%)</title><rect x="66.1" y="225" width="1.2" height="15.0" fill="rgb(227,29,34)" rx="2" ry="2" />
-<text text-anchor="" x="69.13" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Data.ByteString.Base64.Internal.decodeLenientWithTable.\.\ (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Data.ByteString.Base64.Internal.decodeLenientWithTable.\.\ (2 samples, 0.20%)</title><rect x="785.1" y="177" width="2.4" height="15.0" fill="rgb(236,228,51)" rx="2" ry="2" />
-<text text-anchor="" x="788.12" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Hoogle.reformat (9 samples, 0.91%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.reformat (9 samples, 0.91%)</title><rect x="1153.0" y="209" width="10.7" height="15.0" fill="rgb(245,2,37)" rx="2" ry="2" />
-<text text-anchor="" x="1155.98" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Output.Names.writeNames.b (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Names.writeNames.b (3 samples, 0.30%)</title><rect x="1168.5" y="209" width="3.6" height="15.0" fill="rgb(228,99,7)" rx="2" ry="2" />
-<text text-anchor="" x="1171.50" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Util.timed (16 samples, 1.62%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Util.timed (16 samples, 1.62%)</title><rect x="842.4" y="209" width="19.2" height="15.0" fill="rgb(250,81,25)" rx="2" ry="2" />
-<text text-anchor="" x="845.45" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Type.myParseDecl (129 samples, 13.06%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Type.myParseDecl (129 samples, 13.06%)</title><rect x="269.2" y="193" width="154.0" height="15.0" fill="rgb(228,63,1)" rx="2" ry="2" />
-<text text-anchor="" x="272.17" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Input.Type.myParseD..</text>
-</g>
-<g class="func_g" onmouseover="s('Input.Hoogle.parseHoogle.f (47 samples, 4.76%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.parseHoogle.f (47 samples, 4.76%)</title><rect x="10.0" y="257" width="56.1" height="15.0" fill="rgb(213,224,49)" rx="2" ry="2" />
-<text text-anchor="" x="13.00" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Input..</text>
-</g>
-<g class="func_g" onmouseover="s('Input.Type.readItem (129 samples, 13.06%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Type.readItem (129 samples, 13.06%)</title><rect x="269.2" y="225" width="154.0" height="15.0" fill="rgb(216,80,10)" rx="2" ry="2" />
-<text text-anchor="" x="272.17" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Input.Type.readItem</text>
-</g>
-<g class="func_g" onmouseover="s('Input.Type.splitIPackage.\ (16 samples, 1.62%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Type.splitIPackage.\ (16 samples, 1.62%)</title><rect x="842.4" y="321" width="19.2" height="15.0" fill="rgb(253,26,38)" rx="2" ry="2" />
-<text text-anchor="" x="845.45" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Output.Names.writeNames.ids (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Names.writeNames.ids (3 samples, 0.30%)</title><rect x="1168.5" y="225" width="3.6" height="15.0" fill="rgb(254,197,23)" rx="2" ry="2" />
-<text text-anchor="" x="1171.50" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Data.ByteString.Base64.Internal.decodeLenientWithTable.\.\.fill.\.\ (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Data.ByteString.Base64.Internal.decodeLenientWithTable.\.\.fill.\.\ (1 samples, 0.10%)</title><rect x="66.1" y="305" width="1.2" height="15.0" fill="rgb(246,228,44)" rx="2" ry="2" />
-<text text-anchor="" x="69.13" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Util.tarballReadFiles (19 samples, 1.92%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Util.tarballReadFiles (19 samples, 1.92%)</title><rect x="153.3" y="241" width="22.7" height="15.0" fill="rgb(254,181,11)" rx="2" ry="2" />
-<text text-anchor="" x="156.32" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >G..</text>
-</g>
-<g class="func_g" onmouseover="s('General.Util.tarballReadFiles (7 samples, 0.71%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Util.tarballReadFiles (7 samples, 0.71%)</title><rect x="92.4" y="257" width="8.4" height="15.0" fill="rgb(247,23,53)" rx="2" ry="2" />
-<text text-anchor="" x="95.41" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Cabal.lastValues (19 samples, 1.92%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Cabal.lastValues (19 samples, 1.92%)</title><rect x="153.3" y="257" width="22.7" height="15.0" fill="rgb(219,155,45)" rx="2" ry="2" />
-<text text-anchor="" x="156.32" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >I..</text>
-</g>
-<g class="func_g" onmouseover="s('Output.Items.writeItems.\.\ (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Items.writeItems.\.\ (4 samples, 0.40%)</title><rect x="1163.7" y="193" width="4.8" height="15.0" fill="rgb(251,117,35)" rx="2" ry="2" />
-<text text-anchor="" x="1166.72" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Util.tarballReadFiles.f (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Util.tarballReadFiles.f (2 samples, 0.20%)</title><rect x="150.9" y="305" width="2.4" height="15.0" fill="rgb(224,129,14)" rx="2" ry="2" />
-<text text-anchor="" x="153.93" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Store.storeWriteType (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Store.storeWriteType (4 samples, 0.40%)</title><rect x="1163.7" y="273" width="4.8" height="15.0" fill="rgb(250,28,19)" rx="2" ry="2" />
-<text text-anchor="" x="1166.72" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Util.fromName (46 samples, 4.66%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Util.fromName (46 samples, 4.66%)</title><rect x="787.5" y="273" width="54.9" height="15.0" fill="rgb(231,11,9)" rx="2" ry="2" />
-<text text-anchor="" x="790.51" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Gener..</text>
-</g>
-<g class="func_g" onmouseover="s('Output.Items.writeItems.\.\ (245 samples, 24.80%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Items.writeItems.\.\ (245 samples, 24.80%)</title><rect x="488.9" y="145" width="292.6" height="15.0" fill="rgb(245,150,13)" rx="2" ry="2" />
-<text text-anchor="" x="491.93" y="155.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Output.Items.writeItems.\.\</text>
-</g>
-<g class="func_g" onmouseover="s('Input.Cabal.extractCabal.f.a (19 samples, 1.92%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Cabal.extractCabal.f.a (19 samples, 1.92%)</title><rect x="153.3" y="273" width="22.7" height="15.0" fill="rgb(247,45,15)" rx="2" ry="2" />
-<text text-anchor="" x="156.32" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >I..</text>
-</g>
-<g class="func_g" onmouseover="s('General.Util.pretty (10 samples, 1.01%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Util.pretty (10 samples, 1.01%)</title><rect x="127.0" y="193" width="12.0" height="15.0" fill="rgb(219,165,52)" rx="2" ry="2" />
-<text text-anchor="" x="130.04" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Util.fromName (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Util.fromName (2 samples, 0.20%)</title><rect x="148.5" y="193" width="2.4" height="15.0" fill="rgb(226,12,34)" rx="2" ry="2" />
-<text text-anchor="" x="151.54" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Store.storeWriteBS (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Store.storeWriteBS (3 samples, 0.30%)</title><rect x="1176.9" y="289" width="3.5" height="15.0" fill="rgb(229,153,3)" rx="2" ry="2" />
-<text text-anchor="" x="1179.86" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Data.Serialize.Get.remaining.\ (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Data.Serialize.Get.remaining.\ (1 samples, 0.10%)</title><rect x="91.2" y="305" width="1.2" height="15.0" fill="rgb(217,15,31)" rx="2" ry="2" />
-<text text-anchor="" x="94.21" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Hoogle.reformat.f (66 samples, 6.68%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.reformat.f (66 samples, 6.68%)</title><rect x="185.6" y="273" width="78.8" height="15.0" fill="rgb(249,167,19)" rx="2" ry="2" />
-<text text-anchor="" x="188.57" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Input.Hoo..</text>
-</g>
-<g class="func_g" onmouseover="s('Input.Type.unGADT (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Type.unGADT (3 samples, 0.30%)</title><rect x="265.6" y="289" width="3.6" height="15.0" fill="rgb(214,19,20)" rx="2" ry="2" />
-<text text-anchor="" x="268.59" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Output.Items.writeItems.\.\ (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Items.writeItems.\.\ (4 samples, 0.40%)</title><rect x="139.0" y="241" width="4.8" height="15.0" fill="rgb(243,95,29)" rx="2" ry="2" />
-<text text-anchor="" x="141.99" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Action.Generate.generate (47 samples, 4.76%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Action.Generate.generate (47 samples, 4.76%)</title><rect x="10.0" y="321" width="56.1" height="15.0" fill="rgb(226,124,24)" rx="2" ry="2" />
-<text text-anchor="" x="13.00" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Actio..</text>
-</g>
-<g class="func_g" onmouseover="s('Output.Types.writeAlias (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Types.writeAlias (1 samples, 0.10%)</title><rect x="100.8" y="209" width="1.2" height="15.0" fill="rgb(249,199,34)" rx="2" ry="2" />
-<text text-anchor="" x="103.77" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Data.Serialize.Get.fmap.\ (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Data.Serialize.Get.fmap.\ (1 samples, 0.10%)</title><rect x="91.2" y="225" width="1.2" height="15.0" fill="rgb(217,91,4)" rx="2" ry="2" />
-<text text-anchor="" x="94.21" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Store.storeWriteV.\ (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Store.storeWriteV.\ (3 samples, 0.30%)</title><rect x="1176.9" y="257" width="3.5" height="15.0" fill="rgb(227,121,3)" rx="2" ry="2" />
-<text text-anchor="" x="1179.86" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Output.Types.typeNames.typ (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Types.typeNames.typ (3 samples, 0.30%)</title><rect x="1186.4" y="161" width="3.6" height="15.0" fill="rgb(205,202,39)" rx="2" ry="2" />
-<text text-anchor="" x="1189.42" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Type.show (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Type.show (2 samples, 0.20%)</title><rect x="1172.1" y="177" width="2.4" height="15.0" fill="rgb(217,91,40)" rx="2" ry="2" />
-<text text-anchor="" x="1175.09" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Hoogle.parseHoogle (49 samples, 4.96%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.parseHoogle (49 samples, 4.96%)</title><rect x="1105.2" y="241" width="58.5" height="15.0" fill="rgb(240,19,18)" rx="2" ry="2" />
-<text text-anchor="" x="1108.20" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Input...</text>
-</g>
-<g class="func_g" onmouseover="s('General.Util.tarballReadFiles (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Util.tarballReadFiles (2 samples, 0.20%)</title><rect x="150.9" y="321" width="2.4" height="15.0" fill="rgb(246,165,0)" rx="2" ry="2" />
-<text text-anchor="" x="153.93" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Util.tarballReadFiles (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Util.tarballReadFiles (3 samples, 0.30%)</title><rect x="123.5" y="305" width="3.5" height="15.0" fill="rgb(223,109,28)" rx="2" ry="2" />
-<text text-anchor="" x="126.46" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Output.Types.preArity (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Types.preArity (2 samples, 0.20%)</title><rect x="1172.1" y="193" width="2.4" height="15.0" fill="rgb(234,198,2)" rx="2" ry="2" />
-<text text-anchor="" x="1175.09" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Type.showItem (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Type.showItem (4 samples, 0.40%)</title><rect x="1163.7" y="129" width="4.8" height="15.0" fill="rgb(210,126,29)" rx="2" ry="2" />
-<text text-anchor="" x="1166.72" y="139.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Type.showItem (129 samples, 13.06%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Type.showItem (129 samples, 13.06%)</title><rect x="269.2" y="257" width="154.0" height="15.0" fill="rgb(247,184,19)" rx="2" ry="2" />
-<text text-anchor="" x="272.17" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Input.Type.showItem</text>
-</g>
-<g class="func_g" onmouseover="s('Data.Serialize.Get.fmap (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Data.Serialize.Get.fmap (1 samples, 0.10%)</title><rect x="91.2" y="241" width="1.2" height="15.0" fill="rgb(237,225,45)" rx="2" ry="2" />
-<text text-anchor="" x="94.21" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Output.Items.writeItems.\ (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Items.writeItems.\ (4 samples, 0.40%)</title><rect x="139.0" y="257" width="4.8" height="15.0" fill="rgb(250,159,54)" rx="2" ry="2" />
-<text text-anchor="" x="141.99" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Reorder.packageOrder.f (49 samples, 4.96%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Reorder.packageOrder.f (49 samples, 4.96%)</title><rect x="429.2" y="305" width="58.5" height="15.0" fill="rgb(240,145,42)" rx="2" ry="2" />
-<text text-anchor="" x="432.21" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Input...</text>
-</g>
-<g class="func_g" onmouseover="s('Input.Type.myParseDecl (6 samples, 0.61%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Type.myParseDecl (6 samples, 0.61%)</title><rect x="1061.0" y="305" width="7.2" height="15.0" fill="rgb(213,10,33)" rx="2" ry="2" />
-<text text-anchor="" x="1064.01" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Output.Items.outputItem (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Items.outputItem (4 samples, 0.40%)</title><rect x="139.0" y="209" width="4.8" height="15.0" fill="rgb(252,165,4)" rx="2" ry="2" />
-<text text-anchor="" x="141.99" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Output.Items.writeItems.\.\.bs (10 samples, 1.01%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Items.writeItems.\.\.bs (10 samples, 1.01%)</title><rect x="127.0" y="257" width="12.0" height="15.0" fill="rgb(227,218,29)" rx="2" ry="2" />
-<text text-anchor="" x="130.04" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Hoogle.reformat.f (129 samples, 13.06%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.reformat.f (129 samples, 13.06%)</title><rect x="269.2" y="321" width="154.0" height="15.0" fill="rgb(238,85,21)" rx="2" ry="2" />
-<text text-anchor="" x="272.17" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Input.Hoogle.reform..</text>
-</g>
-<g class="func_g" onmouseover="s('Input.Hoogle.parseLine.b (6 samples, 0.61%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.parseLine.b (6 samples, 0.61%)</title><rect x="1061.0" y="289" width="7.2" height="15.0" fill="rgb(237,27,29)" rx="2" ry="2" />
-<text text-anchor="" x="1064.01" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Cabal.parseCabal.f.res (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Cabal.parseCabal.f.res (1 samples, 0.10%)</title><rect x="125.9" y="225" width="1.1" height="15.0" fill="rgb(248,71,0)" rx="2" ry="2" />
-<text text-anchor="" x="128.85" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Store.encodeBS (8 samples, 0.81%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Store.encodeBS (8 samples, 0.81%)</title><rect x="102.0" y="273" width="9.5" height="15.0" fill="rgb(252,155,29)" rx="2" ry="2" />
-<text text-anchor="" x="104.96" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Hoogle.parseLine (164 samples, 16.60%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.parseLine (164 samples, 16.60%)</title><rect x="865.1" y="225" width="195.9" height="15.0" fill="rgb(210,121,7)" rx="2" ry="2" />
-<text text-anchor="" x="868.14" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Input.Hoogle.parseLine</text>
-</g>
-<g class="func_g" onmouseover="s('Input.Type.myParseDecl (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Type.myParseDecl (3 samples, 0.30%)</title><rect x="425.6" y="225" width="3.6" height="15.0" fill="rgb(227,40,13)" rx="2" ry="2" />
-<text text-anchor="" x="428.63" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Util.tarballReadFiles.f (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Util.tarballReadFiles.f (3 samples, 0.30%)</title><rect x="123.5" y="289" width="3.5" height="15.0" fill="rgb(222,84,53)" rx="2" ry="2" />
-<text text-anchor="" x="126.46" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Reorder.packageOrder.mp (49 samples, 4.96%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Reorder.packageOrder.mp (49 samples, 4.96%)</title><rect x="429.2" y="321" width="58.5" height="15.0" fill="rgb(228,56,48)" rx="2" ry="2" />
-<text text-anchor="" x="432.21" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Input...</text>
-</g>
-<g class="func_g" onmouseover="s('General.Util.fromName (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Util.fromName (2 samples, 0.20%)</title><rect x="1172.1" y="209" width="2.4" height="15.0" fill="rgb(239,55,30)" rx="2" ry="2" />
-<text text-anchor="" x="1175.09" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Hoogle.heirarchy.esc (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.heirarchy.esc (1 samples, 0.10%)</title><rect x="176.0" y="289" width="1.2" height="15.0" fill="rgb(244,52,50)" rx="2" ry="2" />
-<text text-anchor="" x="179.01" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Cabal.parseCabal.f (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Cabal.parseCabal.f (1 samples, 0.10%)</title><rect x="125.9" y="241" width="1.1" height="15.0" fill="rgb(207,60,0)" rx="2" ry="2" />
-<text text-anchor="" x="128.85" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Output.Items.typeRep# (10 samples, 1.01%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Items.typeRep# (10 samples, 1.01%)</title><rect x="127.0" y="305" width="12.0" height="15.0" fill="rgb(247,64,32)" rx="2" ry="2" />
-<text text-anchor="" x="130.04" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Store.storeWriteType (246 samples, 24.90%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Store.storeWriteType (246 samples, 24.90%)</title><rect x="487.7" y="225" width="293.8" height="15.0" fill="rgb(230,36,36)" rx="2" ry="2" />
-<text text-anchor="" x="490.73" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >General.Store.storeWriteType</text>
-</g>
-<g class="func_g" onmouseover="s('Action.Generate.generate.\ (8 samples, 0.81%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Action.Generate.generate.\ (8 samples, 0.81%)</title><rect x="102.0" y="241" width="9.5" height="15.0" fill="rgb(218,75,12)" rx="2" ry="2" />
-<text text-anchor="" x="104.96" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Output.Types.askRarity (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Types.askRarity (2 samples, 0.20%)</title><rect x="148.5" y="177" width="2.4" height="15.0" fill="rgb(238,96,14)" rx="2" ry="2" />
-<text text-anchor="" x="151.54" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Output.Items.typeRep# (246 samples, 24.90%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Items.typeRep# (246 samples, 24.90%)</title><rect x="487.7" y="177" width="293.8" height="15.0" fill="rgb(221,216,47)" rx="2" ry="2" />
-<text text-anchor="" x="490.73" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Output.Items.typeRep#</text>
-</g>
-<g class="func_g" onmouseover="s('Input.Cabal.extractCabal.f.(...) (19 samples, 1.92%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Cabal.extractCabal.f.(...) (19 samples, 1.92%)</title><rect x="153.3" y="289" width="22.7" height="15.0" fill="rgb(229,85,35)" rx="2" ry="2" />
-<text text-anchor="" x="156.32" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >I..</text>
-</g>
-<g class="func_g" onmouseover="s('Output.Types.typeNames.qnm (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Types.typeNames.qnm (2 samples, 0.20%)</title><rect x="148.5" y="257" width="2.4" height="15.0" fill="rgb(248,98,21)" rx="2" ry="2" />
-<text text-anchor="" x="151.54" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Type.unGADT (164 samples, 16.60%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Type.unGADT (164 samples, 16.60%)</title><rect x="865.1" y="193" width="195.9" height="15.0" fill="rgb(233,113,44)" rx="2" ry="2" />
-<text text-anchor="" x="868.14" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Input.Type.unGADT</text>
-</g>
-<g class="func_g" onmouseover="s('Input.Type.unGADT (6 samples, 0.61%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Type.unGADT (6 samples, 0.61%)</title><rect x="1061.0" y="321" width="7.2" height="15.0" fill="rgb(221,135,20)" rx="2" ry="2" />
-<text text-anchor="" x="1064.01" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Util.pretty (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Util.pretty (2 samples, 0.20%)</title><rect x="423.2" y="225" width="2.4" height="15.0" fill="rgb(251,187,28)" rx="2" ry="2" />
-<text text-anchor="" x="426.24" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Type.itemURL (46 samples, 4.66%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Type.itemURL (46 samples, 4.66%)</title><rect x="787.5" y="321" width="54.9" height="15.0" fill="rgb(244,104,7)" rx="2" ry="2" />
-<text text-anchor="" x="790.51" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Input..</text>
-</g>
-<g class="func_g" onmouseover="s('Data.ByteString.Base64.Internal.decodeLenientWithTable (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Data.ByteString.Base64.Internal.decodeLenientWithTable (2 samples, 0.20%)</title><rect x="785.1" y="209" width="2.4" height="15.0" fill="rgb(249,181,32)" rx="2" ry="2" />
-<text text-anchor="" x="788.12" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Data.ByteString.Base64.Internal.decodeLenientWithTable.\.\.fill.\.\.\ (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Data.ByteString.Base64.Internal.decodeLenientWithTable.\.\.fill.\.\.\ (1 samples, 0.10%)</title><rect x="66.1" y="289" width="1.2" height="15.0" fill="rgb(220,89,11)" rx="2" ry="2" />
-<text text-anchor="" x="69.13" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Action.Generate.generate.\ (80 samples, 8.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Action.Generate.generate.\ (80 samples, 8.10%)</title><rect x="1068.2" y="273" width="95.5" height="15.0" fill="rgb(209,222,26)" rx="2" ry="2" />
-<text text-anchor="" x="1071.18" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Action.Gene..</text>
-</g>
-<g class="func_g" onmouseover="s('General.Util.pretty (66 samples, 6.68%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Util.pretty (66 samples, 6.68%)</title><rect x="185.6" y="193" width="78.8" height="15.0" fill="rgb(228,207,32)" rx="2" ry="2" />
-<text text-anchor="" x="188.57" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >General.U..</text>
-</g>
-<g class="func_g" onmouseover="s('Input.Download.downloadInputs (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Download.downloadInputs (2 samples, 0.20%)</title><rect x="785.1" y="289" width="2.4" height="15.0" fill="rgb(244,113,38)" rx="2" ry="2" />
-<text text-anchor="" x="788.12" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Hoogle.heirarchy.esc.isLegal (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.heirarchy.esc.isLegal (1 samples, 0.10%)</title><rect x="1067.0" y="177" width="1.2" height="15.0" fill="rgb(222,187,48)" rx="2" ry="2" />
-<text text-anchor="" x="1069.98" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Type.gfoldl (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Type.gfoldl (2 samples, 0.20%)</title><rect x="423.2" y="289" width="2.4" height="15.0" fill="rgb(235,101,37)" rx="2" ry="2" />
-<text text-anchor="" x="426.24" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Cabal.extractCabal.f.b (19 samples, 1.92%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Cabal.extractCabal.f.b (19 samples, 1.92%)</title><rect x="153.3" y="305" width="22.7" height="15.0" fill="rgb(240,208,23)" rx="2" ry="2" />
-<text text-anchor="" x="156.32" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >I..</text>
-</g>
-<g class="func_g" onmouseover="s('Input.Hoogle.parseHoogle.f (66 samples, 6.68%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.parseHoogle.f (66 samples, 6.68%)</title><rect x="185.6" y="305" width="78.8" height="15.0" fill="rgb(253,23,18)" rx="2" ry="2" />
-<text text-anchor="" x="188.57" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Input.Hoo..</text>
-</g>
-<g class="func_g" onmouseover="s('Output.Types.writeRarity (8 samples, 0.81%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Types.writeRarity (8 samples, 0.81%)</title><rect x="1180.4" y="193" width="9.6" height="15.0" fill="rgb(225,58,53)" rx="2" ry="2" />
-<text text-anchor="" x="1183.45" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Cabal.extractCabal.f (19 samples, 1.92%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Cabal.extractCabal.f (19 samples, 1.92%)</title><rect x="153.3" y="321" width="22.7" height="15.0" fill="rgb(211,60,0)" rx="2" ry="2" />
-<text text-anchor="" x="156.32" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >I..</text>
-</g>
-<g class="func_g" onmouseover="s('Output.Items.typeRep# (49 samples, 4.96%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Items.typeRep# (49 samples, 4.96%)</title><rect x="429.2" y="193" width="58.5" height="15.0" fill="rgb(247,179,21)" rx="2" ry="2" />
-<text text-anchor="" x="432.21" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Output..</text>
-</g>
-<g class="func_g" onmouseover="s('Output.Items.writeItems.\ (10 samples, 1.01%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Items.writeItems.\ (10 samples, 1.01%)</title><rect x="127.0" y="289" width="12.0" height="15.0" fill="rgb(230,226,38)" rx="2" ry="2" />
-<text text-anchor="" x="130.04" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Output.Items.writeItems.\.\.bs (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Items.writeItems.\.\.bs (4 samples, 0.40%)</title><rect x="139.0" y="225" width="4.8" height="15.0" fill="rgb(230,175,31)" rx="2" ry="2" />
-<text text-anchor="" x="141.99" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Output.Types.typeNames.qnm (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Types.typeNames.qnm (2 samples, 0.20%)</title><rect x="1172.1" y="225" width="2.4" height="15.0" fill="rgb(216,215,18)" rx="2" ry="2" />
-<text text-anchor="" x="1175.09" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Type.showItem (66 samples, 6.68%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Type.showItem (66 samples, 6.68%)</title><rect x="185.6" y="209" width="78.8" height="15.0" fill="rgb(225,69,38)" rx="2" ry="2" />
-<text text-anchor="" x="188.57" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Input.Typ..</text>
-</g>
-<g class="func_g" onmouseover="s('General.Util.fromName (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Util.fromName (2 samples, 0.20%)</title><rect x="1174.5" y="209" width="2.4" height="15.0" fill="rgb(246,57,22)" rx="2" ry="2" />
-<text text-anchor="" x="1177.47" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Store.storeWriteType.name (49 samples, 4.96%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Store.storeWriteType.name (49 samples, 4.96%)</title><rect x="429.2" y="209" width="58.5" height="15.0" fill="rgb(250,118,7)" rx="2" ry="2" />
-<text text-anchor="" x="432.21" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Genera..</text>
-</g>
-<g class="func_g" onmouseover="s('Output.Types.typeNames (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Types.typeNames (2 samples, 0.20%)</title><rect x="1172.1" y="241" width="2.4" height="15.0" fill="rgb(241,41,9)" rx="2" ry="2" />
-<text text-anchor="" x="1175.09" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Type.itemURL (46 samples, 4.66%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Type.itemURL (46 samples, 4.66%)</title><rect x="787.5" y="225" width="54.9" height="15.0" fill="rgb(243,176,53)" rx="2" ry="2" />
-<text text-anchor="" x="790.51" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Input..</text>
-</g>
-<g class="func_g" onmouseover="s('Input.Type.itemURL (7 samples, 0.71%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Type.itemURL (7 samples, 0.71%)</title><rect x="177.2" y="225" width="8.4" height="15.0" fill="rgb(226,76,1)" rx="2" ry="2" />
-<text text-anchor="" x="180.21" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Output.Types.preNames (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Types.preNames (3 samples, 0.30%)</title><rect x="861.6" y="177" width="3.5" height="15.0" fill="rgb(230,111,2)" rx="2" ry="2" />
-<text text-anchor="" x="864.56" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Store.intToBS (10 samples, 1.01%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Store.intToBS (10 samples, 1.01%)</title><rect x="127.0" y="161" width="12.0" height="15.0" fill="rgb(220,139,49)" rx="2" ry="2" />
-<text text-anchor="" x="130.04" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Output.Types.writeInstance (8 samples, 0.81%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Types.writeInstance (8 samples, 0.81%)</title><rect x="102.0" y="193" width="9.5" height="15.0" fill="rgb(211,83,36)" rx="2" ry="2" />
-<text text-anchor="" x="104.96" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Hoogle.heirarchy.esc.f (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.heirarchy.esc.f (1 samples, 0.10%)</title><rect x="176.0" y="273" width="1.2" height="15.0" fill="rgb(218,104,39)" rx="2" ry="2" />
-<text text-anchor="" x="179.01" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Output.Types.writeTypes.ys (8 samples, 0.81%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Types.writeTypes.ys (8 samples, 0.81%)</title><rect x="102.0" y="209" width="9.5" height="15.0" fill="rgb(248,15,41)" rx="2" ry="2" />
-<text text-anchor="" x="104.96" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Output.Names.writeNames.b (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Names.writeNames.b (3 samples, 0.30%)</title><rect x="1176.9" y="193" width="3.5" height="15.0" fill="rgb(218,141,53)" rx="2" ry="2" />
-<text text-anchor="" x="1179.86" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Store.put (10 samples, 1.01%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Store.put (10 samples, 1.01%)</title><rect x="111.5" y="241" width="12.0" height="15.0" fill="rgb(235,89,53)" rx="2" ry="2" />
-<text text-anchor="" x="114.52" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Hoogle.heirarchy.modules (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.heirarchy.modules (1 samples, 0.10%)</title><rect x="176.0" y="209" width="1.2" height="15.0" fill="rgb(253,153,39)" rx="2" ry="2" />
-<text text-anchor="" x="179.01" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Store.storeWritePtr (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Store.storeWritePtr (3 samples, 0.30%)</title><rect x="1176.9" y="241" width="3.5" height="15.0" fill="rgb(210,106,32)" rx="2" ry="2" />
-<text text-anchor="" x="1179.86" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Hoogle.reformat.f (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.reformat.f (2 samples, 0.20%)</title><rect x="1161.3" y="193" width="2.4" height="15.0" fill="rgb(227,53,49)" rx="2" ry="2" />
-<text text-anchor="" x="1164.34" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Main.main (80 samples, 8.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Main.main (80 samples, 8.10%)</title><rect x="1068.2" y="321" width="95.5" height="15.0" fill="rgb(222,204,47)" rx="2" ry="2" />
-<text text-anchor="" x="1071.18" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Main.main</text>
-</g>
-<g class="func_g" onmouseover="s('Output.Items.writeItems (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Items.writeItems (4 samples, 0.40%)</title><rect x="1163.7" y="321" width="4.8" height="15.0" fill="rgb(235,229,14)" rx="2" ry="2" />
-<text text-anchor="" x="1166.72" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Store.storeWriteParts (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Store.storeWriteParts (3 samples, 0.30%)</title><rect x="123.5" y="321" width="3.5" height="15.0" fill="rgb(239,132,35)" rx="2" ry="2" />
-<text text-anchor="" x="126.46" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Set.setStackage.f (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Set.setStackage.f (2 samples, 0.20%)</title><rect x="785.1" y="305" width="2.4" height="15.0" fill="rgb(211,31,25)" rx="2" ry="2" />
-<text text-anchor="" x="788.12" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Type.unGADT (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Type.unGADT (3 samples, 0.30%)</title><rect x="425.6" y="241" width="3.6" height="15.0" fill="rgb(214,199,52)" rx="2" ry="2" />
-<text text-anchor="" x="428.63" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Data.ByteString.Base64.Internal.decodeLenientWithTable.\.\.fill.\.\ (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Data.ByteString.Base64.Internal.decodeLenientWithTable.\.\.fill.\.\ (1 samples, 0.10%)</title><rect x="786.3" y="65" width="1.2" height="15.0" fill="rgb(222,14,5)" rx="2" ry="2" />
-<text text-anchor="" x="789.32" y="75.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Data.Serialize.Get.getWord8 (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Data.Serialize.Get.getWord8 (1 samples, 0.10%)</title><rect x="91.2" y="193" width="1.2" height="15.0" fill="rgb(241,8,50)" rx="2" ry="2" />
-<text text-anchor="" x="94.21" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Output.Types.askRarity.\ (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Types.askRarity.\ (2 samples, 0.20%)</title><rect x="1172.1" y="321" width="2.4" height="15.0" fill="rgb(207,159,15)" rx="2" ry="2" />
-<text text-anchor="" x="1175.09" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Store.notParts (49 samples, 4.96%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Store.notParts (49 samples, 4.96%)</title><rect x="429.2" y="225" width="58.5" height="15.0" fill="rgb(219,17,31)" rx="2" ry="2" />
-<text text-anchor="" x="432.21" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Genera..</text>
-</g>
-<g class="func_g" onmouseover="s('Output.Items.writeItems.\.\ (10 samples, 1.01%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Items.writeItems.\.\ (10 samples, 1.01%)</title><rect x="127.0" y="273" width="12.0" height="15.0" fill="rgb(217,27,35)" rx="2" ry="2" />
-<text text-anchor="" x="130.04" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Hoogle.stringShare (129 samples, 13.06%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.stringShare (129 samples, 13.06%)</title><rect x="269.2" y="289" width="154.0" height="15.0" fill="rgb(219,207,9)" rx="2" ry="2" />
-<text text-anchor="" x="272.17" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Input.Hoogle.string..</text>
-</g>
-<g class="func_g" onmouseover="s('General.Util.pretty (12 samples, 1.21%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Util.pretty (12 samples, 1.21%)</title><rect x="847.2" y="177" width="14.4" height="15.0" fill="rgb(239,112,41)" rx="2" ry="2" />
-<text text-anchor="" x="850.23" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Util.pretty (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Util.pretty (1 samples, 0.10%)</title><rect x="100.8" y="177" width="1.2" height="15.0" fill="rgb(251,175,34)" rx="2" ry="2" />
-<text text-anchor="" x="103.77" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Type.gfoldl (47 samples, 4.76%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Type.gfoldl (47 samples, 4.76%)</title><rect x="10.0" y="209" width="56.1" height="15.0" fill="rgb(239,86,7)" rx="2" ry="2" />
-<text text-anchor="" x="13.00" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Input..</text>
+<title>General.Store.intToBS (4 samples, 0.40%)</title><rect x="711.1" y="129" width="4.8" height="15.0" fill="rgb(228,134,1)" rx="2" ry="2" />
+<text text-anchor="" x="714.07" y="139.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Output.Types.writeTypes.ys (7 samples, 0.71%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Output.Types.writeTypes.ys (7 samples, 0.71%)</title><rect x="1112.4" y="193" width="8.3" height="15.0" fill="rgb(223,191,0)" rx="2" ry="2" />
+<text text-anchor="" x="1115.37" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Output.Items.writeItems.\ (313 samples, 31.68%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Output.Items.writeItems.\ (313 samples, 31.68%)</title><rect x="707.5" y="161" width="373.8" height="15.0" fill="rgb(221,6,2)" rx="2" ry="2" />
+<text text-anchor="" x="710.49" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Output.Items.writeItems.\</text>
 </g>
 <g class="func_g" onmouseover="s('Input.Type.show (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Type.show (4 samples, 0.40%)</title><rect x="1163.7" y="97" width="4.8" height="15.0" fill="rgb(242,163,52)" rx="2" ry="2" />
-<text text-anchor="" x="1166.72" y="107.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+<title>Input.Type.show (4 samples, 0.40%)</title><rect x="1018.0" y="97" width="4.8" height="15.0" fill="rgb(236,16,15)" rx="2" ry="2" />
+<text text-anchor="" x="1021.02" y="107.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
 </g>
-<g class="func_g" onmouseover="s('Input.Type.showItem (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Type.showItem (3 samples, 0.30%)</title><rect x="425.6" y="289" width="3.6" height="15.0" fill="rgb(224,72,21)" rx="2" ry="2" />
-<text text-anchor="" x="428.63" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+<g class="func_g" onmouseover="s('Data.ByteString.Base64.Internal.decodeLenientWithTable.\.\.\ (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Data.ByteString.Base64.Internal.decodeLenientWithTable.\.\.\ (2 samples, 0.20%)</title><rect x="1162.5" y="145" width="2.4" height="15.0" fill="rgb(237,170,21)" rx="2" ry="2" />
+<text text-anchor="" x="1165.53" y="155.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
 </g>
-<g class="func_g" onmouseover="s('Output.Types.unpackAlias (8 samples, 0.81%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Types.unpackAlias (8 samples, 0.81%)</title><rect x="1180.4" y="257" width="9.6" height="15.0" fill="rgb(231,146,4)" rx="2" ry="2" />
-<text text-anchor="" x="1183.45" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+<g class="func_g" onmouseover="s('Input.Download.downloadFile (27 samples, 2.73%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Input.Download.downloadFile (27 samples, 2.73%)</title><rect x="1157.8" y="241" width="32.2" height="15.0" fill="rgb(219,169,15)" rx="2" ry="2" />
+<text text-anchor="" x="1160.75" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >In..</text>
 </g>
-<g class="func_g" onmouseover="s('Output.Types.askRarity (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Types.askRarity (2 samples, 0.20%)</title><rect x="1174.5" y="193" width="2.4" height="15.0" fill="rgb(212,165,27)" rx="2" ry="2" />
-<text text-anchor="" x="1177.47" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+<g class="func_g" onmouseover="s('Output.Types.writeTypes (25 samples, 2.53%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Output.Types.writeTypes (25 samples, 2.53%)</title><rect x="677.6" y="193" width="29.9" height="15.0" fill="rgb(252,115,44)" rx="2" ry="2" />
+<text text-anchor="" x="680.63" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Ou..</text>
 </g>
-<g class="func_g" onmouseover="s('Action.Generate.generate.f (47 samples, 4.76%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Action.Generate.generate.f (47 samples, 4.76%)</title><rect x="10.0" y="289" width="56.1" height="15.0" fill="rgb(208,107,46)" rx="2" ry="2" />
-<text text-anchor="" x="13.00" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Actio..</text>
-</g>
-<g class="func_g" onmouseover="s('Output.Types.typeNames.typ (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Types.typeNames.typ (2 samples, 0.20%)</title><rect x="1172.1" y="305" width="2.4" height="15.0" fill="rgb(234,20,33)" rx="2" ry="2" />
-<text text-anchor="" x="1175.09" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Type.splitIPackage.\ (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Type.splitIPackage.\ (3 samples, 0.30%)</title><rect x="861.6" y="273" width="3.5" height="15.0" fill="rgb(209,90,37)" rx="2" ry="2" />
-<text text-anchor="" x="864.56" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Hoogle.heirarchy.esc.isLegal (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.heirarchy.esc.isLegal (1 samples, 0.10%)</title><rect x="176.0" y="257" width="1.2" height="15.0" fill="rgb(232,170,19)" rx="2" ry="2" />
-<text text-anchor="" x="179.01" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('General.Store.intToBS (8 samples, 0.81%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Store.intToBS (8 samples, 0.81%)</title><rect x="102.0" y="321" width="9.5" height="15.0" fill="rgb(237,208,31)" rx="2" ry="2" />
-<text text-anchor="" x="104.96" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Output.Items.writeItems (246 samples, 24.90%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Items.writeItems (246 samples, 24.90%)</title><rect x="487.7" y="273" width="293.8" height="15.0" fill="rgb(210,167,35)" rx="2" ry="2" />
-<text text-anchor="" x="490.73" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Output.Items.writeItems</text>
-</g>
-<g class="func_g" onmouseover="s('General.Store.notParts (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Store.notParts (4 samples, 0.40%)</title><rect x="139.0" y="305" width="4.8" height="15.0" fill="rgb(222,40,33)" rx="2" ry="2" />
-<text text-anchor="" x="141.99" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Output.Items.writeItems.\.\.bs (49 samples, 4.96%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Items.writeItems.\.\.bs (49 samples, 4.96%)</title><rect x="429.2" y="145" width="58.5" height="15.0" fill="rgb(229,151,20)" rx="2" ry="2" />
-<text text-anchor="" x="432.21" y="155.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Output..</text>
-</g>
-<g class="func_g" onmouseover="s('Output.Types.writeTypes (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Types.writeTypes (3 samples, 0.30%)</title><rect x="861.6" y="209" width="3.5" height="15.0" fill="rgb(249,50,27)" rx="2" ry="2" />
-<text text-anchor="" x="864.56" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Hoogle.stringShare (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.stringShare (2 samples, 0.20%)</title><rect x="423.2" y="273" width="2.4" height="15.0" fill="rgb(232,143,2)" rx="2" ry="2" />
-<text text-anchor="" x="426.24" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Data.ByteString.Base64.Lazy.decodeLenient.goodChar (20 samples, 2.02%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Data.ByteString.Base64.Lazy.decodeLenient.goodChar (20 samples, 2.02%)</title><rect x="67.3" y="289" width="23.9" height="15.0" fill="rgb(218,38,22)" rx="2" ry="2" />
-<text text-anchor="" x="70.33" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >D..</text>
-</g>
-<g class="func_g" onmouseover="s('Input.Download.downloadInputs.\ (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Download.downloadInputs.\ (2 samples, 0.20%)</title><rect x="785.1" y="273" width="2.4" height="15.0" fill="rgb(217,124,13)" rx="2" ry="2" />
-<text text-anchor="" x="788.12" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Hoogle.heirarchy.esc.isLegal (7 samples, 0.71%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.heirarchy.esc.isLegal (7 samples, 0.71%)</title><rect x="177.2" y="289" width="8.4" height="15.0" fill="rgb(237,22,28)" rx="2" ry="2" />
-<text text-anchor="" x="180.21" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Type.splitUsing.\.a (16 samples, 1.62%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Type.splitUsing.\.a (16 samples, 1.62%)</title><rect x="842.4" y="273" width="19.2" height="15.0" fill="rgb(231,85,16)" rx="2" ry="2" />
-<text text-anchor="" x="845.45" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Output.Names.writeNames (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Names.writeNames (3 samples, 0.30%)</title><rect x="1176.9" y="305" width="3.5" height="15.0" fill="rgb(211,101,38)" rx="2" ry="2" />
-<text text-anchor="" x="1179.86" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Type.readItem (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Type.readItem (3 samples, 0.30%)</title><rect x="425.6" y="257" width="3.6" height="15.0" fill="rgb(238,20,11)" rx="2" ry="2" />
-<text text-anchor="" x="428.63" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Set.setPlatformWith (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Set.setPlatformWith (3 samples, 0.30%)</title><rect x="781.5" y="321" width="3.6" height="15.0" fill="rgb(217,88,42)" rx="2" ry="2" />
-<text text-anchor="" x="784.54" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Output.Items.typeRep# (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Items.typeRep# (4 samples, 0.40%)</title><rect x="1163.7" y="225" width="4.8" height="15.0" fill="rgb(246,185,30)" rx="2" ry="2" />
-<text text-anchor="" x="1166.72" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Download.downloadInputs.\ (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Download.downloadInputs.\ (3 samples, 0.30%)</title><rect x="781.5" y="257" width="3.6" height="15.0" fill="rgb(254,163,40)" rx="2" ry="2" />
-<text text-anchor="" x="784.54" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Download.downloadFile (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Download.downloadFile (2 samples, 0.20%)</title><rect x="785.1" y="257" width="2.4" height="15.0" fill="rgb(234,200,42)" rx="2" ry="2" />
-<text text-anchor="" x="788.12" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Data.Serialize.Get.getWord16be (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Data.Serialize.Get.getWord16be (1 samples, 0.10%)</title><rect x="91.2" y="161" width="1.2" height="15.0" fill="rgb(254,124,23)" rx="2" ry="2" />
-<text text-anchor="" x="94.21" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Action.Generate.generate.want (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Action.Generate.generate.want (3 samples, 0.30%)</title><rect x="123.5" y="273" width="3.5" height="15.0" fill="rgb(237,153,20)" rx="2" ry="2" />
-<text text-anchor="" x="126.46" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Hoogle.fixLine (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.fixLine (1 samples, 0.10%)</title><rect x="176.0" y="321" width="1.2" height="15.0" fill="rgb(240,11,29)" rx="2" ry="2" />
-<text text-anchor="" x="179.01" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Input.Hoogle.heirarchy.esc.f (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.heirarchy.esc.f (2 samples, 0.20%)</title><rect x="1065.8" y="193" width="2.4" height="15.0" fill="rgb(247,39,23)" rx="2" ry="2" />
-<text text-anchor="" x="1068.79" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+<g class="func_g" onmouseover="s('Input.Hoogle.parseHoogle (527 samples, 53.34%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Input.Hoogle.parseHoogle (527 samples, 53.34%)</title><rect x="48.2" y="241" width="629.4" height="15.0" fill="rgb(211,182,36)" rx="2" ry="2" />
+<text text-anchor="" x="51.22" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Input.Hoogle.parseHoogle</text>
 </g>
 <g class="func_g" onmouseover="s('Data.ByteString.Base64.Internal.decodeLenient/look (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Data.ByteString.Base64.Internal.decodeLenient/look (2 samples, 0.20%)</title><rect x="785.1" y="97" width="2.4" height="15.0" fill="rgb(235,145,49)" rx="2" ry="2" />
-<text text-anchor="" x="788.12" y="107.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+<title>Data.ByteString.Base64.Internal.decodeLenient/look (2 samples, 0.20%)</title><rect x="1162.5" y="97" width="2.4" height="15.0" fill="rgb(246,91,24)" rx="2" ry="2" />
+<text text-anchor="" x="1165.53" y="107.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
 </g>
-<g class="func_g" onmouseover="s('General.Util.fromName (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Util.fromName (2 samples, 0.20%)</title><rect x="148.5" y="241" width="2.4" height="15.0" fill="rgb(212,92,42)" rx="2" ry="2" />
-<text text-anchor="" x="151.54" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+<g class="func_g" onmouseover="s('Input.Hoogle.reformat.f (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Input.Hoogle.reformat.f (2 samples, 0.20%)</title><rect x="383.8" y="193" width="2.4" height="15.0" fill="rgb(209,15,33)" rx="2" ry="2" />
+<text text-anchor="" x="386.83" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
 </g>
-<g class="func_g" onmouseover="s('Output.Types.writeInstance (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Types.writeInstance (1 samples, 0.10%)</title><rect x="100.8" y="241" width="1.2" height="15.0" fill="rgb(245,181,21)" rx="2" ry="2" />
-<text text-anchor="" x="103.77" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+<g class="func_g" onmouseover="s('General.Store.storeWriteFile.\ (371 samples, 37.55%)')" onmouseout="c()" onclick="zoom(this)">
+<title>General.Store.storeWriteFile.\ (371 samples, 37.55%)</title><rect x="677.6" y="241" width="443.1" height="15.0" fill="rgb(228,218,0)" rx="2" ry="2" />
+<text text-anchor="" x="680.63" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >General.Store.storeWriteFile.\</text>
 </g>
-<g class="func_g" onmouseover="s('Output.Names.writeNames.ids (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Names.writeNames.ids (3 samples, 0.30%)</title><rect x="1176.9" y="209" width="3.5" height="15.0" fill="rgb(218,218,12)" rx="2" ry="2" />
-<text text-anchor="" x="1179.86" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+<g class="func_g" onmouseover="s('Main.main (987 samples, 99.90%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Main.main (987 samples, 99.90%)</title><rect x="11.2" y="305" width="1178.8" height="15.0" fill="rgb(242,119,1)" rx="2" ry="2" />
+<text text-anchor="" x="14.19" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Main.main</text>
 </g>
-<g class="func_g" onmouseover="s('General.Store.encodeBS (10 samples, 1.01%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Store.encodeBS (10 samples, 1.01%)</title><rect x="127.0" y="145" width="12.0" height="15.0" fill="rgb(242,157,34)" rx="2" ry="2" />
-<text text-anchor="" x="130.04" y="155.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+<g class="func_g" onmouseover="s('Input.Type.showItem (66 samples, 6.68%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Input.Type.showItem (66 samples, 6.68%)</title><rect x="598.8" y="209" width="78.8" height="15.0" fill="rgb(221,160,53)" rx="2" ry="2" />
+<text text-anchor="" x="601.81" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Input.Typ..</text>
 </g>
-<g class="func_g" onmouseover="s('Input.Hoogle.heirarchy.packages (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.heirarchy.packages (1 samples, 0.10%)</title><rect x="176.0" y="241" width="1.2" height="15.0" fill="rgb(228,84,5)" rx="2" ry="2" />
-<text text-anchor="" x="179.01" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+<g class="func_g" onmouseover="s('Input.Hoogle.parseHoogle.f (442 samples, 44.74%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Input.Hoogle.parseHoogle.f (442 samples, 44.74%)</title><rect x="149.7" y="225" width="527.9" height="15.0" fill="rgb(244,222,37)" rx="2" ry="2" />
+<text text-anchor="" x="152.74" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Input.Hoogle.parseHoogle.f</text>
 </g>
-<g class="func_g" onmouseover="s('General.Store.storeWriteType.name (246 samples, 24.90%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Store.storeWriteType.name (246 samples, 24.90%)</title><rect x="487.7" y="193" width="293.8" height="15.0" fill="rgb(248,75,51)" rx="2" ry="2" />
-<text text-anchor="" x="490.73" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >General.Store.storeWriteType.name</text>
+<g class="func_g" onmouseover="s('Data.ByteString.Base64.Internal.decodeLenientWithTable.\.\ (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Data.ByteString.Base64.Internal.decodeLenientWithTable.\.\ (2 samples, 0.20%)</title><rect x="1162.5" y="161" width="2.4" height="15.0" fill="rgb(219,138,33)" rx="2" ry="2" />
+<text text-anchor="" x="1165.53" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
 </g>
-<g class="func_g" onmouseover="s('Output.Types.typeNames (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Types.typeNames (2 samples, 0.20%)</title><rect x="148.5" y="225" width="2.4" height="15.0" fill="rgb(214,209,9)" rx="2" ry="2" />
-<text text-anchor="" x="151.54" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+<g class="func_g" onmouseover="s('General.Store.encodeBS (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
+<title>General.Store.encodeBS (3 samples, 0.30%)</title><rect x="712.3" y="113" width="3.6" height="15.0" fill="rgb(210,180,25)" rx="2" ry="2" />
+<text text-anchor="" x="715.27" y="123.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
 </g>
-<g class="func_g" onmouseover="s('Input.Hoogle.heirarchy.with.f (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.heirarchy.with.f (2 samples, 0.20%)</title><rect x="146.2" y="193" width="2.3" height="15.0" fill="rgb(249,144,25)" rx="2" ry="2" />
-<text text-anchor="" x="149.15" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+<g class="func_g" onmouseover="s('General.Store.storeWriteType (313 samples, 31.68%)')" onmouseout="c()" onclick="zoom(this)">
+<title>General.Store.storeWriteType (313 samples, 31.68%)</title><rect x="707.5" y="193" width="373.8" height="15.0" fill="rgb(211,127,43)" rx="2" ry="2" />
+<text text-anchor="" x="710.49" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >General.Store.storeWriteType</text>
 </g>
-<g class="func_g" onmouseover="s('Output.Items.outputItem (49 samples, 4.96%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Items.outputItem (49 samples, 4.96%)</title><rect x="429.2" y="129" width="58.5" height="15.0" fill="rgb(237,206,37)" rx="2" ry="2" />
-<text text-anchor="" x="432.21" y="139.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Output..</text>
+<g class="func_g" onmouseover="s('Output.Types.preNames (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Output.Types.preNames (3 samples, 0.30%)</title><rect x="703.9" y="177" width="3.6" height="15.0" fill="rgb(238,2,3)" rx="2" ry="2" />
+<text text-anchor="" x="706.91" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
 </g>
-<g class="func_g" onmouseover="s('Output.Items.writeItems.f (7 samples, 0.71%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Items.writeItems.f (7 samples, 0.71%)</title><rect x="92.4" y="289" width="8.4" height="15.0" fill="rgb(215,151,50)" rx="2" ry="2" />
-<text text-anchor="" x="95.41" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+<g class="func_g" onmouseover="s('Input.Type.myParseDecl (164 samples, 16.60%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Input.Type.myParseDecl (164 samples, 16.60%)</title><rect x="179.6" y="177" width="195.9" height="15.0" fill="rgb(228,173,18)" rx="2" ry="2" />
+<text text-anchor="" x="182.60" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Input.Type.myParseDecl</text>
 </g>
-<g class="func_g" onmouseover="s('Output.Types.preNames (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Output.Types.preNames (2 samples, 0.20%)</title><rect x="148.5" y="305" width="2.4" height="15.0" fill="rgb(238,193,13)" rx="2" ry="2" />
-<text text-anchor="" x="151.54" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+<g class="func_g" onmouseover="s('Data.Serialize.Get.))=.\.ks' (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Data.Serialize.Get.))=.\.ks' (1 samples, 0.10%)</title><rect x="1188.8" y="145" width="1.2" height="15.0" fill="rgb(240,127,26)" rx="2" ry="2" />
+<text text-anchor="" x="1191.81" y="155.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
 </g>
-<g class="func_g" onmouseover="s('Input.Hoogle.heirarchy.modules (7 samples, 0.71%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.heirarchy.modules (7 samples, 0.71%)</title><rect x="177.2" y="241" width="8.4" height="15.0" fill="rgb(227,13,21)" rx="2" ry="2" />
-<text text-anchor="" x="180.21" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+<g class="func_g" onmouseover="s('Output.Items.writeItems.\.\.bs (296 samples, 29.96%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Output.Items.writeItems.\.\.bs (296 samples, 29.96%)</title><rect x="727.8" y="129" width="353.5" height="15.0" fill="rgb(228,126,37)" rx="2" ry="2" />
+<text text-anchor="" x="730.79" y="139.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Output.Items.writeItems.\.\.bs</text>
 </g>
-<g class="func_g" onmouseover="s('Input.Hoogle.heirarchy (6 samples, 0.61%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.heirarchy (6 samples, 0.61%)</title><rect x="1061.0" y="225" width="7.2" height="15.0" fill="rgb(215,170,13)" rx="2" ry="2" />
-<text text-anchor="" x="1064.01" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+<g class="func_g" onmouseover="s('Input.Type.showItem (49 samples, 4.96%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Input.Type.showItem (49 samples, 4.96%)</title><rect x="1022.8" y="97" width="58.5" height="15.0" fill="rgb(229,196,32)" rx="2" ry="2" />
+<text text-anchor="" x="1025.79" y="107.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Input...</text>
 </g>
-<g class="func_g" onmouseover="s('Data.ByteString.Base64.Lazy.decodeLenient (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Data.ByteString.Base64.Lazy.decodeLenient (1 samples, 0.10%)</title><rect x="783.9" y="225" width="1.2" height="15.0" fill="rgb(233,209,4)" rx="2" ry="2" />
-<text text-anchor="" x="786.93" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+<g class="func_g" onmouseover="s('Output.Types.typeNames.typ (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Output.Types.typeNames.typ (2 samples, 0.20%)</title><rect x="705.1" y="161" width="2.4" height="15.0" fill="rgb(220,131,18)" rx="2" ry="2" />
+<text text-anchor="" x="708.10" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
 </g>
-<g class="func_g" onmouseover="s('General.Util.pretty (49 samples, 4.96%)')" onmouseout="c()" onclick="zoom(this)">
-<title>General.Util.pretty (49 samples, 4.96%)</title><rect x="429.2" y="81" width="58.5" height="15.0" fill="rgb(209,84,10)" rx="2" ry="2" />
-<text text-anchor="" x="432.21" y="91.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Genera..</text>
+<g class="func_g" onmouseover="s('Data.Serialize.Get.label (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Data.Serialize.Get.label (1 samples, 0.10%)</title><rect x="1188.8" y="209" width="1.2" height="15.0" fill="rgb(251,138,23)" rx="2" ry="2" />
+<text text-anchor="" x="1191.81" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
 </g>
-<g class="func_g" onmouseover="s('Input.Hoogle.heirarchy.packages (7 samples, 0.71%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.heirarchy.packages (7 samples, 0.71%)</title><rect x="177.2" y="273" width="8.4" height="15.0" fill="rgb(211,139,16)" rx="2" ry="2" />
-<text text-anchor="" x="180.21" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+<g class="func_g" onmouseover="s('General.Util.pretty (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
+<title>General.Util.pretty (1 samples, 0.10%)</title><rect x="1092.1" y="177" width="1.2" height="15.0" fill="rgb(225,169,9)" rx="2" ry="2" />
+<text text-anchor="" x="1095.06" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
 </g>
-<g class="func_g" onmouseover="s('Input.Hoogle.parseHoogle (47 samples, 4.76%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.parseHoogle (47 samples, 4.76%)</title><rect x="10.0" y="273" width="56.1" height="15.0" fill="rgb(218,58,38)" rx="2" ry="2" />
-<text text-anchor="" x="13.00" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Input..</text>
+<g class="func_g" onmouseover="s('Output.Types.writeInstance (8 samples, 0.81%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Output.Types.writeInstance (8 samples, 0.81%)</title><rect x="1093.3" y="193" width="9.5" height="15.0" fill="rgb(254,205,9)" rx="2" ry="2" />
+<text text-anchor="" x="1096.26" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
 </g>
-<g class="func_g" onmouseover="s('Input.Hoogle.parseLine.b (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.parseLine.b (3 samples, 0.30%)</title><rect x="265.6" y="257" width="3.6" height="15.0" fill="rgb(219,127,43)" rx="2" ry="2" />
-<text text-anchor="" x="268.59" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+<g class="func_g" onmouseover="s('Data.Serialize.Get.))=.\ (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Data.Serialize.Get.))=.\ (1 samples, 0.10%)</title><rect x="1188.8" y="161" width="1.2" height="15.0" fill="rgb(213,97,0)" rx="2" ry="2" />
+<text text-anchor="" x="1191.81" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
 </g>
-<g class="func_g" onmouseover="s('Input.Cabal.extractCabal.f (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Cabal.extractCabal.f (2 samples, 0.20%)</title><rect x="150.9" y="193" width="2.4" height="15.0" fill="rgb(225,220,30)" rx="2" ry="2" />
-<text text-anchor="" x="153.93" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+<g class="func_g" onmouseover="s('Input.Hoogle.heirarchy.with (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Input.Hoogle.heirarchy.with (4 samples, 0.40%)</title><rect x="145.0" y="209" width="4.7" height="15.0" fill="rgb(210,38,18)" rx="2" ry="2" />
+<text text-anchor="" x="147.96" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Input.Hoogle.parseHoogle.f (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Input.Hoogle.parseHoogle.f (1 samples, 0.10%)</title><rect x="10.0" y="273" width="1.2" height="15.0" fill="rgb(237,102,40)" rx="2" ry="2" />
+<text text-anchor="" x="13.00" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
 </g>
 <g class="func_g" onmouseover="s('Data.ByteString.Base64.Internal.decodeLenientWithTable/fill (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Data.ByteString.Base64.Internal.decodeLenientWithTable/fill (2 samples, 0.20%)</title><rect x="785.1" y="113" width="2.4" height="15.0" fill="rgb(217,162,11)" rx="2" ry="2" />
-<text text-anchor="" x="788.12" y="123.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+<title>Data.ByteString.Base64.Internal.decodeLenientWithTable/fill (2 samples, 0.20%)</title><rect x="1162.5" y="113" width="2.4" height="15.0" fill="rgb(237,159,45)" rx="2" ry="2" />
+<text text-anchor="" x="1165.53" y="123.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
 </g>
-<g class="func_g" onmouseover="s('Input.Hoogle.fixLine (6 samples, 0.61%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Input.Hoogle.fixLine (6 samples, 0.61%)</title><rect x="1061.0" y="241" width="7.2" height="15.0" fill="rgb(240,183,1)" rx="2" ry="2" />
-<text text-anchor="" x="1064.01" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+<g class="func_g" onmouseover="s('Output.Types.askRarity (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Output.Types.askRarity (4 samples, 0.40%)</title><rect x="699.1" y="177" width="4.8" height="15.0" fill="rgb(208,184,13)" rx="2" ry="2" />
+<text text-anchor="" x="702.13" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
 </g>
-<g class="func_g" onmouseover="s('Action.Generate.actionGenerate (80 samples, 8.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Action.Generate.actionGenerate (80 samples, 8.10%)</title><rect x="1068.2" y="305" width="95.5" height="15.0" fill="rgb(243,150,5)" rx="2" ry="2" />
-<text text-anchor="" x="1071.18" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Action.Gene..</text>
+<g class="func_g" onmouseover="s('Input.Hoogle.CAF (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Input.Hoogle.CAF (1 samples, 0.10%)</title><rect x="10.0" y="305" width="1.2" height="15.0" fill="rgb(210,114,34)" rx="2" ry="2" />
+<text text-anchor="" x="13.00" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Output.Types.typeNames.typ (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Output.Types.typeNames.typ (2 samples, 0.20%)</title><rect x="701.5" y="161" width="2.4" height="15.0" fill="rgb(209,134,17)" rx="2" ry="2" />
+<text text-anchor="" x="704.52" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Data.ByteString.Base64.Lazy.decodeLenient (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Data.ByteString.Base64.Lazy.decodeLenient (4 samples, 0.40%)</title><rect x="1160.1" y="225" width="4.8" height="15.0" fill="rgb(224,133,46)" rx="2" ry="2" />
+<text text-anchor="" x="1163.14" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Input.Download.downloadFile.\ (21 samples, 2.13%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Input.Download.downloadFile.\ (21 samples, 2.13%)</title><rect x="1164.9" y="225" width="25.1" height="15.0" fill="rgb(252,213,52)" rx="2" ry="2" />
+<text text-anchor="" x="1167.92" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >I..</text>
+</g>
+<g class="func_g" onmouseover="s('Action.Generate.actionGenerate (987 samples, 99.90%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Action.Generate.actionGenerate (987 samples, 99.90%)</title><rect x="11.2" y="289" width="1178.8" height="15.0" fill="rgb(208,44,37)" rx="2" ry="2" />
+<text text-anchor="" x="14.19" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Action.Generate.actionGenerate</text>
+</g>
+<g class="func_g" onmouseover="s('General.Store.notParts (313 samples, 31.68%)')" onmouseout="c()" onclick="zoom(this)">
+<title>General.Store.notParts (313 samples, 31.68%)</title><rect x="707.5" y="177" width="373.8" height="15.0" fill="rgb(236,219,18)" rx="2" ry="2" />
+<text text-anchor="" x="710.49" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >General.Store.notParts</text>
+</g>
+<g class="func_g" onmouseover="s('Data.ByteString.Base64.Internal.decodeLenientWithTable.\.\.fill.\.\.\.\ (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Data.ByteString.Base64.Internal.decodeLenientWithTable.\.\.fill.\.\.\.\ (1 samples, 0.10%)</title><rect x="1163.7" y="33" width="1.2" height="15.0" fill="rgb(223,143,49)" rx="2" ry="2" />
+<text text-anchor="" x="1166.72" y="43.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Output.Items.writeItems.\.\ (312 samples, 31.58%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Output.Items.writeItems.\.\ (312 samples, 31.58%)</title><rect x="708.7" y="145" width="372.6" height="15.0" fill="rgb(205,214,41)" rx="2" ry="2" />
+<text text-anchor="" x="711.68" y="155.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Output.Items.writeItems.\.\</text>
+</g>
+<g class="func_g" onmouseover="s('Input.Hoogle.heirarchy.esc (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Input.Hoogle.heirarchy.esc (4 samples, 0.40%)</title><rect x="130.6" y="209" width="4.8" height="15.0" fill="rgb(248,1,32)" rx="2" ry="2" />
+<text text-anchor="" x="133.63" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Input.Cabal.extractCabal.f (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Input.Cabal.extractCabal.f (2 samples, 0.20%)</title><rect x="1155.4" y="193" width="2.4" height="15.0" fill="rgb(226,91,53)" rx="2" ry="2" />
+<text text-anchor="" x="1158.36" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Input.Type.show (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Input.Type.show (2 samples, 0.20%)</title><rect x="696.7" y="177" width="2.4" height="15.0" fill="rgb(236,57,41)" rx="2" ry="2" />
+<text text-anchor="" x="699.74" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Output.Names.writeNames (6 samples, 0.61%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Output.Names.writeNames (6 samples, 0.61%)</title><rect x="1081.3" y="209" width="7.2" height="15.0" fill="rgb(236,180,52)" rx="2" ry="2" />
+<text text-anchor="" x="1084.32" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Input.Type.myParseDecl (129 samples, 13.06%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Input.Type.myParseDecl (129 samples, 13.06%)</title><rect x="444.7" y="193" width="154.1" height="15.0" fill="rgb(241,154,45)" rx="2" ry="2" />
+<text text-anchor="" x="447.74" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Input.Type.myParseD..</text>
+</g>
+<g class="func_g" onmouseover="s('Input.Type.readItem (166 samples, 16.80%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Input.Type.readItem (166 samples, 16.80%)</title><rect x="177.2" y="193" width="198.3" height="15.0" fill="rgb(253,50,14)" rx="2" ry="2" />
+<text text-anchor="" x="180.21" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Input.Type.readItem</text>
+</g>
+<g class="func_g" onmouseover="s('General.Util.tarballReadFiles.f (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
+<title>General.Util.tarballReadFiles.f (3 samples, 0.30%)</title><rect x="1150.6" y="225" width="3.6" height="15.0" fill="rgb(211,50,3)" rx="2" ry="2" />
+<text text-anchor="" x="1153.59" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Input.Cabal.parseCabal (24 samples, 2.43%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Input.Cabal.parseCabal (24 samples, 2.43%)</title><rect x="1129.1" y="257" width="28.7" height="15.0" fill="rgb(246,225,20)" rx="2" ry="2" />
+<text text-anchor="" x="1132.09" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >In..</text>
+</g>
+<g class="func_g" onmouseover="s('Input.Hoogle.reformat (9 samples, 0.91%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Input.Hoogle.reformat (9 samples, 0.91%)</title><rect x="375.5" y="209" width="10.7" height="15.0" fill="rgb(240,224,2)" rx="2" ry="2" />
+<text text-anchor="" x="378.47" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Output.Types.askRarity.\ (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Output.Types.askRarity.\ (2 samples, 0.20%)</title><rect x="699.1" y="161" width="2.4" height="15.0" fill="rgb(225,9,18)" rx="2" ry="2" />
+<text text-anchor="" x="702.13" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('General.Util.pretty (7 samples, 0.71%)')" onmouseout="c()" onclick="zoom(this)">
+<title>General.Util.pretty (7 samples, 0.71%)</title><rect x="1094.5" y="177" width="8.3" height="15.0" fill="rgb(219,152,42)" rx="2" ry="2" />
+<text text-anchor="" x="1097.45" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Data.Serialize.Get.))= (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Data.Serialize.Get.))= (1 samples, 0.10%)</title><rect x="1188.8" y="177" width="1.2" height="15.0" fill="rgb(230,155,29)" rx="2" ry="2" />
+<text text-anchor="" x="1191.81" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Output.Types.writeAlias (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Output.Types.writeAlias (1 samples, 0.10%)</title><rect x="1092.1" y="193" width="1.2" height="15.0" fill="rgb(239,192,13)" rx="2" ry="2" />
+<text text-anchor="" x="1095.06" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Data.ByteString.Base64.Internal.decodeLenientWithTable.\.\.fill.\.\ (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Data.ByteString.Base64.Internal.decodeLenientWithTable.\.\.fill.\.\ (1 samples, 0.10%)</title><rect x="1163.7" y="65" width="1.2" height="15.0" fill="rgb(254,73,31)" rx="2" ry="2" />
+<text text-anchor="" x="1166.72" y="75.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('General.Store.storeWriteBS (10 samples, 1.01%)')" onmouseout="c()" onclick="zoom(this)">
+<title>General.Store.storeWriteBS (10 samples, 1.01%)</title><rect x="715.9" y="129" width="11.9" height="15.0" fill="rgb(209,37,47)" rx="2" ry="2" />
+<text text-anchor="" x="718.85" y="139.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Data.Serialize.Get.label.\ (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Data.Serialize.Get.label.\ (1 samples, 0.10%)</title><rect x="1188.8" y="193" width="1.2" height="15.0" fill="rgb(245,10,22)" rx="2" ry="2" />
+<text text-anchor="" x="1191.81" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('General.Util.pretty (66 samples, 6.68%)')" onmouseout="c()" onclick="zoom(this)">
+<title>General.Util.pretty (66 samples, 6.68%)</title><rect x="598.8" y="193" width="78.8" height="15.0" fill="rgb(212,102,36)" rx="2" ry="2" />
+<text text-anchor="" x="601.81" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >General.U..</text>
+</g>
+<g class="func_g" onmouseover="s('all (988 samples, 100%)')" onmouseout="c()" onclick="zoom(this)">
+<title>all (988 samples, 100%)</title><rect x="10.0" y="337" width="1180.0" height="15.0" fill="rgb(244,138,50)" rx="2" ry="2" />
+<text text-anchor="" x="13.00" y="347.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Output.Names.writeNames.(...) (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Output.Names.writeNames.(...) (3 samples, 0.30%)</title><rect x="1081.3" y="193" width="3.6" height="15.0" fill="rgb(236,118,14)" rx="2" ry="2" />
+<text text-anchor="" x="1084.32" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Input.Type.rnf (36 samples, 3.64%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Input.Type.rnf (36 samples, 3.64%)</title><rect x="87.6" y="177" width="43.0" height="15.0" fill="rgb(228,155,30)" rx="2" ry="2" />
+<text text-anchor="" x="90.63" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Inpu..</text>
+</g>
+<g class="func_g" onmouseover="s('General.Store.storeWritePtr (9 samples, 0.91%)')" onmouseout="c()" onclick="zoom(this)">
+<title>General.Store.storeWritePtr (9 samples, 0.91%)</title><rect x="717.0" y="97" width="10.8" height="15.0" fill="rgb(243,115,35)" rx="2" ry="2" />
+<text text-anchor="" x="720.04" y="107.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Input.Cabal.extractCabal (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Input.Cabal.extractCabal (2 samples, 0.20%)</title><rect x="1155.4" y="209" width="2.4" height="15.0" fill="rgb(212,164,54)" rx="2" ry="2" />
+<text text-anchor="" x="1158.36" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Input.Cabal.parseCabal.f.res (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Input.Cabal.parseCabal.f.res (3 samples, 0.30%)</title><rect x="1154.2" y="225" width="3.6" height="15.0" fill="rgb(218,86,37)" rx="2" ry="2" />
+<text text-anchor="" x="1157.17" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('General.Util.tarballReadFiles (19 samples, 1.92%)')" onmouseout="c()" onclick="zoom(this)">
+<title>General.Util.tarballReadFiles (19 samples, 1.92%)</title><rect x="1131.5" y="241" width="22.7" height="15.0" fill="rgb(222,20,36)" rx="2" ry="2" />
+<text text-anchor="" x="1134.48" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >G..</text>
+</g>
+<g class="func_g" onmouseover="s('General.Util.tarballReadFiles (7 samples, 0.71%)')" onmouseout="c()" onclick="zoom(this)">
+<title>General.Util.tarballReadFiles (7 samples, 0.71%)</title><rect x="1120.7" y="257" width="8.4" height="15.0" fill="rgb(254,148,29)" rx="2" ry="2" />
+<text text-anchor="" x="1123.73" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Input.Hoogle.heirarchy.with.f (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Input.Hoogle.heirarchy.with.f (2 samples, 0.20%)</title><rect x="147.3" y="193" width="2.4" height="15.0" fill="rgb(217,104,20)" rx="2" ry="2" />
+<text text-anchor="" x="150.35" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Action.Generate.generate.\ (371 samples, 37.55%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Action.Generate.generate.\ (371 samples, 37.55%)</title><rect x="677.6" y="225" width="443.1" height="15.0" fill="rgb(228,179,5)" rx="2" ry="2" />
+<text text-anchor="" x="680.63" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Action.Generate.generate.\</text>
+</g>
+<g class="func_g" onmouseover="s('Action.Generate.generate (960 samples, 97.17%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Action.Generate.generate (960 samples, 97.17%)</title><rect x="11.2" y="273" width="1146.6" height="15.0" fill="rgb(232,180,17)" rx="2" ry="2" />
+<text text-anchor="" x="14.19" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Action.Generate.generate</text>
+</g>
+<g class="func_g" onmouseover="s('Input.Hoogle.heirarchy (64 samples, 6.48%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Input.Hoogle.heirarchy (64 samples, 6.48%)</title><rect x="73.3" y="225" width="76.4" height="15.0" fill="rgb(241,63,6)" rx="2" ry="2" />
+<text text-anchor="" x="76.30" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Input.Ho..</text>
+</g>
+<g class="func_g" onmouseover="s('Output.Types.writeRarity (8 samples, 0.81%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Output.Types.writeRarity (8 samples, 0.81%)</title><rect x="1102.8" y="193" width="9.6" height="15.0" fill="rgb(249,77,1)" rx="2" ry="2" />
+<text text-anchor="" x="1105.81" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('General.Util.tarballReadFiles.f (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
+<title>General.Util.tarballReadFiles.f (1 samples, 0.10%)</title><rect x="1127.9" y="241" width="1.2" height="15.0" fill="rgb(206,190,17)" rx="2" ry="2" />
+<text text-anchor="" x="1130.89" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Output.Types.typeNames.typ (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Output.Types.typeNames.typ (3 samples, 0.30%)</title><rect x="1108.8" y="161" width="3.6" height="15.0" fill="rgb(230,108,27)" rx="2" ry="2" />
+<text text-anchor="" x="1111.79" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Output.Items.outputItem (67 samples, 6.78%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Output.Items.outputItem (67 samples, 6.78%)</title><rect x="1001.3" y="113" width="80.0" height="15.0" fill="rgb(247,156,12)" rx="2" ry="2" />
+<text text-anchor="" x="1004.30" y="123.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Output.It..</text>
+</g>
+<g class="func_g" onmouseover="s('Input.Hoogle.heirarchy.with.f.s2 (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Input.Hoogle.heirarchy.with.f.s2 (2 samples, 0.20%)</title><rect x="147.3" y="177" width="2.4" height="15.0" fill="rgb(243,198,40)" rx="2" ry="2" />
+<text text-anchor="" x="150.35" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Input.Hoogle.heirarchy.modules (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Input.Hoogle.heirarchy.modules (1 samples, 0.10%)</title><rect x="135.4" y="209" width="1.2" height="15.0" fill="rgb(241,172,38)" rx="2" ry="2" />
+<text text-anchor="" x="138.40" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('General.Util.joinPair (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
+<title>General.Util.joinPair (2 samples, 0.20%)</title><rect x="1015.6" y="97" width="2.4" height="15.0" fill="rgb(238,115,1)" rx="2" ry="2" />
+<text text-anchor="" x="1018.63" y="107.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('General.Store.storeWriteBS.\ (9 samples, 0.91%)')" onmouseout="c()" onclick="zoom(this)">
+<title>General.Store.storeWriteBS.\ (9 samples, 0.91%)</title><rect x="717.0" y="113" width="10.8" height="15.0" fill="rgb(216,202,30)" rx="2" ry="2" />
+<text text-anchor="" x="720.04" y="123.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Data.ByteString.Base64.Internal.decodeLenientWithTable.\.\.fill (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Data.ByteString.Base64.Internal.decodeLenientWithTable.\.\.fill (2 samples, 0.20%)</title><rect x="1162.5" y="129" width="2.4" height="15.0" fill="rgb(227,88,29)" rx="2" ry="2" />
+<text text-anchor="" x="1165.53" y="139.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Input.Download.downloadInputs (27 samples, 2.73%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Input.Download.downloadInputs (27 samples, 2.73%)</title><rect x="1157.8" y="273" width="32.2" height="15.0" fill="rgb(212,101,40)" rx="2" ry="2" />
+<text text-anchor="" x="1160.75" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >In..</text>
+</g>
+<g class="func_g" onmouseover="s('General.Util.list' (46 samples, 4.66%)')" onmouseout="c()" onclick="zoom(this)">
+<title>General.Util.list' (46 samples, 4.66%)</title><rect x="75.7" y="209" width="54.9" height="15.0" fill="rgb(245,149,19)" rx="2" ry="2" />
+<text text-anchor="" x="78.69" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Gener..</text>
+</g>
+<g class="func_g" onmouseover="s('General.Util.timed (25 samples, 2.53%)')" onmouseout="c()" onclick="zoom(this)">
+<title>General.Util.timed (25 samples, 2.53%)</title><rect x="677.6" y="209" width="29.9" height="15.0" fill="rgb(236,163,7)" rx="2" ry="2" />
+<text text-anchor="" x="680.63" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Ge..</text>
+</g>
+<g class="func_g" onmouseover="s('Data.ByteString.Base64.Internal.decodeLenientWithTable.\.\.fill.\ (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Data.ByteString.Base64.Internal.decodeLenientWithTable.\.\.fill.\ (1 samples, 0.10%)</title><rect x="1163.7" y="81" width="1.2" height="15.0" fill="rgb(220,7,24)" rx="2" ry="2" />
+<text text-anchor="" x="1166.72" y="91.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('General.Util.pretty (49 samples, 4.96%)')" onmouseout="c()" onclick="zoom(this)">
+<title>General.Util.pretty (49 samples, 4.96%)</title><rect x="1022.8" y="81" width="58.5" height="15.0" fill="rgb(217,3,1)" rx="2" ry="2" />
+<text text-anchor="" x="1025.79" y="91.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Genera..</text>
+</g>
+<g class="func_g" onmouseover="s('Input.Type.rnf (45 samples, 4.55%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Input.Type.rnf (45 samples, 4.55%)</title><rect x="76.9" y="193" width="53.7" height="15.0" fill="rgb(230,32,25)" rx="2" ry="2" />
+<text text-anchor="" x="79.88" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Input..</text>
+</g>
+<g class="func_g" onmouseover="s('Input.Hoogle.heirarchy.esc.isLegal (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Input.Hoogle.heirarchy.esc.isLegal (1 samples, 0.10%)</title><rect x="134.2" y="177" width="1.2" height="15.0" fill="rgb(214,82,3)" rx="2" ry="2" />
+<text text-anchor="" x="137.21" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('General.Store.storeWriteFile (371 samples, 37.55%)')" onmouseout="c()" onclick="zoom(this)">
+<title>General.Store.storeWriteFile (371 samples, 37.55%)</title><rect x="677.6" y="257" width="443.1" height="15.0" fill="rgb(219,0,14)" rx="2" ry="2" />
+<text text-anchor="" x="680.63" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >General.Store.storeWriteFile</text>
+</g>
+<g class="func_g" onmouseover="s('Input.Hoogle.heirarchy.url (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Input.Hoogle.heirarchy.url (1 samples, 0.10%)</title><rect x="143.8" y="193" width="1.2" height="15.0" fill="rgb(238,122,24)" rx="2" ry="2" />
+<text text-anchor="" x="146.77" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Output.Types.writeRarity.r (8 samples, 0.81%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Output.Types.writeRarity.r (8 samples, 0.81%)</title><rect x="1102.8" y="177" width="9.6" height="15.0" fill="rgb(231,110,7)" rx="2" ry="2" />
+<text text-anchor="" x="1105.81" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Input.Hoogle.parseLine (167 samples, 16.90%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Input.Hoogle.parseLine (167 samples, 16.90%)</title><rect x="176.0" y="209" width="199.5" height="15.0" fill="rgb(243,125,6)" rx="2" ry="2" />
+<text text-anchor="" x="179.01" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Input.Hoogle.parseLine</text>
+</g>
+<g class="func_g" onmouseover="s('Input.Type.gfoldl (47 samples, 4.76%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Input.Type.gfoldl (47 samples, 4.76%)</title><rect x="386.2" y="209" width="56.1" height="15.0" fill="rgb(216,57,45)" rx="2" ry="2" />
+<text text-anchor="" x="389.21" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Input..</text>
+</g>
+<g class="func_g" onmouseover="s('General.Util.pretty (12 samples, 1.21%)')" onmouseout="c()" onclick="zoom(this)">
+<title>General.Util.pretty (12 samples, 1.21%)</title><rect x="682.4" y="177" width="14.3" height="15.0" fill="rgb(238,165,48)" rx="2" ry="2" />
+<text text-anchor="" x="685.41" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Input.Hoogle.heirarchy.esc.f (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Input.Hoogle.heirarchy.esc.f (2 samples, 0.20%)</title><rect x="133.0" y="193" width="2.4" height="15.0" fill="rgb(210,140,11)" rx="2" ry="2" />
+<text text-anchor="" x="136.02" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Data.ByteString.Base64.Internal.decodeLenientWithTable (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Data.ByteString.Base64.Internal.decodeLenientWithTable (2 samples, 0.20%)</title><rect x="1162.5" y="193" width="2.4" height="15.0" fill="rgb(234,61,49)" rx="2" ry="2" />
+<text text-anchor="" x="1165.53" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
 </g>
 </svg>

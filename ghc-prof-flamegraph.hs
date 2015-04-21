@@ -2,6 +2,8 @@
 import           Data.List (intercalate)
 import           Data.Char (isSpace)
 
+import Debug.Trace
+
 parseLine :: String -> (String, String, String)
 parseLine s = case words s of
   [costCentre, module_, _no, _entries, indTime, _indAlloc, _inhTime, _inhALloc] ->
@@ -17,7 +19,7 @@ processLines = go [] []
     go _stack frames [] = reverse frames
     go stack0 frames (line : lines') =
       let (spaces, rest) = break (not . isSpace) line
-          stack = take (length spaces) stack0
+          stack = drop (length stack0 - length spaces) stack0
           (costCentre, module_, entries) = parseLine rest
           symbol = module_ ++ "." ++ costCentre
           stack' = symbol : stack

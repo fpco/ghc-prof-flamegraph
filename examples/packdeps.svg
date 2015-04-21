@@ -178,1144 +178,284 @@
 <text text-anchor="middle" x="600.00" y="24" font-size="17" font-family="Verdana" fill="rgb(0,0,0)"  >Flame Graph</text>
 <text text-anchor="" x="10.00" y="337" font-size="12" font-family="Verdana" fill="rgb(0,0,0)" id="details" > </text>
 <text text-anchor="" x="10.00" y="24" font-size="12" font-family="Verdana" fill="rgb(0,0,0)" id="unzoom" onclick="unzoom()" style="opacity:0.0;cursor:pointer" >Reset Zoom</text>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.addPackage (523 samples, 52.72%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.addPackage (523 samples, 52.72%)</title><rect x="151.6" y="241" width="622.1" height="15.0" fill="rgb(208,169,40)" rx="2" ry="2" />
-<text text-anchor="" x="154.55" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Distribution.PackDeps.addPackage</text>
-</g>
-<g class="func_g" onmouseover="s('Application.makeApplication (96 samples, 9.68%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Application.makeApplication (96 samples, 9.68%)</title><rect x="1072.2" y="257" width="114.2" height="15.0" fill="rgb(237,22,5)" rx="2" ry="2" />
-<text text-anchor="" x="1075.24" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Application.ma..</text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.getReverses.combine (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.getReverses.combine (1 samples, 0.10%)</title><rect x="915.2" y="257" width="1.2" height="15.0" fill="rgb(251,105,50)" rx="2" ry="2" />
-<text text-anchor="" x="918.22" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Application.yesodDispatch.helper4092.\ (20 samples, 2.02%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Application.yesodDispatch.helper4092.\ (20 samples, 2.02%)</title><rect x="106.4" y="273" width="23.7" height="15.0" fill="rgb(211,225,39)" rx="2" ry="2" />
-<text text-anchor="" x="109.35" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >A..</text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.versionBranch (43 samples, 4.33%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.versionBranch (43 samples, 4.33%)</title><rect x="834.3" y="273" width="51.2" height="15.0" fill="rgb(243,173,46)" rx="2" ry="2" />
-<text text-anchor="" x="837.33" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Distr..</text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.) (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.) (2 samples, 0.20%)</title><rect x="130.1" y="289" width="2.4" height="15.0" fill="rgb(212,77,3)" rx="2" ry="2" />
-<text text-anchor="" x="133.14" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Foundation.getStatic (20 samples, 2.02%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Foundation.getStatic (20 samples, 2.02%)</title><rect x="106.4" y="257" width="23.7" height="15.0" fill="rgb(250,156,31)" rx="2" ry="2" />
-<text text-anchor="" x="109.35" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >F..</text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.newestToIds.(...) (27 samples, 2.72%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.newestToIds.(...) (27 samples, 2.72%)</title><rect x="923.5" y="241" width="32.2" height="15.0" fill="rgb(219,29,42)" rx="2" ry="2" />
-<text text-anchor="" x="926.55" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Di..</text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.getDescInfo.name (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.getDescInfo.name (1 samples, 0.10%)</title><rect x="914.0" y="145" width="1.2" height="15.0" fill="rgb(223,216,34)" rx="2" ry="2" />
-<text text-anchor="" x="917.03" y="155.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Foundation.settings (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Foundation.settings (3 samples, 0.30%)</title><rect x="1186.4" y="225" width="3.6" height="15.0" fill="rgb(218,45,8)" rx="2" ry="2" />
-<text text-anchor="" x="1189.43" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.orLaterVersion (8 samples, 0.81%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Util.orLaterVersion (8 samples, 0.81%)</title><rect x="779.6" y="193" width="9.5" height="15.0" fill="rgb(222,225,32)" rx="2" ry="2" />
-<text text-anchor="" x="782.62" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.newestFromIds.goDI (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.newestFromIds.goDI (1 samples, 0.10%)</title><rect x="149.2" y="145" width="1.2" height="15.0" fill="rgb(219,43,38)" rx="2" ry="2" />
-<text text-anchor="" x="152.17" y="155.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.versionBranch (43 samples, 4.33%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.versionBranch (43 samples, 4.33%)</title><rect x="834.3" y="209" width="51.2" height="15.0" fill="rgb(231,210,33)" rx="2" ry="2" />
-<text text-anchor="" x="837.33" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Distr..</text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.convertVersionRange.goR (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Util.convertVersionRange.goR (2 samples, 0.20%)</title><rect x="130.1" y="145" width="2.4" height="15.0" fill="rgb(234,179,14)" rx="2" ry="2" />
-<text text-anchor="" x="133.14" y="155.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.getDescInfo (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.getDescInfo (2 samples, 0.20%)</title><rect x="130.1" y="193" width="2.4" height="15.0" fill="rgb(214,221,54)" rx="2" ry="2" />
-<text text-anchor="" x="133.14" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Foundation.settings (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Foundation.settings (4 samples, 0.40%)</title><rect x="1066.3" y="193" width="4.7" height="15.0" fill="rgb(230,206,52)" rx="2" ry="2" />
-<text text-anchor="" x="1069.29" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.parseNewest (26 samples, 2.62%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.parseNewest (26 samples, 2.62%)</title><rect x="924.7" y="209" width="31.0" height="15.0" fill="rgb(228,208,13)" rx="2" ry="2" />
-<text text-anchor="" x="927.74" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Di..</text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.loadNewestFrom (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.loadNewestFrom (1 samples, 0.10%)</title><rect x="773.7" y="257" width="1.2" height="15.0" fill="rgb(247,202,31)" rx="2" ry="2" />
-<text text-anchor="" x="776.67" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.get' (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.get' (2 samples, 0.20%)</title><rect x="145.6" y="257" width="2.4" height="15.0" fill="rgb(218,6,34)" rx="2" ry="2" />
-<text text-anchor="" x="148.60" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.withinRange.\ (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Util.withinRange.\ (1 samples, 0.10%)</title><rect x="956.9" y="145" width="1.1" height="15.0" fill="rgb(236,211,33)" rx="2" ry="2" />
-<text text-anchor="" x="959.85" y="155.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.getDeps.flagMaps (6 samples, 0.60%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.getDeps.flagMaps (6 samples, 0.60%)</title><rect x="916.4" y="97" width="7.1" height="15.0" fill="rgb(211,114,12)" rx="2" ry="2" />
-<text text-anchor="" x="919.41" y="107.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Foundation.settings (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Foundation.settings (4 samples, 0.40%)</title><rect x="774.9" y="225" width="4.7" height="15.0" fill="rgb(220,13,39)" rx="2" ry="2" />
-<text text-anchor="" x="777.86" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.convertVersion (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Util.convertVersion (1 samples, 0.10%)</title><rect x="773.7" y="193" width="1.2" height="15.0" fill="rgb(227,183,28)" rx="2" ry="2" />
-<text text-anchor="" x="776.67" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Data.ByteString.Base64.Internal.encodeWith.\.\.\.fill.enc (78 samples, 7.86%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Data.ByteString.Base64.Internal.encodeWith.\.\.\.fill.enc (78 samples, 7.86%)</title><rect x="13.6" y="273" width="92.8" height="15.0" fill="rgb(220,109,30)" rx="2" ry="2" />
-<text text-anchor="" x="16.57" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Data.ByteSt..</text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.withinRange.\ (7 samples, 0.71%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Util.withinRange.\ (7 samples, 0.71%)</title><rect x="789.1" y="113" width="8.4" height="15.0" fill="rgb(215,116,0)" rx="2" ry="2" />
-<text text-anchor="" x="792.13" y="123.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Application.loadData.req (24 samples, 2.42%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Application.loadData.req (24 samples, 2.42%)</title><rect x="885.5" y="241" width="28.5" height="15.0" fill="rgb(248,112,53)" rx="2" ry="2" />
-<text text-anchor="" x="888.48" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Ap..</text>
-</g>
-<g class="func_g" onmouseover="s('Handler.Home.getReverseListR.getOutdated (61 samples, 6.15%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Handler.Home.getReverseListR.getOutdated (61 samples, 6.15%)</title><rect x="958.0" y="273" width="72.6" height="15.0" fill="rgb(228,17,26)" rx="2" ry="2" />
-<text text-anchor="" x="961.04" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Handler...</text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.versionBranch (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.versionBranch (1 samples, 0.10%)</title><rect x="956.9" y="161" width="1.1" height="15.0" fill="rgb(235,14,44)" rx="2" ry="2" />
-<text text-anchor="" x="959.85" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.mappend (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.mappend (2 samples, 0.20%)</title><rect x="808.2" y="113" width="2.3" height="15.0" fill="rgb(211,49,1)" rx="2" ry="2" />
-<text text-anchor="" x="811.17" y="123.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.wildcardUpperBound.upperBound (5 samples, 0.50%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Util.wildcardUpperBound.upperBound (5 samples, 0.50%)</title><rect x="1024.7" y="81" width="5.9" height="15.0" fill="rgb(233,118,31)" rx="2" ry="2" />
-<text text-anchor="" x="1027.66" y="91.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.withinRange.\ (6 samples, 0.60%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Util.withinRange.\ (6 samples, 0.60%)</title><rect x="797.5" y="113" width="7.1" height="15.0" fill="rgb(237,6,49)" rx="2" ry="2" />
-<text text-anchor="" x="800.46" y="123.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.versionBranch (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.versionBranch (1 samples, 0.10%)</title><rect x="956.9" y="193" width="1.1" height="15.0" fill="rgb(205,38,36)" rx="2" ry="2" />
-<text text-anchor="" x="959.85" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.withinRange.\ (8 samples, 0.81%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Util.withinRange.\ (8 samples, 0.81%)</title><rect x="779.6" y="145" width="9.5" height="15.0" fill="rgb(249,89,48)" rx="2" ry="2" />
-<text text-anchor="" x="782.62" y="155.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.getDeps.go.choices (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.getDeps.go.choices (1 samples, 0.10%)</title><rect x="914.0" y="209" width="1.2" height="15.0" fill="rgb(208,41,9)" rx="2" ry="2" />
-<text text-anchor="" x="917.03" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.getDeps.allowsBase46 (11 samples, 1.11%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.getDeps.allowsBase46 (11 samples, 1.11%)</title><rect x="132.5" y="97" width="13.1" height="15.0" fill="rgb(208,175,39)" rx="2" ry="2" />
-<text text-anchor="" x="135.52" y="107.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Foundation.defaultLayout (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Foundation.defaultLayout (3 samples, 0.30%)</title><rect x="804.6" y="193" width="3.6" height="15.0" fill="rgb(222,220,48)" rx="2" ry="2" />
-<text text-anchor="" x="807.60" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Settings.extraAnalytics (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Settings.extraAnalytics (1 samples, 0.10%)</title><rect x="955.7" y="241" width="1.2" height="15.0" fill="rgb(210,112,28)" rx="2" ry="2" />
-<text text-anchor="" x="958.67" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.fmap (11 samples, 1.11%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.fmap (11 samples, 1.11%)</title><rect x="132.5" y="209" width="13.1" height="15.0" fill="rgb(248,221,16)" rx="2" ry="2" />
-<text text-anchor="" x="135.52" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.foldVersionRange.wildcard (7 samples, 0.71%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Util.foldVersionRange.wildcard (7 samples, 0.71%)</title><rect x="1022.3" y="113" width="8.3" height="15.0" fill="rgb(224,198,1)" rx="2" ry="2" />
-<text text-anchor="" x="1025.28" y="123.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.wildcardUpperBound.upperBound (7 samples, 0.71%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Util.wildcardUpperBound.upperBound (7 samples, 0.71%)</title><rect x="789.1" y="177" width="8.4" height="15.0" fill="rgb(244,55,52)" rx="2" ry="2" />
-<text text-anchor="" x="792.13" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.gget (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.gget (1 samples, 0.10%)</title><rect x="145.6" y="209" width="1.2" height="15.0" fill="rgb(219,30,12)" rx="2" ry="2" />
-<text text-anchor="" x="148.60" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.convertVersion (523 samples, 52.72%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Util.convertVersion (523 samples, 52.72%)</title><rect x="151.6" y="209" width="622.1" height="15.0" fill="rgb(247,18,37)" rx="2" ry="2" />
-<text text-anchor="" x="154.55" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Distribution.PackDeps.Util.convertVersion</text>
-</g>
-<g class="func_g" onmouseover="s('Foundation.defaultLayout.mLastUpdate (78 samples, 7.86%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Foundation.defaultLayout.mLastUpdate (78 samples, 7.86%)</title><rect x="13.6" y="193" width="92.8" height="15.0" fill="rgb(218,85,32)" rx="2" ry="2" />
-<text text-anchor="" x="16.57" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Foundation...</text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.unPackageName (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.unPackageName (1 samples, 0.10%)</title><rect x="956.9" y="273" width="1.1" height="15.0" fill="rgb(236,66,11)" rx="2" ry="2" />
-<text text-anchor="" x="959.85" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.newestFromIds.goPair (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.newestFromIds.goPair (1 samples, 0.10%)</title><rect x="149.2" y="257" width="1.2" height="15.0" fill="rgb(226,192,7)" rx="2" ry="2" />
-<text text-anchor="" x="152.17" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Foundation.defaultLayout (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Foundation.defaultLayout (4 samples, 0.40%)</title><rect x="1066.3" y="241" width="4.7" height="15.0" fill="rgb(230,20,40)" rx="2" ry="2" />
-<text text-anchor="" x="1069.29" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.withinRange (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Util.withinRange (1 samples, 0.10%)</title><rect x="956.9" y="225" width="1.1" height="15.0" fill="rgb(230,139,20)" rx="2" ry="2" />
-<text text-anchor="" x="959.85" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.mappend (6 samples, 0.60%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.mappend (6 samples, 0.60%)</title><rect x="916.4" y="177" width="7.1" height="15.0" fill="rgb(231,183,29)" rx="2" ry="2" />
-<text text-anchor="" x="919.41" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Handler.Home.getReverseListR.\ (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Handler.Home.getReverseListR.\ (3 samples, 0.30%)</title><rect x="10.0" y="225" width="3.6" height="15.0" fill="rgb(224,78,17)" rx="2" ry="2" />
-<text text-anchor="" x="13.00" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.getDeps.flagMaps.loop.name (20 samples, 2.02%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.getDeps.flagMaps.loop.name (20 samples, 2.02%)</title><rect x="810.5" y="113" width="23.8" height="15.0" fill="rgb(220,45,34)" rx="2" ry="2" />
-<text text-anchor="" x="813.54" y="123.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >D..</text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.loadNewestFrom (27 samples, 2.72%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.loadNewestFrom (27 samples, 2.72%)</title><rect x="923.5" y="225" width="32.2" height="15.0" fill="rgb(207,72,21)" rx="2" ry="2" />
-<text text-anchor="" x="926.55" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Di..</text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.wildcardUpperBound (5 samples, 0.50%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Util.wildcardUpperBound (5 samples, 0.50%)</title><rect x="1024.7" y="97" width="5.9" height="15.0" fill="rgb(249,80,49)" rx="2" ry="2" />
-<text text-anchor="" x="1027.66" y="107.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.getDeps.flagMaps.loop.def (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.getDeps.flagMaps.loop.def (1 samples, 0.10%)</title><rect x="914.0" y="257" width="1.2" height="15.0" fill="rgb(206,172,12)" rx="2" ry="2" />
-<text text-anchor="" x="917.03" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.getDeps.checkCond (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.getDeps.checkCond (1 samples, 0.10%)</title><rect x="914.0" y="177" width="1.2" height="15.0" fill="rgb(233,168,32)" rx="2" ry="2" />
-<text text-anchor="" x="917.03" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.getDeps.flagMaps (20 samples, 2.02%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.getDeps.flagMaps (20 samples, 2.02%)</title><rect x="810.5" y="161" width="23.8" height="15.0" fill="rgb(234,64,11)" rx="2" ry="2" />
-<text text-anchor="" x="813.54" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >D..</text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.withinRange.\ (16 samples, 1.61%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Util.withinRange.\ (16 samples, 1.61%)</title><rect x="789.1" y="273" width="19.1" height="15.0" fill="rgb(207,165,26)" rx="2" ry="2" />
-<text text-anchor="" x="792.13" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.newestFromIds.getVersion (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.newestFromIds.getVersion (1 samples, 0.10%)</title><rect x="150.4" y="289" width="1.2" height="15.0" fill="rgb(228,67,12)" rx="2" ry="2" />
-<text text-anchor="" x="153.36" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.withinRange.\ (6 samples, 0.60%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Util.withinRange.\ (6 samples, 0.60%)</title><rect x="797.5" y="241" width="7.1" height="15.0" fill="rgb(242,198,50)" rx="2" ry="2" />
-<text text-anchor="" x="800.46" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.fmap (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.fmap (1 samples, 0.10%)</title><rect x="772.5" y="97" width="1.2" height="15.0" fill="rgb(225,196,11)" rx="2" ry="2" />
-<text text-anchor="" x="775.48" y="107.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.addPackage.go.p (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.addPackage.go.p (2 samples, 0.20%)</title><rect x="130.1" y="225" width="2.4" height="15.0" fill="rgb(236,13,19)" rx="2" ry="2" />
-<text text-anchor="" x="133.14" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.convertVersion (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Util.convertVersion (2 samples, 0.20%)</title><rect x="130.1" y="273" width="2.4" height="15.0" fill="rgb(229,167,31)" rx="2" ry="2" />
-<text text-anchor="" x="133.14" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.getReverses.toTuple (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.getReverses.toTuple (1 samples, 0.10%)</title><rect x="915.2" y="273" width="1.2" height="15.0" fill="rgb(223,132,6)" rx="2" ry="2" />
-<text text-anchor="" x="918.22" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.convertVersion (6 samples, 0.60%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Util.convertVersion (6 samples, 0.60%)</title><rect x="916.4" y="209" width="7.1" height="15.0" fill="rgb(210,194,48)" rx="2" ry="2" />
-<text text-anchor="" x="919.41" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.diDeps (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.diDeps (1 samples, 0.10%)</title><rect x="150.4" y="273" width="1.2" height="15.0" fill="rgb(208,178,11)" rx="2" ry="2" />
-<text text-anchor="" x="153.36" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.getDeps.flagMaps.loop (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.getDeps.flagMaps.loop (1 samples, 0.10%)</title><rect x="914.0" y="273" width="1.2" height="15.0" fill="rgb(217,138,30)" rx="2" ry="2" />
-<text text-anchor="" x="917.03" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Handler.Home.getReverseListR.\ (20 samples, 2.02%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Handler.Home.getReverseListR.\ (20 samples, 2.02%)</title><rect x="106.4" y="209" width="23.7" height="15.0" fill="rgb(222,116,6)" rx="2" ry="2" />
-<text text-anchor="" x="109.35" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >H..</text>
+<g class="func_g" onmouseover="s('Application.yesodDispatch.helper4092 (368 samples, 37.10%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Application.yesodDispatch.helper4092 (368 samples, 37.10%)</title><rect x="752.3" y="225" width="437.7" height="15.0" fill="rgb(225,226,12)" rx="2" ry="2" />
+<text text-anchor="" x="755.26" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Application.yesodDispatch.helper4092</text>
 </g>
 <g class="func_g" onmouseover="s('Distribution.PackDeps.getDeps.go' (18 samples, 1.81%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.getDeps.go' (18 samples, 1.81%)</title><rect x="812.9" y="65" width="21.4" height="15.0" fill="rgb(220,142,26)" rx="2" ry="2" />
-<text text-anchor="" x="815.92" y="75.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >D..</text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.getDescInfo (11 samples, 1.11%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.getDescInfo (11 samples, 1.11%)</title><rect x="132.5" y="241" width="13.1" height="15.0" fill="rgb(239,99,44)" rx="2" ry="2" />
-<text text-anchor="" x="135.52" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.fmap (523 samples, 52.72%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.fmap (523 samples, 52.72%)</title><rect x="151.6" y="177" width="622.1" height="15.0" fill="rgb(215,50,28)" rx="2" ry="2" />
-<text text-anchor="" x="154.55" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Distribution.PackDeps.Types.fmap</text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.mappend (11 samples, 1.11%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.mappend (11 samples, 1.11%)</title><rect x="132.5" y="145" width="13.1" height="15.0" fill="rgb(221,166,44)" rx="2" ry="2" />
-<text text-anchor="" x="135.52" y="155.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.getDescInfo.(...) (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.getDescInfo.(...) (1 samples, 0.10%)</title><rect x="914.0" y="129" width="1.2" height="15.0" fill="rgb(229,149,23)" rx="2" ry="2" />
-<text text-anchor="" x="917.03" y="139.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.get (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.get (1 samples, 0.10%)</title><rect x="150.4" y="209" width="1.2" height="15.0" fill="rgb(208,69,36)" rx="2" ry="2" />
-<text text-anchor="" x="153.36" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.getDeps (11 samples, 1.11%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.getDeps (11 samples, 1.11%)</title><rect x="132.5" y="225" width="13.1" height="15.0" fill="rgb(254,74,2)" rx="2" ry="2" />
-<text text-anchor="" x="135.52" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.unPackageName (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.unPackageName (4 samples, 0.40%)</title><rect x="1066.3" y="257" width="4.7" height="15.0" fill="rgb(214,60,39)" rx="2" ry="2" />
-<text text-anchor="" x="1069.29" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.wildcardUpperBound (8 samples, 0.81%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Util.wildcardUpperBound (8 samples, 0.81%)</title><rect x="779.6" y="225" width="9.5" height="15.0" fill="rgb(230,115,52)" rx="2" ry="2" />
-<text text-anchor="" x="782.62" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.versionBranch (7 samples, 0.71%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.versionBranch (7 samples, 0.71%)</title><rect x="789.1" y="129" width="8.4" height="15.0" fill="rgb(228,30,36)" rx="2" ry="2" />
-<text text-anchor="" x="792.13" y="139.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.isDeprecated (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.isDeprecated (1 samples, 0.10%)</title><rect x="915.2" y="209" width="1.2" height="15.0" fill="rgb(236,100,47)" rx="2" ry="2" />
-<text text-anchor="" x="918.22" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.withinRange.\ (43 samples, 4.33%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Util.withinRange.\ (43 samples, 4.33%)</title><rect x="834.3" y="225" width="51.2" height="15.0" fill="rgb(246,102,2)" rx="2" ry="2" />
-<text text-anchor="" x="837.33" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Distr..</text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.unionsWith (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.unionsWith (1 samples, 0.10%)</title><rect x="915.2" y="241" width="1.2" height="15.0" fill="rgb(215,178,1)" rx="2" ry="2" />
-<text text-anchor="" x="918.22" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Settings.staticRoot (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Settings.staticRoot (4 samples, 0.40%)</title><rect x="1066.3" y="209" width="4.7" height="15.0" fill="rgb(231,184,50)" rx="2" ry="2" />
-<text text-anchor="" x="1069.29" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.gget (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.gget (1 samples, 0.10%)</title><rect x="148.0" y="177" width="1.2" height="15.0" fill="rgb(223,62,14)" rx="2" ry="2" />
-<text text-anchor="" x="150.98" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.addPackage.go (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.addPackage.go (2 samples, 0.20%)</title><rect x="130.1" y="257" width="2.4" height="15.0" fill="rgb(244,76,8)" rx="2" ry="2" />
-<text text-anchor="" x="133.14" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.fmap (6 samples, 0.60%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.fmap (6 samples, 0.60%)</title><rect x="916.4" y="241" width="7.1" height="15.0" fill="rgb(235,142,52)" rx="2" ry="2" />
-<text text-anchor="" x="919.41" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.getDeps.flagMaps.loop.def (20 samples, 2.02%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.getDeps.flagMaps.loop.def (20 samples, 2.02%)</title><rect x="810.5" y="129" width="23.8" height="15.0" fill="rgb(251,148,36)" rx="2" ry="2" />
-<text text-anchor="" x="813.54" y="139.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >D..</text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.getDeps.go (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.getDeps.go (1 samples, 0.10%)</title><rect x="914.0" y="225" width="1.2" height="15.0" fill="rgb(242,126,46)" rx="2" ry="2" />
-<text text-anchor="" x="917.03" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.convertVersionRange.goR (20 samples, 2.02%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Util.convertVersionRange.goR (20 samples, 2.02%)</title><rect x="810.5" y="289" width="23.8" height="15.0" fill="rgb(239,86,13)" rx="2" ry="2" />
-<text text-anchor="" x="813.54" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >D..</text>
-</g>
-<g class="func_g" onmouseover="s('Foundation.defaultLayout.\ (78 samples, 7.86%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Foundation.defaultLayout.\ (78 samples, 7.86%)</title><rect x="13.6" y="209" width="92.8" height="15.0" fill="rgb(244,196,42)" rx="2" ry="2" />
-<text text-anchor="" x="16.57" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Foundation...</text>
-</g>
-<g class="func_g" onmouseover="s('Handler.Home.getReverseListR.\.\ (72 samples, 7.26%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Handler.Home.getReverseListR.\.\ (72 samples, 7.26%)</title><rect x="20.7" y="161" width="85.7" height="15.0" fill="rgb(253,210,11)" rx="2" ry="2" />
-<text text-anchor="" x="23.71" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Handler.Ho..</text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.withinRange.\ (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Util.withinRange.\ (1 samples, 0.10%)</title><rect x="956.9" y="177" width="1.1" height="15.0" fill="rgb(228,131,14)" rx="2" ry="2" />
-<text text-anchor="" x="959.85" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.getDescInfo (10 samples, 1.01%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.getDescInfo (10 samples, 1.01%)</title><rect x="761.8" y="129" width="11.9" height="15.0" fill="rgb(227,177,18)" rx="2" ry="2" />
-<text text-anchor="" x="764.77" y="139.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.convertVersion (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Util.convertVersion (2 samples, 0.20%)</title><rect x="130.1" y="129" width="2.4" height="15.0" fill="rgb(207,7,32)" rx="2" ry="2" />
-<text text-anchor="" x="133.14" y="139.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Foundation.urlRenderOverride (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Foundation.urlRenderOverride (4 samples, 0.40%)</title><rect x="774.9" y="257" width="4.7" height="15.0" fill="rgb(235,69,6)" rx="2" ry="2" />
-<text text-anchor="" x="777.86" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.getDeps.flagMaps.loop (20 samples, 2.02%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.getDeps.flagMaps.loop (20 samples, 2.02%)</title><rect x="810.5" y="145" width="23.8" height="15.0" fill="rgb(226,71,38)" rx="2" ry="2" />
-<text text-anchor="" x="813.54" y="155.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >D..</text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.) (523 samples, 52.72%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.) (523 samples, 52.72%)</title><rect x="151.6" y="225" width="622.1" height="15.0" fill="rgb(222,124,9)" rx="2" ry="2" />
-<text text-anchor="" x="154.55" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Distribution.PackDeps.Types.)</text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.getDescInfo (6 samples, 0.60%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.getDescInfo (6 samples, 0.60%)</title><rect x="916.4" y="273" width="7.1" height="15.0" fill="rgb(242,186,6)" rx="2" ry="2" />
-<text text-anchor="" x="919.41" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.convertVersion (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Util.convertVersion (1 samples, 0.10%)</title><rect x="772.5" y="65" width="1.2" height="15.0" fill="rgb(247,161,46)" rx="2" ry="2" />
-<text text-anchor="" x="775.48" y="75.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.addPackage.go.p (11 samples, 1.11%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.addPackage.go.p (11 samples, 1.11%)</title><rect x="132.5" y="273" width="13.1" height="15.0" fill="rgb(242,105,37)" rx="2" ry="2" />
-<text text-anchor="" x="135.52" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.withinRange.\ (43 samples, 4.33%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Util.withinRange.\ (43 samples, 4.33%)</title><rect x="834.3" y="257" width="51.2" height="15.0" fill="rgb(215,225,2)" rx="2" ry="2" />
-<text text-anchor="" x="837.33" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Distr..</text>
-</g>
-<g class="func_g" onmouseover="s('Data.Text.Internal.Fusion.unstream/resize (6 samples, 0.60%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Data.Text.Internal.Fusion.unstream/resize (6 samples, 0.60%)</title><rect x="916.4" y="145" width="7.1" height="15.0" fill="rgb(252,227,17)" rx="2" ry="2" />
-<text text-anchor="" x="919.41" y="155.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.versionBranch (6 samples, 0.60%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.versionBranch (6 samples, 0.60%)</title><rect x="797.5" y="225" width="7.1" height="15.0" fill="rgb(234,208,48)" rx="2" ry="2" />
-<text text-anchor="" x="800.46" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.get' (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.get' (1 samples, 0.10%)</title><rect x="148.0" y="257" width="1.2" height="15.0" fill="rgb(247,84,36)" rx="2" ry="2" />
-<text text-anchor="" x="150.98" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.fmap (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.fmap (2 samples, 0.20%)</title><rect x="130.1" y="161" width="2.4" height="15.0" fill="rgb(215,165,31)" rx="2" ry="2" />
-<text text-anchor="" x="133.14" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.addPackage.go (523 samples, 52.72%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.addPackage.go (523 samples, 52.72%)</title><rect x="151.6" y="193" width="622.1" height="15.0" fill="rgb(230,215,33)" rx="2" ry="2" />
-<text text-anchor="" x="154.55" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Distribution.PackDeps.addPackage.go</text>
-</g>
-<g class="func_g" onmouseover="s('Foundation.settings (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Foundation.settings (4 samples, 0.40%)</title><rect x="774.9" y="193" width="4.7" height="15.0" fill="rgb(253,8,22)" rx="2" ry="2" />
-<text text-anchor="" x="777.86" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.piDesc (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.piDesc (1 samples, 0.10%)</title><rect x="149.2" y="177" width="1.2" height="15.0" fill="rgb(227,205,17)" rx="2" ry="2" />
-<text text-anchor="" x="152.17" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.getDescInfo (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.getDescInfo (2 samples, 0.20%)</title><rect x="808.2" y="209" width="2.3" height="15.0" fill="rgb(244,52,15)" rx="2" ry="2" />
-<text text-anchor="" x="811.17" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Foundation.urlRenderOverride (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Foundation.urlRenderOverride (1 samples, 0.10%)</title><rect x="105.2" y="129" width="1.2" height="15.0" fill="rgb(222,81,15)" rx="2" ry="2" />
-<text text-anchor="" x="108.16" y="139.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.convertVersion (11 samples, 1.11%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Util.convertVersion (11 samples, 1.11%)</title><rect x="132.5" y="177" width="13.1" height="15.0" fill="rgb(254,35,28)" rx="2" ry="2" />
-<text text-anchor="" x="135.52" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.foldVersionRange (6 samples, 0.60%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Util.foldVersionRange (6 samples, 0.60%)</title><rect x="797.5" y="209" width="7.1" height="15.0" fill="rgb(212,47,22)" rx="2" ry="2" />
-<text text-anchor="" x="800.46" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.parsePackage (6 samples, 0.60%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.parsePackage (6 samples, 0.60%)</title><rect x="916.4" y="289" width="7.1" height="15.0" fill="rgb(231,202,33)" rx="2" ry="2" />
-<text text-anchor="" x="919.41" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.getDeps.\ (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.getDeps.\ (2 samples, 0.20%)</title><rect x="808.2" y="97" width="2.3" height="15.0" fill="rgb(237,92,30)" rx="2" ry="2" />
-<text text-anchor="" x="811.17" y="107.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Foundation.urlRenderOverride (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Foundation.urlRenderOverride (4 samples, 0.40%)</title><rect x="1066.3" y="225" width="4.7" height="15.0" fill="rgb(249,32,29)" rx="2" ry="2" />
-<text text-anchor="" x="1069.29" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.convertVersionRange.goR (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Util.convertVersionRange.goR (2 samples, 0.20%)</title><rect x="808.2" y="161" width="2.3" height="15.0" fill="rgb(210,208,14)" rx="2" ry="2" />
-<text text-anchor="" x="811.17" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.withinRange.\ (8 samples, 0.81%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Util.withinRange.\ (8 samples, 0.81%)</title><rect x="779.6" y="113" width="9.5" height="15.0" fill="rgb(222,40,15)" rx="2" ry="2" />
-<text text-anchor="" x="782.62" y="123.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.unPackageName (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.unPackageName (3 samples, 0.30%)</title><rect x="804.6" y="209" width="3.6" height="15.0" fill="rgb(232,226,41)" rx="2" ry="2" />
-<text text-anchor="" x="807.60" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.unPackageName (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.unPackageName (4 samples, 0.40%)</title><rect x="774.9" y="289" width="4.7" height="15.0" fill="rgb(219,52,37)" rx="2" ry="2" />
-<text text-anchor="" x="777.86" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Foundation.settings (20 samples, 2.02%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Foundation.settings (20 samples, 2.02%)</title><rect x="106.4" y="241" width="23.7" height="15.0" fill="rgb(245,121,15)" rx="2" ry="2" />
-<text text-anchor="" x="109.35" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >F..</text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.get' (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.get' (3 samples, 0.30%)</title><rect x="145.6" y="289" width="3.6" height="15.0" fill="rgb(243,207,33)" rx="2" ry="2" />
-<text text-anchor="" x="148.60" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Handler.Home.getReverseListR.getOutdated (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Handler.Home.getReverseListR.getOutdated (1 samples, 0.10%)</title><rect x="956.9" y="241" width="1.1" height="15.0" fill="rgb(231,75,14)" rx="2" ry="2" />
-<text text-anchor="" x="959.85" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.withinRange.\ (61 samples, 6.15%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Util.withinRange.\ (61 samples, 6.15%)</title><rect x="958.0" y="209" width="72.6" height="15.0" fill="rgb(235,163,7)" rx="2" ry="2" />
-<text text-anchor="" x="961.04" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Distribu..</text>
-</g>
-<g class="func_g" onmouseover="s('Foundation.getStatic (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Foundation.getStatic (3 samples, 0.30%)</title><rect x="10.0" y="273" width="3.6" height="15.0" fill="rgb(207,198,6)" rx="2" ry="2" />
-<text text-anchor="" x="13.00" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Handler.Home.getReverseListR.\ (78 samples, 7.86%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Handler.Home.getReverseListR.\ (78 samples, 7.86%)</title><rect x="13.6" y="177" width="92.8" height="15.0" fill="rgb(252,165,33)" rx="2" ry="2" />
-<text text-anchor="" x="16.57" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Handler.Hom..</text>
-</g>
-<g class="func_g" onmouseover="s('Settings.StaticFiles.staticSite (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Settings.StaticFiles.staticSite (3 samples, 0.30%)</title><rect x="1186.4" y="289" width="3.6" height="15.0" fill="rgb(205,110,54)" rx="2" ry="2" />
-<text text-anchor="" x="1189.43" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.orLaterVersion (6 samples, 0.60%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Util.orLaterVersion (6 samples, 0.60%)</title><rect x="797.5" y="129" width="7.1" height="15.0" fill="rgb(248,16,40)" rx="2" ry="2" />
-<text text-anchor="" x="800.46" y="139.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Handler.Home.sortByName.\ (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Handler.Home.sortByName.\ (3 samples, 0.30%)</title><rect x="804.6" y="225" width="3.6" height="15.0" fill="rgb(250,214,32)" rx="2" ry="2" />
-<text text-anchor="" x="807.60" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Handler.Home.getReverseListR.\ (30 samples, 3.02%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Handler.Home.getReverseListR.\ (30 samples, 3.02%)</title><rect x="1030.6" y="273" width="35.7" height="15.0" fill="rgb(220,22,54)" rx="2" ry="2" />
-<text text-anchor="" x="1033.60" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Han..</text>
-</g>
-<g class="func_g" onmouseover="s('Handler.Home.sortByName (43 samples, 4.33%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Handler.Home.sortByName (43 samples, 4.33%)</title><rect x="834.3" y="193" width="51.2" height="15.0" fill="rgb(220,10,35)" rx="2" ry="2" />
-<text text-anchor="" x="837.33" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Handl..</text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.unPackageName (30 samples, 3.02%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.unPackageName (30 samples, 3.02%)</title><rect x="1030.6" y="209" width="35.7" height="15.0" fill="rgb(254,26,48)" rx="2" ry="2" />
-<text text-anchor="" x="1033.60" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Dis..</text>
-</g>
-<g class="func_g" onmouseover="s('Handler.Home.getReverseListR.\ (30 samples, 3.02%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Handler.Home.getReverseListR.\ (30 samples, 3.02%)</title><rect x="1030.6" y="257" width="35.7" height="15.0" fill="rgb(212,79,26)" rx="2" ry="2" />
-<text text-anchor="" x="1033.60" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Han..</text>
-</g>
-<g class="func_g" onmouseover="s('Handler.Home.getReverseListR.\ (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Handler.Home.getReverseListR.\ (4 samples, 0.40%)</title><rect x="774.9" y="161" width="4.7" height="15.0" fill="rgb(214,68,40)" rx="2" ry="2" />
-<text text-anchor="" x="777.86" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.withinRange.\ (61 samples, 6.15%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Util.withinRange.\ (61 samples, 6.15%)</title><rect x="958.0" y="241" width="72.6" height="15.0" fill="rgb(231,220,13)" rx="2" ry="2" />
-<text text-anchor="" x="961.04" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Distribu..</text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.getDeps.\ (6 samples, 0.60%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.getDeps.\ (6 samples, 0.60%)</title><rect x="916.4" y="161" width="7.1" height="15.0" fill="rgb(250,162,20)" rx="2" ry="2" />
-<text text-anchor="" x="919.41" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.newestToIds (27 samples, 2.72%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.newestToIds (27 samples, 2.72%)</title><rect x="923.5" y="257" width="32.2" height="15.0" fill="rgb(254,8,18)" rx="2" ry="2" />
-<text text-anchor="" x="926.55" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Di..</text>
-</g>
-<g class="func_g" onmouseover="s('Application.yesodDispatch.helper4092 (96 samples, 9.68%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Application.yesodDispatch.helper4092 (96 samples, 9.68%)</title><rect x="1072.2" y="225" width="114.2" height="15.0" fill="rgb(228,150,45)" rx="2" ry="2" />
-<text text-anchor="" x="1075.24" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Application.ye..</text>
-</g>
-<g class="func_g" onmouseover="s('Handler.Home.getReverseListR (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Handler.Home.getReverseListR (3 samples, 0.30%)</title><rect x="10.0" y="241" width="3.6" height="15.0" fill="rgb(243,52,47)" rx="2" ry="2" />
-<text text-anchor="" x="13.00" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.versionBranch (43 samples, 4.33%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.versionBranch (43 samples, 4.33%)</title><rect x="834.3" y="241" width="51.2" height="15.0" fill="rgb(210,52,17)" rx="2" ry="2" />
-<text text-anchor="" x="837.33" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Distr..</text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.withinRange.\ (8 samples, 0.81%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Util.withinRange.\ (8 samples, 0.81%)</title><rect x="779.6" y="177" width="9.5" height="15.0" fill="rgb(220,34,46)" rx="2" ry="2" />
-<text text-anchor="" x="782.62" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.foldVersionRange (7 samples, 0.71%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Util.foldVersionRange (7 samples, 0.71%)</title><rect x="789.1" y="241" width="8.4" height="15.0" fill="rgb(215,48,52)" rx="2" ry="2" />
-<text text-anchor="" x="792.13" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Data.Text.Internal.Fusion.unstream/resize (24 samples, 2.42%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Data.Text.Internal.Fusion.unstream/resize (24 samples, 2.42%)</title><rect x="885.5" y="273" width="28.5" height="15.0" fill="rgb(211,5,42)" rx="2" ry="2" />
-<text text-anchor="" x="888.48" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Da..</text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.foldVersionRange.wildcard (6 samples, 0.60%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Util.foldVersionRange.wildcard (6 samples, 0.60%)</title><rect x="797.5" y="177" width="7.1" height="15.0" fill="rgb(253,185,36)" rx="2" ry="2" />
-<text text-anchor="" x="800.46" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.versionBranch (16 samples, 1.61%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.versionBranch (16 samples, 1.61%)</title><rect x="789.1" y="257" width="19.1" height="15.0" fill="rgb(240,163,35)" rx="2" ry="2" />
-<text text-anchor="" x="792.13" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.withinRange.\ (43 samples, 4.33%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Util.withinRange.\ (43 samples, 4.33%)</title><rect x="834.3" y="289" width="51.2" height="15.0" fill="rgb(231,180,41)" rx="2" ry="2" />
-<text text-anchor="" x="837.33" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Distr..</text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.newestToIds (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.newestToIds (1 samples, 0.10%)</title><rect x="773.7" y="289" width="1.2" height="15.0" fill="rgb(226,2,34)" rx="2" ry="2" />
-<text text-anchor="" x="776.67" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Application.yesodDispatch (96 samples, 9.68%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Application.yesodDispatch (96 samples, 9.68%)</title><rect x="1072.2" y="241" width="114.2" height="15.0" fill="rgb(222,21,31)" rx="2" ry="2" />
-<text text-anchor="" x="1075.24" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Application.ye..</text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.mappend (6 samples, 0.60%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.mappend (6 samples, 0.60%)</title><rect x="916.4" y="193" width="7.1" height="15.0" fill="rgb(222,205,6)" rx="2" ry="2" />
-<text text-anchor="" x="919.41" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.getDeps (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.getDeps (2 samples, 0.20%)</title><rect x="130.1" y="177" width="2.4" height="15.0" fill="rgb(253,171,3)" rx="2" ry="2" />
-<text text-anchor="" x="133.14" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Handler.Home.getReverseListR.\.\ (62 samples, 6.25%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Handler.Home.getReverseListR.\.\ (62 samples, 6.25%)</title><rect x="956.9" y="289" width="73.7" height="15.0" fill="rgb(205,43,44)" rx="2" ry="2" />
-<text text-anchor="" x="959.85" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Handler...</text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.foldVersionRange.wildcard (8 samples, 0.81%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Util.foldVersionRange.wildcard (8 samples, 0.81%)</title><rect x="779.6" y="241" width="9.5" height="15.0" fill="rgb(254,63,36)" rx="2" ry="2" />
-<text text-anchor="" x="782.62" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.parsePackage (11 samples, 1.11%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.parsePackage (11 samples, 1.11%)</title><rect x="132.5" y="257" width="13.1" height="15.0" fill="rgb(214,170,12)" rx="2" ry="2" />
-<text text-anchor="" x="135.52" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Data.Text.Internal.Fusion.unstream/resize (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Data.Text.Internal.Fusion.unstream/resize (1 samples, 0.10%)</title><rect x="809.4" y="81" width="1.1" height="15.0" fill="rgb(248,9,45)" rx="2" ry="2" />
-<text text-anchor="" x="812.35" y="91.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Data.ByteString.Base64.Internal.encodeWith.dlen (78 samples, 7.86%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Data.ByteString.Base64.Internal.encodeWith.dlen (78 samples, 7.86%)</title><rect x="13.6" y="225" width="92.8" height="15.0" fill="rgb(226,26,7)" rx="2" ry="2" />
-<text text-anchor="" x="16.57" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Data.ByteSt..</text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.newestToIds.(...) (523 samples, 52.72%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.newestToIds.(...) (523 samples, 52.72%)</title><rect x="151.6" y="289" width="622.1" height="15.0" fill="rgb(253,117,32)" rx="2" ry="2" />
-<text text-anchor="" x="154.55" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Distribution.PackDeps.Types.newestToIds.(...)</text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.gget (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.gget (1 samples, 0.10%)</title><rect x="150.4" y="193" width="1.2" height="15.0" fill="rgb(253,218,15)" rx="2" ry="2" />
-<text text-anchor="" x="153.36" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.mappend (20 samples, 2.02%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.mappend (20 samples, 2.02%)</title><rect x="810.5" y="241" width="23.8" height="15.0" fill="rgb(212,59,9)" rx="2" ry="2" />
-<text text-anchor="" x="813.54" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >D..</text>
-</g>
-<g class="func_g" onmouseover="s('Handler.Home.getReverseListR.getOutdated (30 samples, 3.02%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Handler.Home.getReverseListR.getOutdated (30 samples, 3.02%)</title><rect x="1030.6" y="177" width="35.7" height="15.0" fill="rgb(209,144,38)" rx="2" ry="2" />
-<text text-anchor="" x="1033.60" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Han..</text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.newestFromIds.getLicense (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.newestFromIds.getLicense (1 samples, 0.10%)</title><rect x="149.2" y="193" width="1.2" height="15.0" fill="rgb(207,19,19)" rx="2" ry="2" />
-<text text-anchor="" x="152.17" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.getDeps (5 samples, 0.50%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.getDeps (5 samples, 0.50%)</title><rect x="767.7" y="113" width="6.0" height="15.0" fill="rgb(238,78,40)" rx="2" ry="2" />
-<text text-anchor="" x="770.72" y="123.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Handler.Home.getReverseListR.\.\.\ (71 samples, 7.16%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Handler.Home.getReverseListR.\.\.\ (71 samples, 7.16%)</title><rect x="21.9" y="145" width="84.5" height="15.0" fill="rgb(238,14,17)" rx="2" ry="2" />
-<text text-anchor="" x="24.90" y="155.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Handler.H..</text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.versionBranch (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.versionBranch (1 samples, 0.10%)</title><rect x="956.9" y="129" width="1.1" height="15.0" fill="rgb(219,112,9)" rx="2" ry="2" />
-<text text-anchor="" x="959.85" y="139.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Foundation.defaultLayout.\ (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Foundation.defaultLayout.\ (4 samples, 0.40%)</title><rect x="774.9" y="209" width="4.7" height="15.0" fill="rgb(210,205,1)" rx="2" ry="2" />
-<text text-anchor="" x="777.86" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.wildcardUpperBound.upperBound (8 samples, 0.81%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Util.wildcardUpperBound.upperBound (8 samples, 0.81%)</title><rect x="779.6" y="209" width="9.5" height="15.0" fill="rgb(220,179,42)" rx="2" ry="2" />
-<text text-anchor="" x="782.62" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.getDeps (6 samples, 0.60%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.getDeps (6 samples, 0.60%)</title><rect x="916.4" y="257" width="7.1" height="15.0" fill="rgb(251,210,19)" rx="2" ry="2" />
-<text text-anchor="" x="919.41" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Application.get (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Application.get (1 samples, 0.10%)</title><rect x="150.4" y="225" width="1.2" height="15.0" fill="rgb(246,6,54)" rx="2" ry="2" />
-<text text-anchor="" x="153.36" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.withinRange.\ (7 samples, 0.71%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Util.withinRange.\ (7 samples, 0.71%)</title><rect x="789.1" y="145" width="8.4" height="15.0" fill="rgb(215,200,32)" rx="2" ry="2" />
-<text text-anchor="" x="792.13" y="155.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Foundation.appData (27 samples, 2.72%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Foundation.appData (27 samples, 2.72%)</title><rect x="923.5" y="289" width="32.2" height="15.0" fill="rgb(242,207,29)" rx="2" ry="2" />
-<text text-anchor="" x="926.55" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Fo..</text>
-</g>
-<g class="func_g" onmouseover="s('Foundation.settings (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Foundation.settings (1 samples, 0.10%)</title><rect x="955.7" y="289" width="1.2" height="15.0" fill="rgb(220,13,45)" rx="2" ry="2" />
-<text text-anchor="" x="958.67" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Handler.Home.getReverseListR.\ (20 samples, 2.02%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Handler.Home.getReverseListR.\ (20 samples, 2.02%)</title><rect x="106.4" y="193" width="23.7" height="15.0" fill="rgb(235,164,31)" rx="2" ry="2" />
-<text text-anchor="" x="109.35" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >H..</text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.orLaterVersion (7 samples, 0.71%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Util.orLaterVersion (7 samples, 0.71%)</title><rect x="789.1" y="161" width="8.4" height="15.0" fill="rgb(219,69,38)" rx="2" ry="2" />
-<text text-anchor="" x="792.13" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.versionBranch (8 samples, 0.81%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.versionBranch (8 samples, 0.81%)</title><rect x="779.6" y="129" width="9.5" height="15.0" fill="rgb(217,114,46)" rx="2" ry="2" />
-<text text-anchor="" x="782.62" y="139.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.loadNewestFrom (523 samples, 52.72%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.loadNewestFrom (523 samples, 52.72%)</title><rect x="151.6" y="273" width="622.1" height="15.0" fill="rgb(251,92,26)" rx="2" ry="2" />
-<text text-anchor="" x="154.55" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Distribution.PackDeps.loadNewestFrom</text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.getDeps.go' (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.getDeps.go' (1 samples, 0.10%)</title><rect x="914.0" y="193" width="1.2" height="15.0" fill="rgb(237,207,16)" rx="2" ry="2" />
-<text text-anchor="" x="917.03" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.fmap (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.fmap (2 samples, 0.20%)</title><rect x="130.1" y="241" width="2.4" height="15.0" fill="rgb(227,5,31)" rx="2" ry="2" />
-<text text-anchor="" x="133.14" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.getDeps.checkCond' (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.getDeps.checkCond' (1 samples, 0.10%)</title><rect x="914.0" y="161" width="1.2" height="15.0" fill="rgb(233,204,4)" rx="2" ry="2" />
-<text text-anchor="" x="917.03" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.piVersion (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.piVersion (1 samples, 0.10%)</title><rect x="150.4" y="257" width="1.2" height="15.0" fill="rgb(209,28,42)" rx="2" ry="2" />
-<text text-anchor="" x="153.36" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Handler.Home.getReverseListR.\.\ (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Handler.Home.getReverseListR.\.\ (1 samples, 0.10%)</title><rect x="956.9" y="257" width="1.1" height="15.0" fill="rgb(230,224,26)" rx="2" ry="2" />
-<text text-anchor="" x="959.85" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.getReverses.toTuples (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.getReverses.toTuples (1 samples, 0.10%)</title><rect x="915.2" y="289" width="1.2" height="15.0" fill="rgb(214,133,15)" rx="2" ry="2" />
-<text text-anchor="" x="918.22" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.parsePackage (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.parsePackage (2 samples, 0.20%)</title><rect x="130.1" y="209" width="2.4" height="15.0" fill="rgb(242,50,50)" rx="2" ry="2" />
-<text text-anchor="" x="133.14" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Application.loadData (27 samples, 2.72%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Application.loadData (27 samples, 2.72%)</title><rect x="923.5" y="273" width="32.2" height="15.0" fill="rgb(213,107,42)" rx="2" ry="2" />
-<text text-anchor="" x="926.55" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Ap..</text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.addPackage (12 samples, 1.21%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.addPackage (12 samples, 1.21%)</title><rect x="941.4" y="193" width="14.3" height="15.0" fill="rgb(208,136,5)" rx="2" ry="2" />
-<text text-anchor="" x="944.39" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.unPackageName (30 samples, 3.02%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.unPackageName (30 samples, 3.02%)</title><rect x="1030.6" y="241" width="35.7" height="15.0" fill="rgb(241,196,12)" rx="2" ry="2" />
-<text text-anchor="" x="1033.60" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Dis..</text>
-</g>
-<g class="func_g" onmouseover="s('Foundation.settings (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Foundation.settings (3 samples, 0.30%)</title><rect x="10.0" y="257" width="3.6" height="15.0" fill="rgb(239,69,22)" rx="2" ry="2" />
-<text text-anchor="" x="13.00" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.addPackage.go.p (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.addPackage.go.p (2 samples, 0.20%)</title><rect x="808.2" y="241" width="2.3" height="15.0" fill="rgb(210,193,32)" rx="2" ry="2" />
-<text text-anchor="" x="811.17" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.mappend (11 samples, 1.11%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.mappend (11 samples, 1.11%)</title><rect x="132.5" y="161" width="13.1" height="15.0" fill="rgb(233,206,13)" rx="2" ry="2" />
-<text text-anchor="" x="135.52" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.getDeps.allowsBase46 (6 samples, 0.60%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.getDeps.allowsBase46 (6 samples, 0.60%)</title><rect x="916.4" y="129" width="7.1" height="15.0" fill="rgb(236,153,38)" rx="2" ry="2" />
-<text text-anchor="" x="919.41" y="139.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.getDeps.\ (20 samples, 2.02%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.getDeps.\ (20 samples, 2.02%)</title><rect x="810.5" y="225" width="23.8" height="15.0" fill="rgb(231,227,53)" rx="2" ry="2" />
-<text text-anchor="" x="813.54" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >D..</text>
-</g>
-<g class="func_g" onmouseover="s('Handler.Home.getReverseListR.\.\ (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Handler.Home.getReverseListR.\.\ (1 samples, 0.10%)</title><rect x="955.7" y="193" width="1.2" height="15.0" fill="rgb(229,26,21)" rx="2" ry="2" />
-<text text-anchor="" x="958.67" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.newestFromIds (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.newestFromIds (1 samples, 0.10%)</title><rect x="149.2" y="273" width="1.2" height="15.0" fill="rgb(248,160,21)" rx="2" ry="2" />
-<text text-anchor="" x="152.17" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.mappend (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.mappend (2 samples, 0.20%)</title><rect x="130.1" y="97" width="2.4" height="15.0" fill="rgb(214,88,52)" rx="2" ry="2" />
-<text text-anchor="" x="133.14" y="107.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Application.loadData.\ (24 samples, 2.42%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Application.loadData.\ (24 samples, 2.42%)</title><rect x="885.5" y="225" width="28.5" height="15.0" fill="rgb(248,12,0)" rx="2" ry="2" />
-<text text-anchor="" x="888.48" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Ap..</text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.foldVersionRange (61 samples, 6.15%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Util.foldVersionRange (61 samples, 6.15%)</title><rect x="958.0" y="145" width="72.6" height="15.0" fill="rgb(212,140,15)" rx="2" ry="2" />
-<text text-anchor="" x="961.04" y="155.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Distribu..</text>
-</g>
-<g class="func_g" onmouseover="s('Handler.Home.sortByName (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Handler.Home.sortByName (3 samples, 0.30%)</title><rect x="804.6" y="241" width="3.6" height="15.0" fill="rgb(211,40,42)" rx="2" ry="2" />
-<text text-anchor="" x="807.60" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.getDeps.allowsBase46.ok (9 samples, 0.91%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.getDeps.allowsBase46.ok (9 samples, 0.91%)</title><rect x="134.9" y="81" width="10.7" height="15.0" fill="rgb(222,226,16)" rx="2" ry="2" />
-<text text-anchor="" x="137.90" y="91.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.mappend (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.mappend (2 samples, 0.20%)</title><rect x="130.1" y="113" width="2.4" height="15.0" fill="rgb(254,59,9)" rx="2" ry="2" />
-<text text-anchor="" x="133.14" y="123.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.getDeps.go.choices (19 samples, 1.92%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.getDeps.go.choices (19 samples, 1.92%)</title><rect x="811.7" y="81" width="22.6" height="15.0" fill="rgb(236,222,11)" rx="2" ry="2" />
-<text text-anchor="" x="814.73" y="91.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >D..</text>
-</g>
-<g class="func_g" onmouseover="s('Foundation.getStatic (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Foundation.getStatic (3 samples, 0.30%)</title><rect x="1186.4" y="241" width="3.6" height="15.0" fill="rgb(218,97,32)" rx="2" ry="2" />
-<text text-anchor="" x="1189.43" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.entriesToList (24 samples, 2.42%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.entriesToList (24 samples, 2.42%)</title><rect x="885.5" y="257" width="28.5" height="15.0" fill="rgb(207,205,37)" rx="2" ry="2" />
-<text text-anchor="" x="888.48" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Di..</text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.addPackage.go.p (523 samples, 52.72%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.addPackage.go.p (523 samples, 52.72%)</title><rect x="151.6" y="161" width="622.1" height="15.0" fill="rgb(210,110,11)" rx="2" ry="2" />
-<text text-anchor="" x="154.55" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Distribution.PackDeps.addPackage.go.p</text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.versionBranch (61 samples, 6.15%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.versionBranch (61 samples, 6.15%)</title><rect x="958.0" y="193" width="72.6" height="15.0" fill="rgb(238,120,35)" rx="2" ry="2" />
-<text text-anchor="" x="961.04" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Distribu..</text>
-</g>
-<g class="func_g" onmouseover="s('Handler.Home.sortByName (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Handler.Home.sortByName (4 samples, 0.40%)</title><rect x="1066.3" y="289" width="4.7" height="15.0" fill="rgb(232,83,6)" rx="2" ry="2" />
-<text text-anchor="" x="1069.29" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Handler.Home.getReverseListR.\.\ (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Handler.Home.getReverseListR.\.\ (3 samples, 0.30%)</title><rect x="10.0" y="177" width="3.6" height="15.0" fill="rgb(249,114,3)" rx="2" ry="2" />
-<text text-anchor="" x="13.00" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.getDeps.flagMaps (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.getDeps.flagMaps (1 samples, 0.10%)</title><rect x="914.0" y="289" width="1.2" height="15.0" fill="rgb(252,100,53)" rx="2" ry="2" />
-<text text-anchor="" x="917.03" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.getDeps.allowsBase46.ok (20 samples, 2.02%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.getDeps.allowsBase46.ok (20 samples, 2.02%)</title><rect x="810.5" y="177" width="23.8" height="15.0" fill="rgb(217,92,53)" rx="2" ry="2" />
-<text text-anchor="" x="813.54" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >D..</text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.foldVersionRange.fold (59 samples, 5.95%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Util.foldVersionRange.fold (59 samples, 5.95%)</title><rect x="960.4" y="129" width="70.2" height="15.0" fill="rgb(250,195,33)" rx="2" ry="2" />
-<text text-anchor="" x="963.42" y="139.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Distrib..</text>
-</g>
-<g class="func_g" onmouseover="s('Data.Text.Internal.Fusion.unstream/resize (11 samples, 1.11%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Data.Text.Internal.Fusion.unstream/resize (11 samples, 1.11%)</title><rect x="132.5" y="113" width="13.1" height="15.0" fill="rgb(251,207,25)" rx="2" ry="2" />
-<text text-anchor="" x="135.52" y="123.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.mappend (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.mappend (2 samples, 0.20%)</title><rect x="808.2" y="129" width="2.3" height="15.0" fill="rgb(245,138,54)" rx="2" ry="2" />
-<text text-anchor="" x="811.17" y="139.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.getDeps.go (20 samples, 2.02%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.getDeps.go (20 samples, 2.02%)</title><rect x="810.5" y="97" width="23.8" height="15.0" fill="rgb(228,9,23)" rx="2" ry="2" />
-<text text-anchor="" x="813.54" y="107.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >D..</text>
-</g>
-<g class="func_g" onmouseover="s('Handler.Home.getReverseListR.\ (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Handler.Home.getReverseListR.\ (1 samples, 0.10%)</title><rect x="955.7" y="225" width="1.2" height="15.0" fill="rgb(221,153,52)" rx="2" ry="2" />
-<text text-anchor="" x="958.67" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.convertVersionRange.goR (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Util.convertVersionRange.goR (1 samples, 0.10%)</title><rect x="772.5" y="81" width="1.2" height="15.0" fill="rgb(238,154,31)" rx="2" ry="2" />
-<text text-anchor="" x="775.48" y="91.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Application.yesodDispatch.helper4092.\ (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Application.yesodDispatch.helper4092.\ (3 samples, 0.30%)</title><rect x="10.0" y="289" width="3.6" height="15.0" fill="rgb(221,196,3)" rx="2" ry="2" />
-<text text-anchor="" x="13.00" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.convertVersion (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Util.convertVersion (2 samples, 0.20%)</title><rect x="808.2" y="145" width="2.3" height="15.0" fill="rgb(236,7,41)" rx="2" ry="2" />
-<text text-anchor="" x="811.17" y="155.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.parseNewest (523 samples, 52.72%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.parseNewest (523 samples, 52.72%)</title><rect x="151.6" y="257" width="622.1" height="15.0" fill="rgb(219,195,49)" rx="2" ry="2" />
-<text text-anchor="" x="154.55" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Distribution.PackDeps.parseNewest</text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.getDeps.checkCond (10 samples, 1.01%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.getDeps.checkCond (10 samples, 1.01%)</title><rect x="822.4" y="49" width="11.9" height="15.0" fill="rgb(240,145,5)" rx="2" ry="2" />
-<text text-anchor="" x="825.44" y="59.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.wildcardUpperBound (7 samples, 0.71%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Util.wildcardUpperBound (7 samples, 0.71%)</title><rect x="789.1" y="193" width="8.4" height="15.0" fill="rgb(240,47,7)" rx="2" ry="2" />
-<text text-anchor="" x="792.13" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.wildcardUpperBound.upperBound (6 samples, 0.60%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Util.wildcardUpperBound.upperBound (6 samples, 0.60%)</title><rect x="797.5" y="145" width="7.1" height="15.0" fill="rgb(224,14,23)" rx="2" ry="2" />
-<text text-anchor="" x="800.46" y="155.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.foldVersionRange.fold (7 samples, 0.71%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Util.foldVersionRange.fold (7 samples, 0.71%)</title><rect x="789.1" y="225" width="8.4" height="15.0" fill="rgb(226,6,47)" rx="2" ry="2" />
-<text text-anchor="" x="792.13" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Data.Text.Internal.Fusion.unstream/resize (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Data.Text.Internal.Fusion.unstream/resize (3 samples, 0.30%)</title><rect x="1186.4" y="273" width="3.6" height="15.0" fill="rgb(251,215,16)" rx="2" ry="2" />
-<text text-anchor="" x="1189.43" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.addPackage.go (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.addPackage.go (1 samples, 0.10%)</title><rect x="773.7" y="177" width="1.2" height="15.0" fill="rgb(241,67,11)" rx="2" ry="2" />
-<text text-anchor="" x="776.67" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.getDeps.allowsBase46 (20 samples, 2.02%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.getDeps.allowsBase46 (20 samples, 2.02%)</title><rect x="810.5" y="193" width="23.8" height="15.0" fill="rgb(215,84,3)" rx="2" ry="2" />
-<text text-anchor="" x="813.54" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >D..</text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.withinRange (61 samples, 6.15%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Util.withinRange (61 samples, 6.15%)</title><rect x="958.0" y="257" width="72.6" height="15.0" fill="rgb(238,153,28)" rx="2" ry="2" />
-<text text-anchor="" x="961.04" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Distribu..</text>
-</g>
-<g class="func_g" onmouseover="s('Handler.Home.getReverseListR.\.\ (30 samples, 3.02%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Handler.Home.getReverseListR.\.\ (30 samples, 3.02%)</title><rect x="1030.6" y="193" width="35.7" height="15.0" fill="rgb(223,46,31)" rx="2" ry="2" />
-<text text-anchor="" x="1033.60" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Han..</text>
-</g>
-<g class="func_g" onmouseover="s('Data.Text.Internal.Fusion.unstream/resize (20 samples, 2.02%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Data.Text.Internal.Fusion.unstream/resize (20 samples, 2.02%)</title><rect x="106.4" y="289" width="23.7" height="15.0" fill="rgb(254,92,21)" rx="2" ry="2" />
-<text text-anchor="" x="109.35" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >D..</text>
-</g>
-<g class="func_g" onmouseover="s('Data.Text.Internal.Fusion.unstream/resize (20 samples, 2.02%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Data.Text.Internal.Fusion.unstream/resize (20 samples, 2.02%)</title><rect x="810.5" y="209" width="23.8" height="15.0" fill="rgb(247,155,6)" rx="2" ry="2" />
-<text text-anchor="" x="813.54" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >D..</text>
-</g>
-<g class="func_g" onmouseover="s('Settings.staticRoot (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Settings.staticRoot (4 samples, 0.40%)</title><rect x="774.9" y="241" width="4.7" height="15.0" fill="rgb(215,33,31)" rx="2" ry="2" />
-<text text-anchor="" x="777.86" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.getDeps.checkCond' (10 samples, 1.01%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.getDeps.checkCond' (10 samples, 1.01%)</title><rect x="822.4" y="33" width="11.9" height="15.0" fill="rgb(228,96,6)" rx="2" ry="2" />
-<text text-anchor="" x="825.44" y="43.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.newestToIds.(...) (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.newestToIds.(...) (1 samples, 0.10%)</title><rect x="773.7" y="273" width="1.2" height="15.0" fill="rgb(245,132,17)" rx="2" ry="2" />
-<text text-anchor="" x="776.67" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.convertVersionRange.goR (6 samples, 0.60%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Util.convertVersionRange.goR (6 samples, 0.60%)</title><rect x="916.4" y="225" width="7.1" height="15.0" fill="rgb(211,118,36)" rx="2" ry="2" />
-<text text-anchor="" x="919.41" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.get (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.get (1 samples, 0.10%)</title><rect x="149.2" y="289" width="1.2" height="15.0" fill="rgb(232,8,28)" rx="2" ry="2" />
-<text text-anchor="" x="152.17" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.mappend (20 samples, 2.02%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.mappend (20 samples, 2.02%)</title><rect x="810.5" y="257" width="23.8" height="15.0" fill="rgb(246,185,9)" rx="2" ry="2" />
-<text text-anchor="" x="813.54" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >D..</text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.newestFromIds.getName (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.newestFromIds.getName (1 samples, 0.10%)</title><rect x="149.2" y="241" width="1.2" height="15.0" fill="rgb(239,85,26)" rx="2" ry="2" />
-<text text-anchor="" x="152.17" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.piLicense (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.piLicense (1 samples, 0.10%)</title><rect x="149.2" y="209" width="1.2" height="15.0" fill="rgb(232,125,46)" rx="2" ry="2" />
-<text text-anchor="" x="152.17" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Foundation.defaultLayout (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Foundation.defaultLayout (4 samples, 0.40%)</title><rect x="774.9" y="273" width="4.7" height="15.0" fill="rgb(210,123,16)" rx="2" ry="2" />
-<text text-anchor="" x="777.86" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.foldVersionRange.wildcard (7 samples, 0.71%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Util.foldVersionRange.wildcard (7 samples, 0.71%)</title><rect x="789.1" y="209" width="8.4" height="15.0" fill="rgb(253,1,39)" rx="2" ry="2" />
-<text text-anchor="" x="792.13" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.) (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.) (1 samples, 0.10%)</title><rect x="773.7" y="209" width="1.2" height="15.0" fill="rgb(214,212,2)" rx="2" ry="2" />
-<text text-anchor="" x="776.67" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('MAIN.MAIN (97 samples, 9.78%)')" onmouseout="c()" onclick="zoom(this)">
-<title>MAIN.MAIN (97 samples, 9.78%)</title><rect x="1071.0" y="289" width="115.4" height="15.0" fill="rgb(215,103,27)" rx="2" ry="2" />
-<text text-anchor="" x="1074.05" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >MAIN.MAIN</text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.foldVersionRange (8 samples, 0.81%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Util.foldVersionRange (8 samples, 0.81%)</title><rect x="779.6" y="273" width="9.5" height="15.0" fill="rgb(205,188,21)" rx="2" ry="2" />
-<text text-anchor="" x="782.62" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Handler.Home.getReverseListR.\ (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Handler.Home.getReverseListR.\ (3 samples, 0.30%)</title><rect x="10.0" y="209" width="3.6" height="15.0" fill="rgb(231,24,32)" rx="2" ry="2" />
-<text text-anchor="" x="13.00" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Handler.Home.sortByName.\ (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Handler.Home.sortByName.\ (4 samples, 0.40%)</title><rect x="1066.3" y="273" width="4.7" height="15.0" fill="rgb(247,11,2)" rx="2" ry="2" />
-<text text-anchor="" x="1069.29" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.convertVersion (20 samples, 2.02%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Util.convertVersion (20 samples, 2.02%)</title><rect x="810.5" y="273" width="23.8" height="15.0" fill="rgb(226,108,48)" rx="2" ry="2" />
-<text text-anchor="" x="813.54" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >D..</text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.newestFromIds.goPI (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.newestFromIds.goPI (1 samples, 0.10%)</title><rect x="149.2" y="225" width="1.2" height="15.0" fill="rgb(225,0,22)" rx="2" ry="2" />
-<text text-anchor="" x="152.17" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.get' (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.get' (1 samples, 0.10%)</title><rect x="145.6" y="225" width="1.2" height="15.0" fill="rgb(245,119,13)" rx="2" ry="2" />
-<text text-anchor="" x="148.60" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.convertVersion (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Util.convertVersion (2 samples, 0.20%)</title><rect x="808.2" y="289" width="2.3" height="15.0" fill="rgb(254,144,12)" rx="2" ry="2" />
-<text text-anchor="" x="811.17" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.fmap (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.fmap (1 samples, 0.10%)</title><rect x="149.2" y="161" width="1.2" height="15.0" fill="rgb(227,101,16)" rx="2" ry="2" />
-<text text-anchor="" x="152.17" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('all (992 samples, 100%)')" onmouseout="c()" onclick="zoom(this)">
-<title>all (992 samples, 100%)</title><rect x="10.0" y="305" width="1180.0" height="15.0" fill="rgb(218,210,2)" rx="2" ry="2" />
-<text text-anchor="" x="13.00" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.parsePackage (523 samples, 52.72%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.parsePackage (523 samples, 52.72%)</title><rect x="151.6" y="145" width="622.1" height="15.0" fill="rgb(241,163,0)" rx="2" ry="2" />
-<text text-anchor="" x="154.55" y="155.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Distribution.PackDeps.parsePackage</text>
-</g>
-<g class="func_g" onmouseover="s('Settings.extraAnalytics (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Settings.extraAnalytics (4 samples, 0.40%)</title><rect x="774.9" y="177" width="4.7" height="15.0" fill="rgb(206,192,35)" rx="2" ry="2" />
-<text text-anchor="" x="777.86" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Application.yesodDispatch.helper4092.\ (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Application.yesodDispatch.helper4092.\ (3 samples, 0.30%)</title><rect x="1186.4" y="257" width="3.6" height="15.0" fill="rgb(220,186,28)" rx="2" ry="2" />
-<text text-anchor="" x="1189.43" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Main.main (96 samples, 9.68%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Main.main (96 samples, 9.68%)</title><rect x="1072.2" y="273" width="114.2" height="15.0" fill="rgb(216,55,2)" rx="2" ry="2" />
-<text text-anchor="" x="1075.24" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Main.main</text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.getDeps.\ (11 samples, 1.11%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.getDeps.\ (11 samples, 1.11%)</title><rect x="132.5" y="129" width="13.1" height="15.0" fill="rgb(229,170,17)" rx="2" ry="2" />
-<text text-anchor="" x="135.52" y="139.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.addPackage.go (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.addPackage.go (2 samples, 0.20%)</title><rect x="808.2" y="273" width="2.3" height="15.0" fill="rgb(217,36,22)" rx="2" ry="2" />
-<text text-anchor="" x="811.17" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Data.ByteString.Base64.Internal.encodeWith.\.\.\.fill.w (78 samples, 7.86%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Data.ByteString.Base64.Internal.encodeWith.\.\.\.fill.w (78 samples, 7.86%)</title><rect x="13.6" y="289" width="92.8" height="15.0" fill="rgb(220,17,39)" rx="2" ry="2" />
-<text text-anchor="" x="16.57" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Data.ByteSt..</text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.getDeps (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.getDeps (2 samples, 0.20%)</title><rect x="808.2" y="193" width="2.3" height="15.0" fill="rgb(207,95,27)" rx="2" ry="2" />
-<text text-anchor="" x="811.17" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.newestFromIds.getVersion (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.newestFromIds.getVersion (1 samples, 0.10%)</title><rect x="150.4" y="241" width="1.2" height="15.0" fill="rgb(234,64,7)" rx="2" ry="2" />
-<text text-anchor="" x="153.36" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Handler.Home.sortByName.\ (19 samples, 1.92%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Handler.Home.sortByName.\ (19 samples, 1.92%)</title><rect x="862.9" y="177" width="22.6" height="15.0" fill="rgb(241,25,34)" rx="2" ry="2" />
-<text text-anchor="" x="865.88" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >H..</text>
-</g>
-<g class="func_g" onmouseover="s('Foundation.defaultLayout.\ (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Foundation.defaultLayout.\ (1 samples, 0.10%)</title><rect x="955.7" y="273" width="1.2" height="15.0" fill="rgb(240,21,20)" rx="2" ry="2" />
-<text text-anchor="" x="958.67" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Handler.Home.getReverseListR (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Handler.Home.getReverseListR (3 samples, 0.30%)</title><rect x="1186.4" y="209" width="3.6" height="15.0" fill="rgb(242,115,18)" rx="2" ry="2" />
-<text text-anchor="" x="1189.43" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.getDeps.flagMaps.loop (6 samples, 0.60%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.getDeps.flagMaps.loop (6 samples, 0.60%)</title><rect x="916.4" y="81" width="7.1" height="15.0" fill="rgb(230,117,31)" rx="2" ry="2" />
-<text text-anchor="" x="919.41" y="91.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.parseNewest (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.parseNewest (1 samples, 0.10%)</title><rect x="773.7" y="241" width="1.2" height="15.0" fill="rgb(209,30,0)" rx="2" ry="2" />
-<text text-anchor="" x="776.67" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.foldVersionRange.fold (8 samples, 0.81%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Util.foldVersionRange.fold (8 samples, 0.81%)</title><rect x="779.6" y="257" width="9.5" height="15.0" fill="rgb(235,158,46)" rx="2" ry="2" />
-<text text-anchor="" x="782.62" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Data.ByteString.Base64.Internal.encodeWith.\.\.\.sEnd (78 samples, 7.86%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Data.ByteString.Base64.Internal.encodeWith.\.\.\.sEnd (78 samples, 7.86%)</title><rect x="13.6" y="241" width="92.8" height="15.0" fill="rgb(252,100,36)" rx="2" ry="2" />
-<text text-anchor="" x="16.57" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Data.ByteSt..</text>
-</g>
-<g class="func_g" onmouseover="s('Handler.Home.getReverseListR.\.\ (30 samples, 3.02%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Handler.Home.getReverseListR.\.\ (30 samples, 3.02%)</title><rect x="1030.6" y="225" width="35.7" height="15.0" fill="rgb(235,27,51)" rx="2" ry="2" />
-<text text-anchor="" x="1033.60" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Han..</text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.getDeps.allowsBase46.ok (6 samples, 0.60%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.getDeps.allowsBase46.ok (6 samples, 0.60%)</title><rect x="916.4" y="113" width="7.1" height="15.0" fill="rgb(222,212,21)" rx="2" ry="2" />
-<text text-anchor="" x="919.41" y="123.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.getDeps.flagMaps.loop.name (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.getDeps.flagMaps.loop.name (1 samples, 0.10%)</title><rect x="914.0" y="241" width="1.2" height="15.0" fill="rgb(213,89,19)" rx="2" ry="2" />
-<text text-anchor="" x="917.03" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Foundation.defaultLayout.\ (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Foundation.defaultLayout.\ (4 samples, 0.40%)</title><rect x="1066.3" y="177" width="4.7" height="15.0" fill="rgb(229,146,54)" rx="2" ry="2" />
-<text text-anchor="" x="1069.29" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.versionBranch (24 samples, 2.42%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.versionBranch (24 samples, 2.42%)</title><rect x="779.6" y="289" width="28.6" height="15.0" fill="rgb(241,163,52)" rx="2" ry="2" />
-<text text-anchor="" x="782.62" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Di..</text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.fmap (11 samples, 1.11%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.fmap (11 samples, 1.11%)</title><rect x="132.5" y="289" width="13.1" height="15.0" fill="rgb(235,138,34)" rx="2" ry="2" />
-<text text-anchor="" x="135.52" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.foldVersionRange.fold (6 samples, 0.60%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Util.foldVersionRange.fold (6 samples, 0.60%)</title><rect x="797.5" y="193" width="7.1" height="15.0" fill="rgb(205,207,1)" rx="2" ry="2" />
-<text text-anchor="" x="800.46" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.wildcardUpperBound (6 samples, 0.60%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Util.wildcardUpperBound (6 samples, 0.60%)</title><rect x="797.5" y="161" width="7.1" height="15.0" fill="rgb(225,92,34)" rx="2" ry="2" />
-<text text-anchor="" x="800.46" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Foundation.settings (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Foundation.settings (1 samples, 0.10%)</title><rect x="955.7" y="257" width="1.2" height="15.0" fill="rgb(218,119,25)" rx="2" ry="2" />
-<text text-anchor="" x="958.67" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Data.Text.Internal.Fusion.unstream/resize (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Data.Text.Internal.Fusion.unstream/resize (1 samples, 0.10%)</title><rect x="914.0" y="113" width="1.2" height="15.0" fill="rgb(229,95,25)" rx="2" ry="2" />
-<text text-anchor="" x="917.03" y="123.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.unPackageName (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.unPackageName (3 samples, 0.30%)</title><rect x="10.0" y="193" width="3.6" height="15.0" fill="rgb(212,26,46)" rx="2" ry="2" />
-<text text-anchor="" x="13.00" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.versionBranch (61 samples, 6.15%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.versionBranch (61 samples, 6.15%)</title><rect x="958.0" y="225" width="72.6" height="15.0" fill="rgb(240,202,14)" rx="2" ry="2" />
-<text text-anchor="" x="961.04" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Distribu..</text>
-</g>
-<g class="func_g" onmouseover="s('Foundation.addStaticContent (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Foundation.addStaticContent (1 samples, 0.10%)</title><rect x="955.7" y="177" width="1.2" height="15.0" fill="rgb(235,35,21)" rx="2" ry="2" />
-<text text-anchor="" x="958.67" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.fmap (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.fmap (2 samples, 0.20%)</title><rect x="808.2" y="257" width="2.3" height="15.0" fill="rgb(224,195,48)" rx="2" ry="2" />
-<text text-anchor="" x="811.17" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.addPackage.package'' (24 samples, 2.42%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.addPackage.package'' (24 samples, 2.42%)</title><rect x="885.5" y="289" width="28.5" height="15.0" fill="rgb(218,145,8)" rx="2" ry="2" />
-<text text-anchor="" x="888.48" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Di..</text>
-</g>
-<g class="func_g" onmouseover="s('Handler.Home.getReverseListR (30 samples, 3.02%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Handler.Home.getReverseListR (30 samples, 3.02%)</title><rect x="1030.6" y="289" width="35.7" height="15.0" fill="rgb(225,212,2)" rx="2" ry="2" />
-<text text-anchor="" x="1033.60" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Han..</text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.withinRange.\ (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Util.withinRange.\ (1 samples, 0.10%)</title><rect x="956.9" y="209" width="1.1" height="15.0" fill="rgb(216,14,35)" rx="2" ry="2" />
-<text text-anchor="" x="959.85" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.convertVersionRange.goR (11 samples, 1.11%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Util.convertVersionRange.goR (11 samples, 1.11%)</title><rect x="132.5" y="193" width="13.1" height="15.0" fill="rgb(209,145,30)" rx="2" ry="2" />
-<text text-anchor="" x="135.52" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
-</g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.diSynopsis (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.diSynopsis (1 samples, 0.10%)</title><rect x="915.2" y="225" width="1.2" height="15.0" fill="rgb(205,12,30)" rx="2" ry="2" />
-<text text-anchor="" x="918.22" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+<title>Distribution.PackDeps.getDeps.go' (18 samples, 1.81%)</title><rect x="723.7" y="65" width="21.4" height="15.0" fill="rgb(253,170,30)" rx="2" ry="2" />
+<text text-anchor="" x="726.71" y="75.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >D..</text>
 </g>
 <g class="func_g" onmouseover="s('Distribution.PackDeps.getReverses.combine (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.getReverses.combine (1 samples, 0.10%)</title><rect x="915.2" y="193" width="1.2" height="15.0" fill="rgb(205,19,43)" rx="2" ry="2" />
-<text text-anchor="" x="918.22" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+<title>Distribution.PackDeps.getReverses.combine (1 samples, 0.10%)</title><rect x="751.1" y="193" width="1.2" height="15.0" fill="rgb(250,91,29)" rx="2" ry="2" />
+<text text-anchor="" x="754.07" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.get (5 samples, 0.50%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Distribution.PackDeps.Types.get (5 samples, 0.50%)</title><rect x="745.1" y="225" width="6.0" height="15.0" fill="rgb(241,223,46)" rx="2" ry="2" />
+<text text-anchor="" x="748.12" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.fmap (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Distribution.PackDeps.Types.fmap (1 samples, 0.10%)</title><rect x="749.9" y="161" width="1.2" height="15.0" fill="rgb(253,134,16)" rx="2" ry="2" />
+<text text-anchor="" x="752.88" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.convertVersion (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Distribution.PackDeps.Util.convertVersion (1 samples, 0.10%)</title><rect x="695.2" y="65" width="1.2" height="15.0" fill="rgb(245,48,12)" rx="2" ry="2" />
+<text text-anchor="" x="698.16" y="75.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Distribution.PackDeps.parseNewest (592 samples, 59.68%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Distribution.PackDeps.parseNewest (592 samples, 59.68%)</title><rect x="40.9" y="209" width="704.2" height="15.0" fill="rgb(252,57,1)" rx="2" ry="2" />
+<text text-anchor="" x="43.93" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Distribution.PackDeps.parseNewest</text>
+</g>
+<g class="func_g" onmouseover="s('Foundation.addStaticContent (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Foundation.addStaticContent (1 samples, 0.10%)</title><rect x="873.6" y="177" width="1.2" height="15.0" fill="rgb(230,107,38)" rx="2" ry="2" />
+<text text-anchor="" x="876.59" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Distribution.PackDeps.getDeps.go.choices (19 samples, 1.92%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Distribution.PackDeps.getDeps.go.choices (19 samples, 1.92%)</title><rect x="722.5" y="81" width="22.6" height="15.0" fill="rgb(241,208,11)" rx="2" ry="2" />
+<text text-anchor="" x="725.52" y="91.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >D..</text>
+</g>
+<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.withinRange.\ (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Distribution.PackDeps.Util.withinRange.\ (1 samples, 0.10%)</title><rect x="1137.7" y="145" width="1.2" height="15.0" fill="rgb(210,10,32)" rx="2" ry="2" />
+<text text-anchor="" x="1140.66" y="155.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Distribution.PackDeps.loadNewestFrom (593 samples, 59.78%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Distribution.PackDeps.loadNewestFrom (593 samples, 59.78%)</title><rect x="39.7" y="225" width="705.4" height="15.0" fill="rgb(246,87,29)" rx="2" ry="2" />
+<text text-anchor="" x="42.74" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Distribution.PackDeps.loadNewestFrom</text>
+</g>
+<g class="func_g" onmouseover="s('Handler.Home.getReverseListR.\ (136 samples, 13.71%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Handler.Home.getReverseListR.\ (136 samples, 13.71%)</title><rect x="977.1" y="193" width="161.8" height="15.0" fill="rgb(224,21,7)" rx="2" ry="2" />
+<text text-anchor="" x="980.08" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Handler.Home.getReve..</text>
+</g>
+<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.newestFromIds.goDI (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Distribution.PackDeps.Types.newestFromIds.goDI (1 samples, 0.10%)</title><rect x="749.9" y="145" width="1.2" height="15.0" fill="rgb(239,125,22)" rx="2" ry="2" />
+<text text-anchor="" x="752.88" y="155.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Handler.Home.getReverseListR.\.\ (72 samples, 7.26%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Handler.Home.getReverseListR.\.\ (72 samples, 7.26%)</title><rect x="891.4" y="161" width="85.7" height="15.0" fill="rgb(223,22,18)" rx="2" ry="2" />
+<text text-anchor="" x="894.43" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Handler.Ho..</text>
+</g>
+<g class="func_g" onmouseover="s('Distribution.PackDeps.getDeps (46 samples, 4.64%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Distribution.PackDeps.getDeps (46 samples, 4.64%)</title><rect x="690.4" y="113" width="54.7" height="15.0" fill="rgb(234,149,46)" rx="2" ry="2" />
+<text text-anchor="" x="693.40" y="123.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Distr..</text>
 </g>
 <g class="func_g" onmouseover="s('Distribution.PackDeps.Types.get' (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.get' (2 samples, 0.20%)</title><rect x="145.6" y="273" width="2.4" height="15.0" fill="rgb(240,161,24)" rx="2" ry="2" />
-<text text-anchor="" x="148.60" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+<title>Distribution.PackDeps.Types.get' (2 samples, 0.20%)</title><rect x="747.5" y="161" width="2.4" height="15.0" fill="rgb(253,52,50)" rx="2" ry="2" />
+<text text-anchor="" x="750.50" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
 </g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.addPackage (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.addPackage (1 samples, 0.10%)</title><rect x="773.7" y="225" width="1.2" height="15.0" fill="rgb(250,83,36)" rx="2" ry="2" />
-<text text-anchor="" x="776.67" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.versionBranch (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Distribution.PackDeps.Types.versionBranch (1 samples, 0.10%)</title><rect x="1137.7" y="129" width="1.2" height="15.0" fill="rgb(234,142,5)" rx="2" ry="2" />
+<text text-anchor="" x="1140.66" y="139.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
 </g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.parsePackage (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.parsePackage (2 samples, 0.20%)</title><rect x="808.2" y="225" width="2.3" height="15.0" fill="rgb(208,224,22)" rx="2" ry="2" />
-<text text-anchor="" x="811.17" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+<g class="func_g" onmouseover="s('Application.loadData (617 samples, 62.20%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Application.loadData (617 samples, 62.20%)</title><rect x="11.2" y="241" width="733.9" height="15.0" fill="rgb(219,43,26)" rx="2" ry="2" />
+<text text-anchor="" x="14.19" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Application.loadData</text>
 </g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.versionBranch (8 samples, 0.81%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.versionBranch (8 samples, 0.81%)</title><rect x="779.6" y="161" width="9.5" height="15.0" fill="rgb(247,135,35)" rx="2" ry="2" />
-<text text-anchor="" x="782.62" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+<g class="func_g" onmouseover="s('Distribution.PackDeps.getDeps.checkCond' (10 samples, 1.01%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Distribution.PackDeps.getDeps.checkCond' (10 samples, 1.01%)</title><rect x="733.2" y="33" width="11.9" height="15.0" fill="rgb(235,64,20)" rx="2" ry="2" />
+<text text-anchor="" x="736.23" y="43.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
 </g>
-<g class="func_g" onmouseover="s('Handler.Home.getReverseListR (20 samples, 2.02%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Handler.Home.getReverseListR (20 samples, 2.02%)</title><rect x="106.4" y="225" width="23.7" height="15.0" fill="rgb(208,44,13)" rx="2" ry="2" />
-<text text-anchor="" x="109.35" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >H..</text>
+<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.foldVersionRange.wildcard (7 samples, 0.71%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Distribution.PackDeps.Util.foldVersionRange.wildcard (7 samples, 0.71%)</title><rect x="1104.4" y="113" width="8.3" height="15.0" fill="rgb(224,77,9)" rx="2" ry="2" />
+<text text-anchor="" x="1107.35" y="123.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
 </g>
-<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.fmap (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
-<title>Distribution.PackDeps.Types.fmap (2 samples, 0.20%)</title><rect x="808.2" y="177" width="2.3" height="15.0" fill="rgb(207,219,23)" rx="2" ry="2" />
-<text text-anchor="" x="811.17" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+<g class="func_g" onmouseover="s('Distribution.PackDeps.addPackage.go.p (565 samples, 56.96%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Distribution.PackDeps.addPackage.go.p (565 samples, 56.96%)</title><rect x="73.0" y="161" width="672.1" height="15.0" fill="rgb(215,43,38)" rx="2" ry="2" />
+<text text-anchor="" x="76.04" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Distribution.PackDeps.addPackage.go.p</text>
+</g>
+<g class="func_g" onmouseover="s('Handler.Home.getReverseListR.\.\ (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Handler.Home.getReverseListR.\.\ (3 samples, 0.30%)</title><rect x="1000.9" y="177" width="3.5" height="15.0" fill="rgb(207,168,40)" rx="2" ry="2" />
+<text text-anchor="" x="1003.87" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.newestFromIds (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Distribution.PackDeps.Types.newestFromIds (1 samples, 0.10%)</title><rect x="749.9" y="209" width="1.2" height="15.0" fill="rgb(217,167,16)" rx="2" ry="2" />
+<text text-anchor="" x="752.88" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Distribution.PackDeps.getDeps.flagMaps.loop (6 samples, 0.60%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Distribution.PackDeps.getDeps.flagMaps.loop (6 samples, 0.60%)</title><rect x="714.2" y="81" width="7.1" height="15.0" fill="rgb(235,39,8)" rx="2" ry="2" />
+<text text-anchor="" x="717.19" y="91.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Distribution.PackDeps.getDeps.checkCond (10 samples, 1.01%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Distribution.PackDeps.getDeps.checkCond (10 samples, 1.01%)</title><rect x="733.2" y="49" width="11.9" height="15.0" fill="rgb(208,17,11)" rx="2" ry="2" />
+<text text-anchor="" x="736.23" y="59.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.newestFromIds.goPair (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Distribution.PackDeps.Types.newestFromIds.goPair (1 samples, 0.10%)</title><rect x="749.9" y="193" width="1.2" height="15.0" fill="rgb(234,76,42)" rx="2" ry="2" />
+<text text-anchor="" x="752.88" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Main.main (991 samples, 99.90%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Main.main (991 samples, 99.90%)</title><rect x="11.2" y="273" width="1178.8" height="15.0" fill="rgb(207,13,33)" rx="2" ry="2" />
+<text text-anchor="" x="14.19" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Main.main</text>
+</g>
+<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.withinRange.\ (21 samples, 2.12%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Distribution.PackDeps.Util.withinRange.\ (21 samples, 2.12%)</title><rect x="1112.7" y="113" width="25.0" height="15.0" fill="rgb(211,199,39)" rx="2" ry="2" />
+<text text-anchor="" x="1115.68" y="123.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >D..</text>
+</g>
+<g class="func_g" onmouseover="s('Handler.Home.getReverseListR (272 samples, 27.42%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Handler.Home.getReverseListR (272 samples, 27.42%)</title><rect x="866.5" y="209" width="323.5" height="15.0" fill="rgb(206,39,10)" rx="2" ry="2" />
+<text text-anchor="" x="869.45" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Handler.Home.getReverseListR</text>
+</g>
+<g class="func_g" onmouseover="s('Foundation.defaultLayout.\ (8 samples, 0.81%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Foundation.defaultLayout.\ (8 samples, 0.81%)</title><rect x="874.8" y="177" width="9.5" height="15.0" fill="rgb(239,202,32)" rx="2" ry="2" />
+<text text-anchor="" x="877.78" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.wildcardUpperBound (5 samples, 0.50%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Distribution.PackDeps.Util.wildcardUpperBound (5 samples, 0.50%)</title><rect x="1106.7" y="97" width="6.0" height="15.0" fill="rgb(246,83,51)" rx="2" ry="2" />
+<text text-anchor="" x="1109.73" y="107.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Distribution.PackDeps.getDeps.flagMaps (6 samples, 0.60%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Distribution.PackDeps.getDeps.flagMaps (6 samples, 0.60%)</title><rect x="714.2" y="97" width="7.1" height="15.0" fill="rgb(207,29,5)" rx="2" ry="2" />
+<text text-anchor="" x="717.19" y="107.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Data.Text.Internal.Fusion.unstream/resize (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Data.Text.Internal.Fusion.unstream/resize (1 samples, 0.10%)</title><rect x="689.2" y="113" width="1.2" height="15.0" fill="rgb(210,149,43)" rx="2" ry="2" />
+<text text-anchor="" x="692.21" y="123.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Foundation.defaultLayout (90 samples, 9.07%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Foundation.defaultLayout (90 samples, 9.07%)</title><rect x="870.0" y="193" width="107.1" height="15.0" fill="rgb(215,146,21)" rx="2" ry="2" />
+<text text-anchor="" x="873.02" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Foundation.de..</text>
+</g>
+<g class="func_g" onmouseover="s('Distribution.PackDeps.getReverses (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Distribution.PackDeps.getReverses (1 samples, 0.10%)</title><rect x="751.1" y="225" width="1.2" height="15.0" fill="rgb(245,83,53)" rx="2" ry="2" />
+<text text-anchor="" x="754.07" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.convertVersionRange.goR (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Distribution.PackDeps.Util.convertVersionRange.goR (1 samples, 0.10%)</title><rect x="695.2" y="81" width="1.2" height="15.0" fill="rgb(240,218,4)" rx="2" ry="2" />
+<text text-anchor="" x="698.16" y="91.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Handler.Home.sortByName (43 samples, 4.33%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Handler.Home.sortByName (43 samples, 4.33%)</title><rect x="1138.9" y="193" width="51.1" height="15.0" fill="rgb(222,41,32)" rx="2" ry="2" />
+<text text-anchor="" x="1141.85" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Handl..</text>
+</g>
+<g class="func_g" onmouseover="s('Distribution.PackDeps.getDeps.allowsBase46 (11 samples, 1.11%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Distribution.PackDeps.getDeps.allowsBase46 (11 samples, 1.11%)</title><rect x="701.1" y="97" width="13.1" height="15.0" fill="rgb(244,225,14)" rx="2" ry="2" />
+<text text-anchor="" x="704.11" y="107.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Handler.Home.getReverseListR.\ (78 samples, 7.86%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Handler.Home.getReverseListR.\ (78 samples, 7.86%)</title><rect x="884.3" y="177" width="92.8" height="15.0" fill="rgb(234,122,50)" rx="2" ry="2" />
+<text text-anchor="" x="887.29" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Handler.Hom..</text>
+</g>
+<g class="func_g" onmouseover="s('Distribution.PackDeps.getDeps.\ (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Distribution.PackDeps.getDeps.\ (2 samples, 0.20%)</title><rect x="698.7" y="97" width="2.4" height="15.0" fill="rgb(234,95,24)" rx="2" ry="2" />
+<text text-anchor="" x="701.73" y="107.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.wildcardUpperBound.upperBound (5 samples, 0.50%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Distribution.PackDeps.Util.wildcardUpperBound.upperBound (5 samples, 0.50%)</title><rect x="1106.7" y="81" width="6.0" height="15.0" fill="rgb(246,63,9)" rx="2" ry="2" />
+<text text-anchor="" x="1109.73" y="91.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Handler.Home.sortByName.\ (19 samples, 1.92%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Handler.Home.sortByName.\ (19 samples, 1.92%)</title><rect x="1167.4" y="177" width="22.6" height="15.0" fill="rgb(213,134,52)" rx="2" ry="2" />
+<text text-anchor="" x="1170.40" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >H..</text>
+</g>
+<g class="func_g" onmouseover="s('Distribution.PackDeps.getReverses.hoisted (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Distribution.PackDeps.getReverses.hoisted (1 samples, 0.10%)</title><rect x="751.1" y="209" width="1.2" height="15.0" fill="rgb(229,29,49)" rx="2" ry="2" />
+<text text-anchor="" x="754.07" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.get (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Distribution.PackDeps.Types.get (4 samples, 0.40%)</title><rect x="745.1" y="209" width="4.8" height="15.0" fill="rgb(237,160,27)" rx="2" ry="2" />
+<text text-anchor="" x="748.12" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Distribution.PackDeps.addPackage.go (566 samples, 57.06%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Distribution.PackDeps.addPackage.go (566 samples, 57.06%)</title><rect x="71.9" y="177" width="673.2" height="15.0" fill="rgb(232,123,32)" rx="2" ry="2" />
+<text text-anchor="" x="74.85" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Distribution.PackDeps.addPackage.go</text>
+</g>
+<g class="func_g" onmouseover="s('Application.makeApplication (991 samples, 99.90%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Application.makeApplication (991 samples, 99.90%)</title><rect x="11.2" y="257" width="1178.8" height="15.0" fill="rgb(227,228,13)" rx="2" ry="2" />
+<text text-anchor="" x="14.19" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Application.makeApplication</text>
+</g>
+<g class="func_g" onmouseover="s('Handler.Home.getReverseListR.getOutdated (113 samples, 11.39%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Handler.Home.getReverseListR.getOutdated (113 samples, 11.39%)</title><rect x="1004.4" y="177" width="134.5" height="15.0" fill="rgb(244,105,36)" rx="2" ry="2" />
+<text text-anchor="" x="1007.44" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Handler.Home.get..</text>
+</g>
+<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.gget (3 samples, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Distribution.PackDeps.Types.gget (3 samples, 0.30%)</title><rect x="746.3" y="177" width="3.6" height="15.0" fill="rgb(206,174,49)" rx="2" ry="2" />
+<text text-anchor="" x="749.31" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Data.Text.Internal.Fusion.unstream/resize (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Data.Text.Internal.Fusion.unstream/resize (1 samples, 0.10%)</title><rect x="699.9" y="81" width="1.2" height="15.0" fill="rgb(210,2,10)" rx="2" ry="2" />
+<text text-anchor="" x="702.92" y="91.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.gget (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Distribution.PackDeps.Types.gget (4 samples, 0.40%)</title><rect x="745.1" y="193" width="4.8" height="15.0" fill="rgb(239,134,49)" rx="2" ry="2" />
+<text text-anchor="" x="748.12" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Distribution.PackDeps.getDeps.allowsBase46.ok (9 samples, 0.91%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Distribution.PackDeps.getDeps.allowsBase46.ok (9 samples, 0.91%)</title><rect x="703.5" y="81" width="10.7" height="15.0" fill="rgb(228,151,16)" rx="2" ry="2" />
+<text text-anchor="" x="706.49" y="91.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Foundation.urlRenderOverride (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Foundation.urlRenderOverride (1 samples, 0.10%)</title><rect x="975.9" y="129" width="1.2" height="15.0" fill="rgb(208,139,28)" rx="2" ry="2" />
+<text text-anchor="" x="978.89" y="139.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Distribution.PackDeps.getDeps.go (20 samples, 2.02%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Distribution.PackDeps.getDeps.go (20 samples, 2.02%)</title><rect x="721.3" y="97" width="23.8" height="15.0" fill="rgb(206,191,50)" rx="2" ry="2" />
+<text text-anchor="" x="724.33" y="107.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >D..</text>
+</g>
+<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.foldVersionRange.fold (80 samples, 8.06%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Distribution.PackDeps.Util.foldVersionRange.fold (80 samples, 8.06%)</title><rect x="1042.5" y="129" width="95.2" height="15.0" fill="rgb(205,130,6)" rx="2" ry="2" />
+<text text-anchor="" x="1045.50" y="139.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Distributio..</text>
+</g>
+<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.foldVersionRange (82 samples, 8.27%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Distribution.PackDeps.Util.foldVersionRange (82 samples, 8.27%)</title><rect x="1040.1" y="145" width="97.6" height="15.0" fill="rgb(218,14,37)" rx="2" ry="2" />
+<text text-anchor="" x="1043.12" y="155.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Distributio..</text>
+</g>
+<g class="func_g" onmouseover="s('Distribution.PackDeps.Util.withinRange (83 samples, 8.37%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Distribution.PackDeps.Util.withinRange (83 samples, 8.37%)</title><rect x="1040.1" y="161" width="98.8" height="15.0" fill="rgb(216,176,13)" rx="2" ry="2" />
+<text text-anchor="" x="1043.12" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Distributio..</text>
+</g>
+<g class="func_g" onmouseover="s('MAIN.MAIN (992 samples, 100.00%)')" onmouseout="c()" onclick="zoom(this)">
+<title>MAIN.MAIN (992 samples, 100.00%)</title><rect x="10.0" y="289" width="1180.0" height="15.0" fill="rgb(210,158,12)" rx="2" ry="2" />
+<text text-anchor="" x="13.00" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >MAIN.MAIN</text>
+</g>
+<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.fmap (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Distribution.PackDeps.Types.fmap (1 samples, 0.10%)</title><rect x="695.2" y="97" width="1.2" height="15.0" fill="rgb(248,131,21)" rx="2" ry="2" />
+<text text-anchor="" x="698.16" y="107.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.get' (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Distribution.PackDeps.Types.get' (1 samples, 0.10%)</title><rect x="747.5" y="145" width="1.2" height="15.0" fill="rgb(233,105,7)" rx="2" ry="2" />
+<text text-anchor="" x="750.50" y="155.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('all (992 samples, 100%)')" onmouseout="c()" onclick="zoom(this)">
+<title>all (992 samples, 100%)</title><rect x="10.0" y="305" width="1180.0" height="15.0" fill="rgb(240,84,18)" rx="2" ry="2" />
+<text text-anchor="" x="13.00" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Distribution.PackDeps.getDescInfo (52 samples, 5.24%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Distribution.PackDeps.getDescInfo (52 samples, 5.24%)</title><rect x="683.3" y="129" width="61.8" height="15.0" fill="rgb(246,42,17)" rx="2" ry="2" />
+<text text-anchor="" x="686.27" y="139.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Distri..</text>
+</g>
+<g class="func_g" onmouseover="s('Application.makeFoundation (6 samples, 0.60%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Application.makeFoundation (6 samples, 0.60%)</title><rect x="745.1" y="241" width="7.2" height="15.0" fill="rgb(251,43,18)" rx="2" ry="2" />
+<text text-anchor="" x="748.12" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.newestFromIds.goPI (1 samples, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Distribution.PackDeps.Types.newestFromIds.goPI (1 samples, 0.10%)</title><rect x="749.9" y="177" width="1.2" height="15.0" fill="rgb(222,125,0)" rx="2" ry="2" />
+<text text-anchor="" x="752.88" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Distribution.PackDeps.Types.mappend (2 samples, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Distribution.PackDeps.Types.mappend (2 samples, 0.20%)</title><rect x="696.4" y="97" width="2.3" height="15.0" fill="rgb(213,23,50)" rx="2" ry="2" />
+<text text-anchor="" x="699.35" y="107.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Distribution.PackDeps.addPackage (578 samples, 58.27%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Distribution.PackDeps.addPackage (578 samples, 58.27%)</title><rect x="57.6" y="193" width="687.5" height="15.0" fill="rgb(216,8,44)" rx="2" ry="2" />
+<text text-anchor="" x="60.58" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Distribution.PackDeps.addPackage</text>
+</g>
+<g class="func_g" onmouseover="s('Handler.Home.getReverseListR.\ (4 samples, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Handler.Home.getReverseListR.\ (4 samples, 0.40%)</title><rect x="879.5" y="161" width="4.8" height="15.0" fill="rgb(246,102,22)" rx="2" ry="2" />
+<text text-anchor="" x="882.54" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Application.yesodDispatch (368 samples, 37.10%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Application.yesodDispatch (368 samples, 37.10%)</title><rect x="752.3" y="241" width="437.7" height="15.0" fill="rgb(249,84,32)" rx="2" ry="2" />
+<text text-anchor="" x="755.26" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Application.yesodDispatch</text>
+</g>
+<g class="func_g" onmouseover="s('Distribution.PackDeps.parsePackage (565 samples, 56.96%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Distribution.PackDeps.parsePackage (565 samples, 56.96%)</title><rect x="73.0" y="145" width="672.1" height="15.0" fill="rgb(227,148,43)" rx="2" ry="2" />
+<text text-anchor="" x="76.04" y="155.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Distribution.PackDeps.parsePackage</text>
+</g>
+<g class="func_g" onmouseover="s('Handler.Home.getReverseListR.\.\.\ (71 samples, 7.16%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Handler.Home.getReverseListR.\.\.\ (71 samples, 7.16%)</title><rect x="892.6" y="145" width="84.5" height="15.0" fill="rgb(207,213,47)" rx="2" ry="2" />
+<text text-anchor="" x="895.62" y="155.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Handler.H..</text>
+</g>
+<g class="func_g" onmouseover="s('Application.loadData.\ (24 samples, 2.42%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Application.loadData.\ (24 samples, 2.42%)</title><rect x="11.2" y="225" width="28.5" height="15.0" fill="rgb(227,151,14)" rx="2" ry="2" />
+<text text-anchor="" x="14.19" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Ap..</text>
 </g>
 </svg>
