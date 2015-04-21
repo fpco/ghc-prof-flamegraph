@@ -9,7 +9,8 @@ make sense of.  Visualizing profiling data is a common problem, and one
 neat solution is to use
 [flame graphs](http://www.brendangregg.com/flamegraphs.html) to get a
 high-level view of where time is spent, and why it is spent there.
-That's why we wrote `ghc-prof-flamegraph`, a new utility useful for turning textual `.prof` reports into a pretty picture.
+That's why we wrote `ghc-prof-flamegraph`, a new utility useful for
+turning textual `.prof` reports into a pretty picture.
 
 ![Flame graph for a run of `binary-tree.hs`.](/examples/binary-trees.svg)
 
@@ -70,4 +71,23 @@ applications in the `examples` directory: one resulting from querying
 dependencies, and one resulting from asking
 [hoogle](https://github.com/snoyberg/packdeps) to generate the database.
 
-![Flamegraph for `packdeps`](/examples/packdeps.svg)
+![Flamegraph for `hoogle`](/examples/hoogle.svg)
+
+In examples like the one above the advantage given by visualizing the
+information as a flame graph rather than consulting the `.prof` file is
+clear.  We are immediately able to understand the two code paths that
+take the vast majority of the time: `Input.Hoogle.parseHoogle` and
+`General.Store.storeWriteFile`.  We are then able to drill down on each
+path to explore where time is spent in detail.  On the other hand, if we
+want to examine the `.prof` file directly, we can quickly identify the
+hotspots:
+
+    myParseDecl       Input.Type       29.3   21.8
+    writeItems.\.\.bs Output.Items     22.9   21.9
+    pretty            General.Util     13.5   15.4
+
+but we need to manually chase down their occurrences in the code:
+`myParseDecl` occurs twice, `writeItems.\.\.bs` only once, and `pretty`
+7 times.  It is often the case that the hotspots are even more
+fragmented, making them even more uselesse.
+
