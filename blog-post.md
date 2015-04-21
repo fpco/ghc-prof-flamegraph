@@ -1,9 +1,8 @@
 # Flame graphs for GHC time profiles
 
-GHC comes with nice
-[profiling facilities](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/profiling.html)
-that are very useful to find out where CPU time is being spent in your
-program. With the right flags turned on, GHC's RTS dumps a time profile in a `.prof` file your program exits, providing textual summary and detailed views of the program's runtime, broken down by cost centre.
+GHC comes with a number of nice
+[profiling facilities](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/profiling.html).
+Among other things, GHC can generate time profiles, a useful facility for answering the following question: "where in the source code is my program spending all its CPU time?". With the right flags turned on, GHC's RTS dumps a time profile in a `.prof` file when your program exits, providing textual summary and detailed views of the program's runtime, broken down by cost centre.
 
 However, in large programs these `.prof` files can become quite hard to
 make sense of.  Visualizing profiling data is a common problem, and one
