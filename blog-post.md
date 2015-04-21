@@ -1,21 +1,18 @@
-# Flame graphs for Haskell GHC .prof files
+# Flame graphs for GHC time profiles
 
 ## Introduction
 
 GHC comes with nice
 [profiling facilities](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/profiling.html)
 that are very useful to find out where CPU time is being spent in your
-program.  This information comes in the form of `.prof` files, which
-contain a brief overview of the functions where most time is spent and a
-then a complete breakdown.
+program. With the right flags turned on, GHC's RTS dumps a time profile in a `.prof` file your program exits, providing textual summary and detailed views of the program's runtime, broken down by cost centre.
 
-However in large programs these `.prof` files can become quite hard to
+However, in large programs these `.prof` files can become quite hard to
 make sense of.  Visualizing profiling data is a common problem, and one
 neat solution is to use
 [flame graphs](http://www.brendangregg.com/flamegraphs.html) to get a
 high-level view of where time is spent, and why it is spent there.
-`ghc-prof-flamegraph` is a utility to convert `.prof` files to the
-format that is used to generate flame graphs.
+That's why we wrote `ghc-prof-flamegraph`, a new utility useful for turning textual `.prof` reports into a pretty picture.
 
 ![Flame graph for a run of `binary-tree.hs`.](/examples/binary-trees.svg)
 
