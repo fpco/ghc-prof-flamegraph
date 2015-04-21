@@ -1,4 +1,6 @@
-# ghc-prof-events
+# ghc-prof-flamegraph
+
+[![Build Status](https://travis-ci.org/fpco/ghc-prof-flamegraph.svg)](https://travis-ci.org/fpco/ghc-prof-flamegraph)
 
 This is a small tool to convert GHC time profiling reports into a format
 understandable by the
@@ -13,9 +15,9 @@ understandable by the
 First convert a `.prof` file into the flame graph format using
 `ghc-prof-flamegraph`:
 
-    $ cat ~/src/packdeps/packdeps.prof | ghc-prof-flamegraph > folded-packdeps
+    $ cat ~/src/packdeps/packdeps.prof | ghc-prof-flamegraph > packdeps.prof.folded
 
 Then you can use the file to produce an svg image, using the
 [`flamegraph.pl`](https://github.com/brendangregg/FlameGraph) script:
 
-    $ cat folded-packdeps | ~/src/FlameGraph/flamegraph.pl > flame-packdeps.svg 
+    $ cat packdeps.prof.folded | ~/src/FlameGraph/flamegraph.pl > packdeps.prof.svg
