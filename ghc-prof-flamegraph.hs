@@ -11,18 +11,18 @@ parseLine s = case words s of
     error $ "parseLine: malformed .prof file line:\n" ++ s
 
 processLines :: [String] -> [String]
-processLines = go [] []
+processLines = go []
   where
-    go :: [String] -> [String] -> [String] -> [String]
-    go _stack frames [] = reverse frames
-    go stack0 frames (line : lines') =
+    go :: [String] -> [String] -> [String]
+    go _stack [] = []
+    go stack0 (line : lines') =
       let (spaces, rest) = break (not . isSpace) line
           stack = drop (length stack0 - length spaces) stack0
           (costCentre, module_, entries) = parseLine rest
           symbol = module_ ++ "." ++ costCentre
           stack' = symbol : stack
           frame = intercalate ";" (reverse stack') ++ " " ++ entries
-      in go stack' (frame : frames) lines'
+      in frame : go stack' lines'
 
 firstLine :: [String]
 firstLine = ["COST", "CENTRE", "MODULE", "no.", "entries", "%time", "%alloc", "%time", "%alloc"]
