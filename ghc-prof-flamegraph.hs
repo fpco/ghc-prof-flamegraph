@@ -2,8 +2,6 @@
 import           Data.List (intercalate)
 import           Data.Char (isSpace)
 
-import Debug.Trace
-
 parseLine :: String -> (String, String, String)
 parseLine s = case words s of
   [costCentre, module_, _no, _entries, indTime, _indAlloc, _inhTime, _inhALloc] ->
