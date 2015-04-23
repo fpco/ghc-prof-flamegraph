@@ -9,6 +9,25 @@ copyright:           (c) 2015 FP Complete Corporation
 category:            Testing
 build-type:          Simple
 cabal-version:       >=1.10
+description:
+  .
+  This is a small tool to convert GHC time profiling reports into a format
+  understandable by the
+  FlameGraph (<https://github.com/brendangregg/FlameGraph>) tool.
+  .
+  To use, first convert a `.prof` file into the flame graph format using
+  @ghc-prof-flamegraph@:
+  .
+  > $ cat ~/src/packdeps/packdeps.prof | ghc-prof-flamegraph > packdeps.prof.folded
+  .
+  Then you can use the file to produce an svg image, using the
+  @flamegraph.pl@ script:
+  .
+  > $ cat packdeps.prof.folded | ~/src/FlameGraph/flamegraph.pl > packdeps.prof.svg
+
+source-repository head
+  type:     git
+  location: https://github.com/fpco/ghc-prof-flamegraph
 
 executable ghc-prof-flamegraph
   main-is:             ghc-prof-flamegraph.hs
