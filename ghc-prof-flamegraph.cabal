@@ -1,5 +1,5 @@
 name:                ghc-prof-flamegraph
-version:             0.1.0.0
+version:             0.1.0.1
 synopsis:            Generates data to be used with flamegraph.pl from .prof files.
 license:             MIT
 license-file:        LICENSE

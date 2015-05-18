@@ -1,28 +1,36 @@
 {-# LANGUAGE ScopedTypeVariables #-}
-import           Data.List (intercalate)
+import           Control.Arrow (second)
 import           Data.Char (isSpace)
+import           Data.List (intercalate)
 
-parseLine :: String -> (String, String, String)
+parseLine :: String -> (Int, (String, String, String))
 parseLine s = case words s of
   [costCentre, module_, _no, _entries, indTime, _indAlloc, _inhTime, _inhALloc] ->
     let simulatedEntries :: Int = round $ 10 * (read indTime :: Double)
-    in (costCentre, module_, show simulatedEntries)
+    in (simulatedEntries, (costCentre, module_, show simulatedEntries))
   _ ->
     error $ "parseLine: malformed .prof file line:\n" ++ s
 
 processLines :: [String] -> [String]
-processLines = go []
+processLines ls =
+  let (entries, ls') = go 0 [] ls
+      unknown = 1000 - entries
+  in if unknown < 0
+    then error "processLines: malformed .prof file, percentages greater than 100%"
+    else if unknown > 0
+      then ("UNKNOWN " ++ show unknown) : ls'
+      else ls'
   where
-    go :: [String] -> [String] -> [String]
-    go _stack [] = []
-    go stack0 (line : lines') =
+    go :: Int -> [String] -> [String] -> (Int, [String])
+    go totalEntries _stack [] = (totalEntries, [])
+    go totalEntries stack0 (line : lines') =
       let (spaces, rest) = break (not . isSpace) line
           stack = drop (length stack0 - length spaces) stack0
-          (costCentre, module_, entries) = parseLine rest
+          (entriesInt, (costCentre, module_, entries)) = parseLine rest
           symbol = module_ ++ "." ++ costCentre
           stack' = symbol : stack
           frame = intercalate ";" (reverse stack') ++ " " ++ entries
-      in frame : go stack' lines'
+      in second (frame :) $ go (totalEntries + entriesInt) stack' lines'
 
 firstLine :: [String]
 firstLine = ["COST", "CENTRE", "MODULE", "no.", "entries", "%time", "%alloc", "%time", "%alloc"]
