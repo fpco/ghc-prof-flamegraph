@@ -1,46 +1,34 @@
 {-# LANGUAGE ScopedTypeVariables #-}
 import           Control.Arrow (second)
-import           Data.Char (isSpace)
 import           Data.List (intercalate)
 
-parseLine :: String -> (Int, (String, String, String))
-parseLine s = case words s of
-  [costCentre, module_, _no, _entries, indTime, _indAlloc, _inhTime, _inhALloc] ->
-    let simulatedEntries :: Int = round $ 10 * (read indTime :: Double)
-    in (simulatedEntries, (costCentre, module_, show simulatedEntries))
-  _ ->
-    error $ "parseLine: malformed .prof file line:\n" ++ s
+import qualified ProfFile as Prof
 
-processLines :: [String] -> [String]
-processLines ls =
-  let (entries, ls') = go 0 [] ls
+generateFrames :: [Prof.Line] -> [String]
+generateFrames lines0 =
+  let (entries, frames) = go [] lines0
       unknown = 1000 - entries
   in if unknown < 0
     then error "processLines: malformed .prof file, percentages greater than 100%"
     else if unknown > 0
-      then ("UNKNOWN " ++ show unknown) : ls'
-      else ls'
+      then ("UNKNOWN " ++ show unknown) : frames
+      else frames
   where
-    go :: Int -> [String] -> [String] -> (Int, [String])
-    go totalEntries _stack [] = (totalEntries, [])
-    go totalEntries stack0 (line : lines') =
-      let (spaces, rest) = break (not . isSpace) line
-          stack = drop (length stack0 - length spaces) stack0
-          (entriesInt, (costCentre, module_, entries)) = parseLine rest
-          symbol = module_ ++ "." ++ costCentre
-          stack' = symbol : stack
-          frame = intercalate ";" (reverse stack') ++ " " ++ entries
-      in second (frame :) $ go (totalEntries + entriesInt) stack' lines'
-
-firstLine :: [String]
-firstLine = ["COST", "CENTRE", "MODULE", "no.", "entries", "%time", "%alloc", "%time", "%alloc"]
-
-findStart :: [String] -> [String]
-findStart [] = error "findStart: malformed .prof file"
-findStart (line : _empty : lines') | words line == firstLine = lines'
-findStart (_line : lines') = findStart lines'
+    go :: [String] -> [Prof.Line] -> (Int, [String])
+    go _stack [] =
+      (0, [])
+    go stack (line : lines') =
+      let entries :: Int = round $ 10 * (Prof.tIndividual (Prof.lTime line))
+          symbol = Prof.lModule line ++ "." ++ Prof.lCostCentre line
+          frame = intercalate ";" (reverse (symbol : stack)) ++ " " ++ show entries
+          (childrenEntries, childrenFrames) = go (symbol : stack) (Prof.lChildren line)
+          (restEntries, restFrames) = go stack lines'
+      in (entries + childrenEntries + restEntries, frame : childrenFrames ++ restFrames)
 
 main :: IO ()
 main = do
   s <- getContents
-  putStr $ unlines $ processLines $ findStart $ lines s
+  case Prof.parse s of
+    Left err -> error err
+    Right ls -> putStr $ unlines $ generateFrames ls
+
