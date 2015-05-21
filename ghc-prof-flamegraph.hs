@@ -1,5 +1,4 @@
 {-# LANGUAGE ScopedTypeVariables #-}
-import           Control.Arrow (second)
 import           Data.List (intercalate)
 
 import qualified ProfFile as Prof
@@ -16,7 +15,7 @@ generateFrames lines0 =
     go _stack [] =
       (0, [])
     go stack (line : lines') =
-      let entries :: Int = round $ 10 * (Prof.tIndividual (Prof.lTime line))
+      let entries :: Int = round $ 10 * (Prof.lInheritedTime line)
           symbol = Prof.lModule line ++ "." ++ Prof.lCostCentre line
           frame = intercalate ";" (reverse (symbol : stack)) ++ " " ++ show entries
           (childrenEntries, childrenFrames) = go (symbol : stack) (Prof.lChildren line)
@@ -29,4 +28,3 @@ main = do
   case Prof.parse s of
     Left err -> error err
     Right ls -> putStr $ unlines $ generateFrames ls
-
