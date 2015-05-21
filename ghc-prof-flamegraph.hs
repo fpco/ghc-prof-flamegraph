@@ -8,11 +8,9 @@ generateFrames :: [Prof.Line] -> [String]
 generateFrames lines0 =
   let (entries, frames) = go [] lines0
       unknown = 1000 - entries
-  in if unknown < 0
-    then error "processLines: malformed .prof file, percentages greater than 100%"
-    else if unknown > 0
-      then ("UNKNOWN " ++ show unknown) : frames
-      else frames
+  in if unknown > 0
+    then ("UNKNOWN " ++ show unknown) : frames
+    else frames
   where
     go :: [String] -> [Prof.Line] -> (Int, [String])
     go _stack [] =
