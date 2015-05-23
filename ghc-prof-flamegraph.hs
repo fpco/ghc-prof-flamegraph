@@ -1,6 +1,8 @@
 {-# LANGUAGE ScopedTypeVariables #-}
-import           Data.List (intercalate)
 
+module Main where
+
+import           Data.List (intercalate)
 import qualified ProfFile as Prof
 
 generateFrames :: [Prof.Line] -> [String]
