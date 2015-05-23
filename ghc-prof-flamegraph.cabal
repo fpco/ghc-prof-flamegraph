@@ -1,6 +1,6 @@
 name:                ghc-prof-flamegraph
 version:             0.1.2.1
-synopsis:            Generates data to be used with flamegraph.pl from .prof files.
+synopsis:            Generates flamegraphs from GHC .prof files.
 license:             MIT
 license-file:        LICENSE
 author:              Francesco Mazzoli
@@ -10,7 +10,6 @@ category:            Testing
 build-type:          Simple
 cabal-version:       >=1.10
 description:
-  .
   This is a small tool to convert GHC time profiling reports into a format
   understandable by the
   FlameGraph (<https://github.com/brendangregg/FlameGraph>) tool.
