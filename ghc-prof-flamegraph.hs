@@ -1,12 +1,23 @@
 {-# LANGUAGE ScopedTypeVariables #-}
-
 module Main where
 
+import           Control.Applicative ((<*>))
+import           Data.Functor ((<$>))
 import           Data.List (intercalate)
+import           Data.Monoid ((<>))
+import qualified Options.Applicative as Opts
 import qualified ProfFile as Prof
 
-generateFrames :: [Prof.Line] -> [String]
-generateFrames lines0 =
+data Options = Options
+  { optionsAlloc :: Bool
+  } deriving (Eq, Show)
+
+optionsParser :: Opts.Parser Options
+optionsParser = Options
+  <$> Opts.switch (Opts.long "alloc" <> Opts.help "Uses the allocation measurements instead of time measurements")
+
+generateFrames :: Options -> [Prof.Line] -> [String]
+generateFrames options lines0 =
   let (entries, frames) = go [] lines0
       unknown = 1000 - entries
   in if unknown > 0
@@ -17,16 +28,22 @@ generateFrames lines0 =
     go _stack [] =
       (0, [])
     go stack (line : lines') =
-      let entries :: Int = round $ 10 * (Prof.lInheritedTime line)
+      let entries :: Int = round $ 10 * (inheritedMeasure line)
           symbol = Prof.lModule line ++ "." ++ Prof.lCostCentre line
           frame = intercalate ";" (reverse (symbol : stack)) ++ " " ++ show entries
           (childrenEntries, childrenFrames) = go (symbol : stack) (Prof.lChildren line)
           (restEntries, restFrames) = go stack lines'
       in (entries + childrenEntries + restEntries, frame : childrenFrames ++ restFrames)
 
+    inheritedMeasure = if optionsAlloc options
+      then Prof.lInheritedAlloc
+      else Prof.lInheritedTime
+
 main :: IO ()
 main = do
+  options <- Opts.execParser $
+    Opts.info (Opts.helper <*> optionsParser) Opts.fullDesc
   s <- getContents
   case Prof.parse s of
     Left err -> error err
-    Right ls -> putStr $ unlines $ generateFrames ls
+    Right ls -> putStr $ unlines $ generateFrames options ls
