@@ -21,3 +21,6 @@ Then you can use the file to produce an svg image, using the
 [`flamegraph.pl`](https://github.com/brendangregg/FlameGraph) script:
 
     $ cat packdeps.prof.folded | ~/src/FlameGraph/flamegraph.pl > packdeps.prof.svg
+
+You can also generate a flamegraph using the allocation measurements,
+using the `--alloc` flag.

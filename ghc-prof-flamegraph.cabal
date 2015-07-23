@@ -23,6 +23,9 @@ description:
   @flamegraph.pl@ script:
   .
   > $ cat packdeps.prof.folded | ~/src/FlameGraph/flamegraph.pl > packdeps.prof.svg
+  .
+  You can also generate a flamegraph using the allocation measurements,
+  using the @--alloc@ flag.
 
 source-repository head
   type:     git
