@@ -28,16 +28,16 @@ generateFrames options lines0 =
     go _stack [] =
       (0, [])
     go stack (line : lines') =
-      let entries :: Int = round $ 10 * (inheritedMeasure line)
+      let entries :: Int = round $ 10 * (individualMeasure line)
           symbol = Prof.lModule line ++ "." ++ Prof.lCostCentre line
           frame = intercalate ";" (reverse (symbol : stack)) ++ " " ++ show entries
           (childrenEntries, childrenFrames) = go (symbol : stack) (Prof.lChildren line)
           (restEntries, restFrames) = go stack lines'
       in (entries + childrenEntries + restEntries, frame : childrenFrames ++ restFrames)
 
-    inheritedMeasure = if optionsAlloc options
-      then Prof.lInheritedAlloc
-      else Prof.lInheritedTime
+    individualMeasure = if optionsAlloc options
+      then Prof.lIndividualAlloc
+      else fromIntegral . Prof.lEntries
 
 main :: IO ()
 main = do
