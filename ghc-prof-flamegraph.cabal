@@ -25,7 +25,9 @@ description:
   > $ cat packdeps.prof.folded | ~/src/FlameGraph/flamegraph.pl > packdeps.prof.svg
   .
   You can also generate a flamegraph using the allocation measurements,
-  using the @--alloc@ flag.
+  using the @--alloc@ flag, number of entries using @--entries@ flag, number of
+  bytes allocated using @--bytes@. In order to use @--bytes@ or @--ticks@ flag one
+  have to run program with @+RTS -P -RTS@ in order to get those measurements.
 
 source-repository head
   type:     git
