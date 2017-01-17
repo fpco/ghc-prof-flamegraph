@@ -49,24 +49,37 @@ lIndividualAlloc = tIndividual . lAlloc
 lInheritedAlloc :: Line -> Double
 lInheritedAlloc = tInherited . lAlloc
 
+data ProfFormat = NoSources | IncludesSources
+
 -- | Returns a function accepting the children and returning a fully
 -- formed 'Line'.
-parseLine :: String -> Either String ([Line] -> Line)
-parseLine s = case words s of
-  (costCentre:module_:no:entries:indTime:indAlloc:inhTime:inhAlloc:other) -> do
-    pNo <- readEither no
-    pEntries <- readEither entries
-    pTime <- Time <$> readEither indTime <*> readEither inhTime
-    pAlloc <- Time <$> readEither indAlloc <*> readEither inhAlloc
-    (pTicks, pBytes) <- case other of
-      (ticks:bytes:_) -> (,) <$> readEither ticks <*> readEither bytes
-      _ -> pure (0,0)
-    return $ Line costCentre module_ pNo pEntries pTime pAlloc pTicks pBytes
-  _ ->
-    Left $ "Malformed .prof file line:\n" ++ s
+parseLine :: ProfFormat -> String -> Either String ([Line] -> Line)
+parseLine format s =
+  case format of
+    NoSources ->
+      case words s of
+        (costCentre:module_:no:entries:indTime:indAlloc:inhTime:inhAlloc:other) ->
+          parse' costCentre module_ no entries indTime indAlloc inhTime inhAlloc other
+        _ -> Left $ "Malformed .prof file line:\n" ++ s
+    IncludesSources ->
+      case words s of
+        (costCentre:module_:_:no:entries:indTime:indAlloc:inhTime:inhAlloc:other) ->
+          parse' costCentre module_ no entries indTime indAlloc inhTime inhAlloc other
+        _ -> Left $ "Malformed .prof file line:\n" ++ s
+  where
+    parse' costCentre module_ no entries indTime indAlloc inhTime inhAlloc other = do
+      pNo <- readEither no
+      pEntries <- readEither entries
+      pTime <- Time <$> readEither indTime <*> readEither inhTime
+      pAlloc <- Time <$> readEither indAlloc <*> readEither inhAlloc
+      (pTicks, pBytes) <-
+        case other of
+          (ticks:bytes:_) -> (,) <$> readEither ticks <*> readEither bytes
+          _ -> pure (0, 0)
+      return $ Line costCentre module_ pNo pEntries pTime pAlloc pTicks pBytes
 
-processLines :: [String] -> Either String [Line]
-processLines lines0 = do
+processLines :: ProfFormat -> [String] -> Either String [Line]
+processLines format lines0 = do
   (ss, lines') <- go 0 lines0
   unless (null ss) $
     error "processLines: the impossible happened, not all strings were consumed."
@@ -81,19 +94,24 @@ processLines lines0 = do
       if depth < depth0
         then return (line : lines', [])
         else do
-          parsedLine <- parseLine rest
+          parsedLine <- parseLine format rest
           (lines'', children) <- go (depth + 1) lines'
           second (parsedLine children :) <$> go depth lines''
 
-firstLine :: [String]
-firstLine = ["COST", "CENTRE", "MODULE", "no.", "entries", "%time", "%alloc", "%time", "%alloc"]
+firstLineNoSources :: [String]
+firstLineNoSources = ["COST", "CENTRE", "MODULE", "no.", "entries", "%time", "%alloc", "%time", "%alloc"]
 
-findStart :: [String] -> Either String ([String], [String])
+-- Since GHC 8.0.2 the cost centres include the src location
+firstLineIncludesSources :: [String]
+firstLineIncludesSources = ["COST", "CENTRE", "MODULE", "SRC", "no.", "entries", "%time", "%alloc", "%time", "%alloc"]
+
+findStart :: [String] -> Either String (ProfFormat, [String], [String])
 findStart [] = Left "Malformed .prof file: couldn't find start line"
-findStart (line : _empty : lines') | firstLine `isPrefixOf` words line = return (words line, lines')
+findStart (line : _empty : lines') | (firstLineNoSources `isPrefixOf` words line) = return (NoSources, words line, lines')
+                                   | (firstLineIncludesSources `isPrefixOf` words line) = return (IncludesSources, words line, lines')
 findStart (_line : lines') = findStart lines'
 
 parse :: String -> Either String ([String], [Line])
 parse s = do
-  (names, ss) <- findStart $ lines s
-  return . (names,) =<< processLines ss
+  (format, names, ss) <- findStart $ lines s
+  return . (names,) =<< processLines format ss
