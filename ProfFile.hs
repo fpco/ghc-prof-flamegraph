@@ -14,7 +14,7 @@ module ProfFile
 
 import           Control.Arrow (second, left)
 import           Data.Char (isSpace)
-import           Data.List (isPrefixOf, isSubsequenceOf)
+import           Data.List (isPrefixOf)
 import           Text.Read (readEither)
 import           Control.Monad (unless)
 import           Control.Applicative
@@ -98,9 +98,10 @@ parseLine format s =
     dropSRC (_:rest) = reverse . takeWhile (not . isPossibleEndOfSRC) . reverse $ rest
     dropSRC [] = []
 
-    isPossibleEndOfSRC w =    "::" `isSubsequenceOf` w
-                           || ":-" `isSubsequenceOf` w
-                           || last w == '>'
+    isPossibleEndOfSRC w = last w == '>'
+                           || case break (==':') w of
+                                (_, _:rest) -> any (`elem` ":-") rest
+                                _ -> False
 
     parse' costCentre module_ no entries indTime indAlloc inhTime inhAlloc other = do
       pNo <- readEither' no
