@@ -64,27 +64,37 @@ parseLine format s =
     IncludesSources ->
       case words s of
         (costCentre:module_:rest) | (no:entries:indTime:indAlloc:inhTime:inhAlloc:other) <- dropSRC rest ->
-              parse' costCentre module_ no entries indTime indAlloc inhTime inhAlloc other
+          parse' costCentre module_ no entries indTime indAlloc inhTime inhAlloc other
         _ -> Left $ "Malformed .prof file line:\n" ++ s
   where
-    -- XXX: The SRC field can contain arbitrary characters (from the subdirectory name)!
+    -- XXX: The SRC field can contain arbitrary characters (from the
+    --      subdirectory name)!
     --
     -- As a heuristic, assume SRC spans until the last word which:
     --
-    -- * Ends with '>' (for special values emitted by GHC like "<no location info>")
+    -- * Ends with '>'
+    --   (for special values emitted by GHC like "<no location info>")
+    --
     -- or
+    --
     -- * Contains a colon eventually followed by another colon or a minus
-    --   (to identify the source span, e.g. ":69:55-64" or ":(36,1)-(38,30)", or maybe for a single character ":30:3")
+    --   (to identify the source span, e.g. ":69:55-64" or ":(36,1)-(38,30)",
+    --    or maybe for a single character ":30:3")
     --
     -- If there is no such word, assume SRC is just one word.
     --
     -- This heuristic will break if:
     --
-    -- * In the future, columns to the right of SRC can match the above condition (currently, they're all numeric)
-    -- or
-    -- * GHC doesn't add a source span formatted as assumed above, and the SRC contains spaces
+    -- * In the future, columns to the right of SRC can match the above
+    --   condition (currently, they're all numeric)
     --
-    -- The implementation is not very efficient, but I suppose this is not performance-critical.
+    -- or
+    --
+    -- * GHC doesn't add a source span formatted as assumed above, and the
+    --   SRC contains spaces
+    --
+    -- The implementation is not very efficient, but I suppose this is not
+    -- performance-critical.
     dropSRC (_:rest) = reverse . takeWhile (not . isPossibleEndOfSRC) . reverse $ rest
     dropSRC [] = []
 
