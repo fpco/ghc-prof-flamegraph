@@ -12,7 +12,7 @@ module ProfFile
   , findStart
   ) where
 
-import           Control.Arrow (second)
+import           Control.Arrow (second, left)
 import           Data.Char (isSpace)
 import           Data.List (isPrefixOf)
 import           Text.Read (readEither)
@@ -63,40 +63,82 @@ parseLine format s =
         _ -> Left $ "Malformed .prof file line:\n" ++ s
     IncludesSources ->
       case words s of
-        (costCentre:module_:_:no:entries:indTime:indAlloc:inhTime:inhAlloc:other) ->
+        (costCentre:module_:rest) | (no:entries:indTime:indAlloc:inhTime:inhAlloc:other) <- dropSRC rest ->
           parse' costCentre module_ no entries indTime indAlloc inhTime inhAlloc other
         _ -> Left $ "Malformed .prof file line:\n" ++ s
   where
+    -- XXX: The SRC field can contain arbitrary characters (from the
+    --      subdirectory name)!
+    --
+    -- As a heuristic, assume SRC spans until the last word which:
+    --
+    -- * Ends with '>'
+    --   (for special values emitted by GHC like "<no location info>")
+    --
+    -- or
+    --
+    -- * Contains a colon eventually followed by another colon or a minus
+    --   (to identify the source span, e.g. ":69:55-64" or ":(36,1)-(38,30)",
+    --    or maybe for a single character ":30:3")
+    --
+    -- If there is no such word, assume SRC is just one word.
+    --
+    -- This heuristic will break if:
+    --
+    -- * In the future, columns to the right of SRC can match the above
+    --   condition (currently, they're all numeric)
+    --
+    -- or
+    --
+    -- * GHC doesn't add a source span formatted as assumed above, and the
+    --   SRC contains spaces
+    --
+    -- The implementation is not very efficient, but I suppose this is not
+    -- performance-critical.
+    dropSRC (_:rest) = reverse . takeWhile (not . isPossibleEndOfSRC) . reverse $ rest
+    dropSRC [] = []
+
+    isPossibleEndOfSRC w = last w == '>'
+                           || case break (==':') w of
+                                (_, _:rest) -> any (`elem` ":-") rest
+                                _ -> False
+
     parse' costCentre module_ no entries indTime indAlloc inhTime inhAlloc other = do
-      pNo <- readEither no
-      pEntries <- readEither entries
-      pTime <- Time <$> readEither indTime <*> readEither inhTime
-      pAlloc <- Time <$> readEither indAlloc <*> readEither inhAlloc
+      pNo <- readEither' no
+      pEntries <- readEither' entries
+      pTime <- Time <$> readEither' indTime <*> readEither' inhTime
+      pAlloc <- Time <$> readEither' indAlloc <*> readEither' inhAlloc
       (pTicks, pBytes) <-
         case other of
-          (ticks:bytes:_) -> (,) <$> readEither ticks <*> readEither bytes
+          (ticks:bytes:_) -> (,) <$> readEither' ticks <*> readEither' bytes
           _ -> pure (0, 0)
       return $ Line costCentre module_ pNo pEntries pTime pAlloc pTicks pBytes
 
-processLines :: ProfFormat -> [String] -> Either String [Line]
-processLines format lines0 = do
-  (ss, lines') <- go 0 lines0
+    readEither' str = left (("Could not parse value "++show str++": ")++)
+                           (readEither str)
+
+type LineNumber = Int
+
+processLines :: ProfFormat -> [String] -> LineNumber -> Either String [Line]
+processLines format lines0 lineNumber0 = do
+  ((ss,_), lines') <- go 0 lines0 lineNumber0
   unless (null ss) $
     error "processLines: the impossible happened, not all strings were consumed."
   return lines'
   where
-    go :: Int -> [String] -> Either String ([String], [Line])
-    go _depth [] = do
-      return ([], [])
-    go depth0 (line : lines') = do
+    go :: Int -> [String] -> LineNumber -> Either String (([String], LineNumber), [Line])
+    go _depth [] lineNumber = do
+      return (([], lineNumber), [])
+    go depth0 (line : lines') lineNumber = do
       let (spaces, rest) = break (not . isSpace) line
       let depth = length spaces
       if depth < depth0
-        then return (line : lines', [])
+        then return ((line : lines', lineNumber), [])
         else do
-          parsedLine <- parseLine format rest
-          (lines'', children) <- go (depth + 1) lines'
-          second (parsedLine children :) <$> go depth lines''
+          parsedLine <- left (("Parse error in line "++show lineNumber++": ")++) $
+                             parseLine format rest
+          ((lines'', lineNumber''), children) <- go (depth + 1) lines' (lineNumber + 1)
+          second (parsedLine children :) <$> go depth lines'' lineNumber''
 
 firstLineNoSources :: [String]
 firstLineNoSources = ["COST", "CENTRE", "MODULE", "no.", "entries", "%time", "%alloc", "%time", "%alloc"]
@@ -105,13 +147,13 @@ firstLineNoSources = ["COST", "CENTRE", "MODULE", "no.", "entries", "%time", "%a
 firstLineIncludesSources :: [String]
 firstLineIncludesSources = ["COST", "CENTRE", "MODULE", "SRC", "no.", "entries", "%time", "%alloc", "%time", "%alloc"]
 
-findStart :: [String] -> Either String (ProfFormat, [String], [String])
-findStart [] = Left "Malformed .prof file: couldn't find start line"
-findStart (line : _empty : lines') | (firstLineNoSources `isPrefixOf` words line) = return (NoSources, words line, lines')
-                                   | (firstLineIncludesSources `isPrefixOf` words line) = return (IncludesSources, words line, lines')
-findStart (_line : lines') = findStart lines'
+findStart :: [String] -> LineNumber -> Either String (ProfFormat, [String], [String], LineNumber)
+findStart [] _ = Left "Malformed .prof file: couldn't find start line"
+findStart (line : _empty : lines') lineNumber | (firstLineNoSources `isPrefixOf` words line) = return (NoSources, words line, lines', lineNumber + 2)
+                                              | (firstLineIncludesSources `isPrefixOf` words line) = return (IncludesSources, words line, lines', lineNumber + 2)
+findStart (_line : lines') lineNumber = findStart lines' (lineNumber + 1)
 
 parse :: String -> Either String ([String], [Line])
 parse s = do
-  (format, names, ss) <- findStart $ lines s
-  return . (names,) =<< processLines format ss
+  (format, names, ss, lineNumber) <- findStart (lines s) 1
+  return . (names,) =<< processLines format ss lineNumber
