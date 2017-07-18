@@ -12,15 +12,23 @@ understandable by the
 
 ## Usage
 
-First convert a `.prof` file into the flame graph format using
-`ghc-prof-flamegraph`:
+First convert a `.prof` file into the flame graph svg:
 
-    $ cat ~/src/packdeps/packdeps.prof | ghc-prof-flamegraph > packdeps.prof.folded
+    $ cat ~/src/packdeps/packdeps.prof | ghc-prof-flamegraph > packdeps.prof.svg
 
-Then you can use the file to produce an svg image, using the
-[`flamegraph.pl`](https://github.com/brendangregg/FlameGraph) script:
+Or, alternatively, just pass the `.prof` file as an argument. The tool will
+then create corresponing `.svg` file:
 
-    $ cat packdeps.prof.folded | ~/src/FlameGraph/flamegraph.pl > packdeps.prof.svg
+    $ ghc-prof-flamegraph ~/src/packdeps/packdeps.prof
+    Output written to ~/src/packdeps/packdeps.svg
+
+The previous command will produce `~/src/packdeps/packdeps.svg` file.
+
+You can customize the behavior of the underlying `flamegraph.pl` by passing
+options via `–framegraph-option`. For example, you can customize the title:
+
+    $ ghc-prof-flamegraph ~/src/packdeps/packdeps.prof '--flamegraph-option=--title=Package dependencies'
+    Output written to ~/src/packdeps/packdeps.svg
 
 You can also generate a flamegraph using the allocation measurements,
 using the `--alloc` flag.
