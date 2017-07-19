@@ -1,19 +1,28 @@
+{-# LANGUAGE OverloadedStrings   #-}
 {-# LANGUAGE ScopedTypeVariables #-}
-module Main where
 
-import           Control.Applicative ((<*>), (<|>))
+module Main (main) where
+
+import           Control.Applicative ((<*>), (<|>), optional, many, pure)
+import           Data.Foldable (traverse_)
 import           Data.Functor ((<$>))
 import           Data.List (intercalate)
 import           Data.Monoid ((<>))
 import qualified Options.Applicative as Opts
-import           System.Exit (exitFailure)
-import           System.IO (stderr, hPutStrLn)
 import qualified ProfFile as Prof
+import           System.Exit (ExitCode(..), exitFailure)
+import           System.FilePath ((</>), replaceExtension)
+import           System.IO (stderr, stdout, hPutStrLn, hPutStr, hGetContents, IOMode(..), hClose, openFile)
+import           System.Process (proc, createProcess, CreateProcess(..), StdStream(..), waitForProcess)
+
+import Paths_ghc_prof_flamegraph (getDataDir)
 
 data Options = Options
-  { optionsReportType :: ReportType
+  { optionsReportType      :: ReportType
+  , optionsProfFile        :: Maybe FilePath
+  , optionsOutputFile      :: Maybe FilePath
+  , optionsFlamegraphFlags :: [String]
   } deriving (Eq, Show)
-
 
 data ReportType = Alloc   -- ^ Report allocations, percent
                 | Entries -- ^ Report entries, number
@@ -29,6 +38,21 @@ optionsParser = Options
        <|> Opts.flag' Bytes   (Opts.long "bytes" <> Opts.help "Memory measurements in bytes (+RTS -P -RTS)")
        <|> Opts.flag' Ticks (Opts.long "ticks" <> Opts.help "Time measurements in ticks (+RTS -P -RTS)")
        <|> Opts.flag  Time Time (Opts.long "time" <> Opts.help "Uses time measurements"))
+  <*> optional
+        (Opts.strArgument
+          (Opts.metavar "PROF-FILE" <>
+           Opts.help "Profiling output to format as flame graph"))
+  <*> optional
+        (Opts.strOption
+          (Opts.short 'o' <>
+           Opts.long "output" <>
+           Opts.metavar "SVG-FILE" <>
+           Opts.help "Optional output file"))
+  <*> many
+        (Opts.strOption
+          (Opts.long "flamegraph-option" <>
+           Opts.metavar "STR" <>
+           Opts.help "Options to pass to flamegraph.pl"))
 
 checkNames :: ReportType -> [String] -> Maybe String
 checkNames Alloc   _ = Nothing
@@ -84,11 +108,43 @@ main :: IO ()
 main = do
   options <- Opts.execParser $
     Opts.info (Opts.helper <*> optionsParser) Opts.fullDesc
-  s <- getContents
+  s <- maybe getContents readFile $ optionsProfFile options
   case Prof.parse s of
     Left err -> error err
     Right (names, ls) ->
       case checkNames (optionsReportType options) names of
-        Just problem -> do hPutStrLn stderr problem
-                           exitFailure
-        Nothing ->  putStr $ unlines $ generateFrames options ls
+        Just problem -> do
+          hPutStrLn stderr problem
+          exitFailure
+        Nothing      -> do
+          dataDir <- getDataDir
+          let flamegraphPath = dataDir </> "FlameGraph" </> "flamegraph.pl"
+              flamegraphProc = (proc "perl" (flamegraphPath : optionsFlamegraphFlags options))
+                { std_in  = CreatePipe
+                , std_out = CreatePipe
+                , std_err = Inherit
+                }
+          (outputHandle, outputFileName, closeOutputHandle) <-
+            case (optionsOutputFile options, optionsProfFile options) of
+              (Just path, _)         -> do
+                h <- openFile path WriteMode
+                pure (h, Just path, hClose h)
+              (Nothing,   Just path) -> do
+                let path' = path `replaceExtension` "svg"
+                h <- openFile path' WriteMode
+                pure (h, Just path', hClose h)
+              _                      ->
+                pure (stdout, Nothing, pure ())
+          (Just input, Just flamegraphResult, Nothing, procHandle) <- createProcess flamegraphProc
+          traverse_ (hPutStrLn input) $ generateFrames options ls
+          hClose input
+          hGetContents flamegraphResult >>= hPutStr outputHandle
+          exitCode <- waitForProcess procHandle
+          closeOutputHandle
+          case exitCode of
+            ExitSuccess   ->
+              case outputFileName of
+                Nothing   -> pure ()
+                Just path -> putStrLn $ "Output written to " <> path
+            ExitFailure{} ->
+              hPutStrLn stderr $ "Call to flamegraph.pl at " <> flamegraphPath <> " failed"
