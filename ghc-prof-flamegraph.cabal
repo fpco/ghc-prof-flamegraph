@@ -29,20 +29,19 @@ description:
   bytes allocated using @--bytes@. In order to use @--bytes@ or @--ticks@ flag one
   have to run program with @+RTS -P -RTS@ in order to get those measurements.
 
+data-files:
+  FlameGraph/flamegraph.pl
+
 source-repository head
   type:     git
   location: https://github.com/fpco/ghc-prof-flamegraph
 
-library
-  build-depends:       base >=4 && <5
-  exposed-modules:     ProfFile
-  ghc-options:         -Wall
-  default-language:    Haskell2010
-
 executable ghc-prof-flamegraph
   main-is:             ghc-prof-flamegraph.hs
   build-depends:       base >=4.6 && <5
-                     , ghc-prof-flamegraph
+                     , filepath
                      , optparse-applicative
+                     , process
+  other-modules:       ProfFile
   default-language:    Haskell2010
   ghc-options:         -Wall
