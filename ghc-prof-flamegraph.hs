@@ -11,11 +11,9 @@ import           Data.Monoid ((<>))
 import qualified Options.Applicative as Opts
 import qualified ProfFile as Prof
 import           System.Exit (ExitCode(..), exitFailure)
-import           System.FilePath ((</>), replaceExtension)
+import           System.FilePath (replaceExtension)
 import           System.IO (stderr, stdout, hPutStrLn, hPutStr, hGetContents, IOMode(..), hClose, openFile)
 import           System.Process (proc, createProcess, CreateProcess(..), StdStream(..), waitForProcess)
-
-import Paths_ghc_prof_flamegraph (getDataDir)
 
 data Options = Options
   { optionsReportType      :: ReportType
@@ -117,9 +115,7 @@ main = do
           hPutStrLn stderr problem
           exitFailure
         Nothing      -> do
-          dataDir <- getDataDir
-          let flamegraphPath = dataDir </> "FlameGraph" </> "flamegraph.pl"
-              flamegraphProc = (proc "perl" (flamegraphPath : optionsFlamegraphFlags options))
+          let flamegraphProc = (proc "flamegraph.pl" (optionsFlamegraphFlags options))
                 { std_in  = CreatePipe
                 , std_out = CreatePipe
                 , std_err = Inherit
@@ -147,4 +143,4 @@ main = do
                 Nothing   -> pure ()
                 Just path -> putStrLn $ "Output written to " <> path
             ExitFailure{} ->
-              hPutStrLn stderr $ "Call to flamegraph.pl at " <> flamegraphPath <> " failed"
+              hPutStrLn stderr $ "Call to flamegraph.pl failed"

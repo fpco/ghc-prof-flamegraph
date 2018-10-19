@@ -1,1 +1,7 @@
+# stack
 .stack-work
+
+# cabal
+dist-newstyle
+.ghc.*
+cabal.project.local
