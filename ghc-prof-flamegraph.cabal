@@ -10,24 +10,15 @@ category:            Testing
 build-type:          Simple
 cabal-version:       >=1.10
 description:
-  This is a small tool to convert GHC time profiling reports into a format
-  understandable by the
-  FlameGraph (<https://github.com/brendangregg/FlameGraph>) tool.
+  This is a small tool to render GHC time profiling reports as interactive SVG flame graphs
+  using <https://github.com/brendangregg/FlameGraph FlameGraph>. Basic usage:
   .
-  To use, first convert a `.prof` file into the flame graph format using
-  @ghc-prof-flamegraph@:
+  > ghc-prof-flamegraph myprogram.prof
   .
-  > $ cat ~/src/packdeps/packdeps.prof | ghc-prof-flamegraph > packdeps.prof.folded
+  You can also generate a flamegraph using the allocation measurements using the --alloc flag.
   .
-  Then you can use the file to produce an svg image, using the
-  @flamegraph.pl@ script:
-  .
-  > $ cat packdeps.prof.folded | ~/src/FlameGraph/flamegraph.pl > packdeps.prof.svg
-  .
-  You can also generate a flamegraph using the allocation measurements,
-  using the @--alloc@ flag, number of entries using @--entries@ flag, number of
-  bytes allocated using @--bytes@. In order to use @--bytes@ or @--ticks@ flag one
-  have to run program with @+RTS -P -RTS@ in order to get those measurements.
+  The flamegraph.pl script is bundled with this package, so you don't need to install it
+  (though you need to have Perl installed).
 
 data-files:
   FlameGraph/flamegraph.pl
