@@ -31,6 +31,14 @@ data ReportType = Alloc   -- ^ Report allocations, percent
                 | Bytes   -- ^ Report bytes allocated, number
                 deriving (Eq, Show)
 
+reportTypeFlags :: ReportType -> [String]
+reportTypeFlags typ = case typ of
+  Alloc -> ["--title", "Allocations (%)", "--countname", "%"]
+  Bytes -> ["--title", "Allocations (bytes)", "--countname", "B"]
+  Entries -> ["--title", "Entries (count)"]
+  Time -> ["--title", "Time (%)", "--countname", "%"]
+  Ticks -> ["--title", "Time (ticks)"]
+
 optionsParser :: Opts.Parser Options
 optionsParser = Options
   <$> (Opts.flag' Alloc (Opts.long "alloc" <> Opts.help "Uses the allocation measurements instead of time measurements")
@@ -119,7 +127,8 @@ main = do
         Nothing      -> do
           dataDir <- getDataDir
           let flamegraphPath = dataDir </> "FlameGraph" </> "flamegraph.pl"
-              flamegraphProc = (proc "perl" (flamegraphPath : optionsFlamegraphFlags options))
+              flamgegraphArgs = reportTypeFlags (optionsReportType options) ++ optionsFlamegraphFlags options
+              flamegraphProc = (proc "perl" (flamegraphPath : flamgegraphArgs))
                 { std_in  = CreatePipe
                 , std_out = CreatePipe
                 , std_err = Inherit
